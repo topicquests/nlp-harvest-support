@@ -5,6 +5,7 @@ package org.topicquests.asr.nlp.parsers;
 
 import java.io.*;
 import java.util.HashMap;
+import java.util.Map;
 
 import org.topicquests.asr.nlp.Environment;
 import org.topicquests.asr.nlp.api.IResult;
