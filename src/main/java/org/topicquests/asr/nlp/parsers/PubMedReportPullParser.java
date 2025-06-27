@@ -7,16 +7,12 @@ package org.topicquests.asr.nlp.parsers;
 
 import java.io.*;
 import java.util.HashMap;
+import java.util.Map;
 
-import org.topicquests.asr.nlp.JSONDocumentObject;
-import org.topicquests.hyperbrane.AuthorPojo;
-import org.topicquests.hyperbrane.PublicationPojo;
-import org.topicquests.hyperbrane.api.IAuthor;
-import org.topicquests.hyperbrane.api.IPublication;
-import org.topicquests.research.carrot2.Environment;
-import org.topicquests.support.ResultPojo;
-import org.topicquests.support.api.IResult;
-import org.topicquests.support.util.TextFileHandler;
+import org.topicquests.asr.nlp.Environment;
+import org.topicquests.asr.nlp.api.IResult;
+import org.topicquests.asr.nlp.doc.JSONDocumentObject;
+import org.topicquests.asr.nlp.uitil.ResultPojo;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
@@ -522,7 +518,7 @@ public class PubMedReportPullParser {
 	/**
      * does not return null if no attributes
      */
-    HashMap<String,String> getAttributes(XmlPullParser p) {
+    Map<String,String> getAttributes(XmlPullParser p) {
       HashMap <String,String>result =  new HashMap<String,String>();;
       int count = p.getAttributeCount();
       if (count > 0) {

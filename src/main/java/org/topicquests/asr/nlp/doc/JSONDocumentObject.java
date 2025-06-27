@@ -3,17 +3,14 @@
  *  This source code is available under the terms of the Affero General Public License v3.
  *  Please see LICENSE.txt for full license terms, including the availability of proprietary exceptions.
  */
-package org.topicquests.asr.nlp;
+package org.topicquests.asr.nlp.doc;
 import java.util.*;
 
-import org.topicquests.hyperbrane.AuthorPojo;
-import org.topicquests.hyperbrane.PublicationPojo;
-import org.topicquests.hyperbrane.api.IAuthor;
-import org.topicquests.hyperbrane.api.IPublication;
-//import org.topicquests.hyperbrane.api.IHarvestingOntology;
-import org.topicquests.ks.api.ITQCoreOntology;
+import org.topicquests.asr.nlp.api.ITQCoreOntology;
 
-import net.minidev.json.JSONObject;
+//import org.topicquests.hyperbrane.api.IHarvestingOntology;
+
+import com.google.gson.JsonObject;
 
 
 /**
