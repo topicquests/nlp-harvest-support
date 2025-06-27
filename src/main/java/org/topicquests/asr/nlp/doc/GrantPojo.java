@@ -15,18 +15,19 @@ import com.google.gson.JsonObject;
  *
  */
 public class GrantPojo implements IGrant {
-
+	private JsonObject data;
 	/**
 	 * 
 	 */
 	public GrantPojo() {
+		data = new JsonObject();
 	}
 
 	/**
 	 * @param map
 	 */
-	public GrantPojo(JSONObject map) {
-		super(map);
+	public GrantPojo(JsonObject map) {
+		data = map;
 	}
 
 	/* (non-Javadoc)
@@ -34,7 +35,7 @@ public class GrantPojo implements IGrant {
 	 */
 	@Override
 	public void setGrantId(String id) {
-		put(IGrant.GRANT_ID, id);
+		data.addProperty(IGrant.GRANT_ID, id);
 	}
 
 	/* (non-Javadoc)
@@ -42,7 +43,7 @@ public class GrantPojo implements IGrant {
 	 */
 	@Override
 	public String getGrantId() {
-		return getAsString(IGrant.GRANT_ID);
+		return data.get(IGrant.GRANT_ID).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -50,7 +51,7 @@ public class GrantPojo implements IGrant {
 	 */
 	@Override
 	public void setAgency(String agency) {
-		put(IGrant.AGENCY, agency);
+		data.addProperty(IGrant.AGENCY, agency);
 	}
 
 	/* (non-Javadoc)
@@ -58,7 +59,7 @@ public class GrantPojo implements IGrant {
 	 */
 	@Override
 	public String getAgency() {
-		return getAsString(IGrant.AGENCY);
+		return data.get(IGrant.AGENCY).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -66,7 +67,7 @@ public class GrantPojo implements IGrant {
 	 */
 	@Override
 	public void setCountry(String country) {
-		put(IGrant.COUNTRY, country);
+		data.addProperty(IGrant.COUNTRY, country);
 	}
 
 	/* (non-Javadoc)
@@ -74,7 +75,12 @@ public class GrantPojo implements IGrant {
 	 */
 	@Override
 	public String getCountry() {
-		return getAsString(IGrant.COUNTRY);
+		return data.get(IGrant.COUNTRY).getAsString();
+	}
+
+	@Override
+	public JsonObject getData() {
+		return data;
 	}
 
 }
