@@ -5,10 +5,14 @@
  */
 package org.topicquests.asr.nlp.doc;
 
-import java.util.*;
 
+import java.util.Iterator;
+
+import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.api.IPublication;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 /**
@@ -16,18 +20,19 @@ import com.google.gson.JsonObject;
  *
  */
 public class PublicationPojo implements IPublication {
-
+	private JsonObject data;
 	/**
 	 * 
 	 */
 	public PublicationPojo() {
+		data = new JsonObject();
 	}
 
 	/**
 	 * @param map
 	 */
-	public PublicationPojo(JSONObject map) {
-		super(map);
+	public PublicationPojo(JsonObject map) {
+		data = map;
 	}
 
 	/* (non-Javadoc)
@@ -35,7 +40,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setTitle(String title) {
-		put(IPublication.TITLE_FIELD, title);
+		data.addProperty(IPublication.TITLE_FIELD, title);
 	}
 
 	/* (non-Javadoc)
@@ -43,7 +48,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getTitle() {
-		return getAsString(IPublication.TITLE_FIELD);
+		return data.get(IPublication.TITLE_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -51,7 +56,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPublicationName(String name) {
-		put(IPublication.PUBLICATION_NAME_FIELD, name);
+		data.addProperty(IPublication.PUBLICATION_NAME_FIELD, name);
 	}
 
 	/* (non-Javadoc)
@@ -59,7 +64,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationName() {
-		return getAsString(IPublication.PUBLICATION_NAME_FIELD);
+		return data.get(IPublication.PUBLICATION_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -67,7 +72,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPublicationDate(String date) {
-		put(IPublication.PUBLICATION_DATE_FIELD, date);
+		data.addProperty(IPublication.PUBLICATION_DATE_FIELD, date);
 	}
 
 	/* (non-Javadoc)
@@ -75,7 +80,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationDate() {
-		return getAsString(IPublication.PUBLICATION_DATE_FIELD);
+		return data.get(IPublication.PUBLICATION_DATE_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -83,7 +88,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPublicationYear(String year) {
-		put(IPublication.PUBLICATION_YEAR_FIELD, year);
+		data.addProperty(IPublication.PUBLICATION_YEAR_FIELD, year);
 	}
 
 	/* (non-Javadoc)
@@ -91,7 +96,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationYear() {
-		return getAsString(IPublication.PUBLICATION_YEAR_FIELD);
+		return data.get(IPublication.PUBLICATION_YEAR_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -99,7 +104,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPubicationVolume(String volume) {
-		put(IPublication.PUBLICATION_VOLUME_FIELD, volume);
+		data.addProperty(IPublication.PUBLICATION_VOLUME_FIELD, volume);
 	}
 
 	/* (non-Javadoc)
@@ -107,7 +112,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationVolume() {
-		return getAsString(IPublication.PUBLICATION_VOLUME_FIELD);
+		return data.get(IPublication.PUBLICATION_VOLUME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -115,7 +120,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPublicationNumber(String number) {
-		put(IPublication.PUBLICATION_NUMBER_FIELD, number);
+		data.addProperty(IPublication.PUBLICATION_NUMBER_FIELD, number);
 	}
 
 	/* (non-Javadoc)
@@ -123,7 +128,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationNumber() {
-		return getAsString(IPublication.PUBLICATION_NUMBER_FIELD);
+		return data.get(IPublication.PUBLICATION_NUMBER_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -131,7 +136,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPages(String pages) {
-		put(IPublication.PAGES_FIELD, pages);
+		data.addProperty(IPublication.PAGES_FIELD, pages);
 	}
 
 	/* (non-Javadoc)
@@ -139,7 +144,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPages() {
-		return getAsString(IPublication.PAGES_FIELD);
+		return data.get(IPublication.PAGES_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -147,7 +152,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPublisherName(String name) {
-		put(IPublication.PUBLISHER_NAME_FIELD, name);
+		data.addProperty(IPublication.PUBLISHER_NAME_FIELD, name);
 	}
 
 	/* (non-Javadoc)
@@ -155,7 +160,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublisherName() {
-		return getAsString(IPublication.PUBLISHER_NAME_FIELD);
+		return data.get(IPublication.PUBLISHER_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -163,7 +168,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setPublisherLocation(String location) {
-		put(IPublication.PUBLISHER_LOCATION_FIELD, location);
+		data.addProperty(IPublication.PUBLISHER_LOCATION_FIELD, location);
 	}
 
 	/* (non-Javadoc)
@@ -171,7 +176,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublisherLocation() {
-		return getAsString(IPublication.PUBLISHER_LOCATION_FIELD);
+		return data.get(IPublication.PUBLISHER_LOCATION_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -179,7 +184,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setDOI(String doi) {
-		put(IPublication.DOI_FIELD, doi);
+		data.addProperty(IPublication.DOI_FIELD, doi);
 	}
 
 	/* (non-Javadoc)
@@ -187,7 +192,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getDOI() {
-		return getAsString(IPublication.DOI_FIELD);
+		return data.get(IPublication.DOI_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -195,7 +200,7 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public void setISSN(String issn) {
-		put(IPublication.ISSN_FIELD, issn);
+		data.addProperty(IPublication.ISSN_FIELD, issn);
 	}
 
 	/* (non-Javadoc)
@@ -203,103 +208,119 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getISSN() {
-		return getAsString(IPublication.ISSN_FIELD);
+		return data.get(IPublication.ISSN_FIELD).getAsString();
 	}
 
 	@Override
 	public void setPublicationType(String type) {
-		put(IPublication.PUBLICATION_TYPE_FIELD, type);
+		data.addProperty(IPublication.PUBLICATION_TYPE_FIELD, type);
 	}
 
 	@Override
 	public String getPublicationType() {
-		return getAsString(IPublication.PUBLICATION_TYPE_FIELD);
+		return data.get(IPublication.PUBLICATION_TYPE_FIELD).getAsString();
 	}
 
 	@Override
 	public void setISOAbbreviation(String abbrev) {
-		put(IPublication.ISO_ABBREVIATION_FIELD, abbrev);
+		data.addProperty(IPublication.ISO_ABBREVIATION_FIELD, abbrev);
 	}
 
 	@Override
 	public String getISOAbbreviation() {
-		return getAsString(IPublication.ISO_ABBREVIATION_FIELD);
+		return data.get(IPublication.ISO_ABBREVIATION_FIELD).getAsString();
 	}
 
 	@Override
 	public void setPublicationLocator(String locator) {
-		put(IPublication.PUBLICATION_LOCATOR_FIELD, locator);
+		data.addProperty(IPublication.PUBLICATION_LOCATOR_FIELD, locator);
 	}
 
 	@Override
 	public String getPublicationLocator() {
-		return getAsString(IPublication.PUBLICATION_LOCATOR_FIELD);
+		return data.get(IPublication.PUBLICATION_LOCATOR_FIELD).getAsString();
 	}
 
 	@Override
 	public void setPublisherLocator(String locator) {
-		put(IPublication.PUBLISHER_LOCATOR_FIELD, locator);
+		data.addProperty(IPublication.PUBLISHER_LOCATOR_FIELD, locator);
 	}
 
 	@Override
 	public String getPublisherLocator() {
-		return getAsString(IPublication.PUBLISHER_LOCATOR_FIELD);
+		return data.get(IPublication.PUBLISHER_LOCATOR_FIELD).getAsString();
 	}
 
 	@Override
 	public void setISBN(String isbn) {
-		put(IPublication.ISBN_FIELD, isbn);
+		data.addProperty(IPublication.ISBN_FIELD, isbn);
 	}
 
 	@Override
 	public String getISBN() {
-		return getAsString(IPublication.ISBN_FIELD);
+		return data.get(IPublication.ISBN_FIELD).getAsString();
 	}
 
 	@Override
 	public void setDocumentLocator(String locator) {
-		put(IPublication.DOCUMENT_LOCATOR, locator);
+		data.addProperty(IPublication.DOCUMENT_LOCATOR, locator);
 	}
 
 	@Override
 	public String getDocumentLocator() {
-		return getAsString(IPublication.DOCUMENT_LOCATOR);
+		return data.get(IPublication.DOCUMENT_LOCATOR).getAsString();
 	}
 
 
 	@Override
 	public void addGrant(IGrant g) {
-		List<IGrant> l = listGrants();
+		JsonArray l = listGrants();
 		if (l == null)
-			l = new ArrayList<IGrant>();
-		if (!l.contains(g))
-			l.add(g);
-		put(IPublication.GRANT_LIST, l);
+			l = new JsonArray();
+		if (!contains(l, g.getData().getAsString()))
+			l.add(g.getData());
+		data.add(IPublication.GRANT_LIST, l);
+	}
+
+	boolean contains(JsonArray l, String s) {
+		boolean result = false;
+		Iterator<JsonElement> itr = l.iterator();
+		while (itr.hasNext()) {
+			if (itr.next().getAsString().equals(s))
+				return true;
+		}
+		return result;
 	}
 
 	@Override
-	public List<IGrant> listGrants() {
-		return (List<IGrant>)get(IPublication.GRANT_LIST);
+	public JsonArray listGrants() {
+		return data.get(IPublication.GRANT_LIST).getAsJsonArray();
 	}
 
 	@Override
 	public void setCopyright(String c) {
-		put(IPublication.COPYRIGHT_FIELD, c);
+		data.addProperty(IPublication.COPYRIGHT_FIELD, c);
 	}
 
 	@Override
 	public String getCopyright() {
-		return getAsString(IPublication.COPYRIGHT_FIELD);
+		return data.get(IPublication.COPYRIGHT_FIELD).getAsString();
 	}
 
 	@Override
 	public void setMonth(String month) {
-		put(IPublication.PUBLICATION_MONTH_FIELD, month);
+		data.addProperty(IPublication.PUBLICATION_MONTH_FIELD, month);
 	}
 
 	@Override
 	public String getMonth() {
-		return getAsString(IPublication.PUBLICATION_MONTH_FIELD);
+		return data.get(IPublication.PUBLICATION_MONTH_FIELD).getAsString();
+	}
+
+
+	@Override
+	public JsonObject getData() {
+		return data;
 	}
 
 }

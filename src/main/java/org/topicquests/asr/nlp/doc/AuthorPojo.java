@@ -341,7 +341,7 @@ public class AuthorPojo implements IAuthor {
 		JsonArray l = listAffiliationNames();
 		if (l == null)
 			l = new JsonArray();
-		if (contains(l, name))
+		if (!contains(l, name))
 			l.add(name);
 		data.add(IAuthor.AFFILIATION_NAME_FIELD, l);
 		

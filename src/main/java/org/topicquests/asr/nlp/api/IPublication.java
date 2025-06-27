@@ -5,9 +5,9 @@
  */
 package org.topicquests.asr.nlp.api;
 
-import java.util.List;
 
 import com.google.gson.JsonObject;
+import com.google.gson.JsonArray;
 
 
 /**
@@ -115,7 +115,7 @@ public interface IPublication {
 	String getDocumentLocator();
 	
 	void addGrant(IGrant g);
-	List<IGrant> listGrants();
+	JsonArray listGrants();
 
 	void setMonth(String month);
 	String getMonth();
