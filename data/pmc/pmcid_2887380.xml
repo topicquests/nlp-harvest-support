@@ -1,0 +1,2900 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Retrovirology</journal-id>
+      <journal-title-group>
+        <journal-title>Retrovirology</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1742-4690</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">20459747</article-id>
+      <article-id pub-id-type="pmc">2887380</article-id>
+      <article-id pub-id-type="publisher-id">1742-4690-7-41</article-id>
+      <article-id pub-id-type="doi">10.1186/1742-4690-7-41</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Live cell visualization of the interactions between HIV-1 Gag and the cellular RNA-binding protein Staufen1</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="A1">
+          <name>
+            <surname>Milev</surname>
+            <given-names>Miroslav P</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>m_milev@yahoo.ca</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Brown</surname>
+            <given-names>Chris M</given-names>
+          </name>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>chris.brown@otago.ac.nz</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A3">
+          <name>
+            <surname>Mouland</surname>
+            <given-names>Andrew J</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <xref ref-type="aff" rid="I4">4</xref>
+          <email>andrew.mouland@mcgill.ca</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>HIV-1 RNA Trafficking Laboratory, Lady Davis Institute for Medical Research-Sir Mortimer B. Davis Jewish General Hospital, 3755 Côte-Ste-Catherine Road., Montréal, H3T 1E2, Québec, Canada</aff>
+      <aff id="I2"><label>2</label>Department of Medicine, Division of Experimental Medicine, McGill University, Montreal, H3A 1A3, Quebec, Canada</aff>
+      <aff id="I3"><label>3</label>Department of Biochemistry, University of Otago, Dunedin 9001, New Zealand</aff>
+      <aff id="I4"><label>4</label>Department of Microbiology &amp; Immunology, McGill University, Montreal, H3A 1A3, Quebec, Canada</aff>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>5</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>7</volume>
+      <fpage>41</fpage>
+      <lpage>41</lpage>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>5</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright ©2010 Milev et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <copyright-holder>Milev et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.retrovirology.com/content/7/1/41"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>Human immunodeficiency virus type 1 (HIV-1) uses cellular proteins and machinery to ensure transmission to uninfected cells. Although the host proteins involved in the transport of viral components toward the plasma membrane have been investigated, the dynamics of this process remain incompletely described. Previously we showed that the double-stranded (ds)RNA-binding protein, Staufen1 is found in the HIV-1 ribonucleoprotein (RNP) that contains the HIV-1 genomic RNA (vRNA), Gag and other host RNA-binding proteins in HIV-1-producing cells. Staufen1 interacts with the nucleocapsid domain (NC) domain of Gag and regulates Gag multimerization on membranes thereby modulating HIV-1 assembly. The formation of the HIV-1 RNP is dynamic and likely central to the fate of the vRNA during the late phase of the HIV-1 replication cycle.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Detailed molecular imaging of both the intracellular trafficking of virus components and of virus-host protein complexes is critical to enhance our understanding of factors that contribute to HIV-1 pathogenesis. In this work, we visualized the interactions between Gag and host proteins using bimolecular and trimolecular fluorescence complementation (BiFC and TriFC) analyses. These methods allow for the direct visualization of the localization of protein-protein and protein-protein-RNA interactions in live cells. We identified where the virus-host interactions between Gag and Staufen1 and Gag and IMP1 (also known as VICKZ1, IGF2BP1 and ZBP1) occur in cells. These virus-host interactions were not only detected in the cytoplasm, but were also found at cholesterol-enriched GM1-containing lipid raft plasma membrane domains. Importantly, Gag specifically recruited Staufen1 to the detergent insoluble membranes supporting a key function for this host factor during virus assembly. Notably, the TriFC experiments showed that Gag and Staufen1 actively recruited protein partners when tethered to mRNA.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>The present work characterizes the interaction sites of key components of the HIV-1 RNP (Gag, Staufen1 and IMP1), thereby bringing to light where HIV-1 recruits and co-opts RNA-binding proteins during virus assembly.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>HIV-1 replication is characterized by multiple virus-host interactions that represent fundamental events enabling viral propagation. While Gag is central to assembly, numerous host proteins are also required for the generation of infectious HIV-1 particles [<xref ref-type="bibr" rid="B1">1</xref>]. The vRNA can both be translated to produce Gag and Gag-Pol or packaged into virions [<xref ref-type="bibr" rid="B2">2</xref>]. Gag selects the HIV-1 RNA genome (vRNA) for packaging in the cytoplasm. These events involve the regulated assembly of viral ribonucleoprotein (RNP) complexes. This is a prerequisite for successful retroviral vRNA trafficking from the nucleus into the cytoplasm, through the cytoplasm, and then into progeny virions at sites of assembly [<xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref>]. Importantly, recent studies show how vRNA transport mechanisms dictate to what extent both the vRNA is translated and to what efficiency Gag is assembled [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>]. Studies also suggest that the host factors that interact with viral Gag and RNA might dictate intracellular trafficking events during viral egress (reviewed in [<xref ref-type="bibr" rid="B7">7</xref>]).</p>
+      <p>Initially Gag is synthesized as a precursor molecule, but is then cleaved to give rise to matrix (MA), capsid (CA), nucleocapsid (NC), a late domain (p6) plus two spacer peptides SP1 and SP2 during and following virus budding. The protein domains of Gag play distinct roles in the HIV-1 replication cycle (reviewed in [<xref ref-type="bibr" rid="B8">8</xref>]). During the assembly process MA targets Gag to membranes via its myristoylated highly basic N-terminus. Both the CA and the NC domain function in Gag-Gag multimerization [<xref ref-type="bibr" rid="B9">9</xref>-<xref ref-type="bibr" rid="B11">11</xref>]. Gag drives virion assembly and is sufficient for the organization, budding and release of virus-like particles (VLPs) from cells [<xref ref-type="bibr" rid="B12">12</xref>]. The association of Gag to membranes is essential for efficient viral replication. In fact, during viral egress, Gag rapidly associates to membranes that target to assembly sites [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>] with the concerted activities of motor [<xref ref-type="bibr" rid="B15">15</xref>] and adaptor proteins [<xref ref-type="bibr" rid="B16">16</xref>-<xref ref-type="bibr" rid="B18">18</xref>]. Despite numerous studies, the contributions by cellular factors to the transport of Gag towards viral assembly platforms remain poorly understood. Recently, it was demonstrated that Gag preferentially mediates viral assembly at membrane lipid rafts. These are specific detergent-resistant microdomains implicated in multiple cellular processes (reviewed in [<xref ref-type="bibr" rid="B19">19</xref>]). HIV-1, like several other pathogens, also relies on membrane lipid rafts to complete its replication cycle (reviewed in [<xref ref-type="bibr" rid="B20">20</xref>]).</p>
+      <p>Previously, we demonstrated that Staufen1 interacts with Gag via the NC domain and influences Gag multimerization [<xref ref-type="bibr" rid="B21">21</xref>]. Staufen1's presence in the HIV-1 RNP that selectively contains the precursor Gag (pr55<sup>Gag</sup>) and the vRNA and not any other HIV-1 RNA species [<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref>] and its eventual virion incorporation [<xref ref-type="bibr" rid="B24">24</xref>] promote the idea that Staufen1 has a regulatory role in HIV-1 assembly.</p>
+      <p>In the present study, we use BiFC analysis [<xref ref-type="bibr" rid="B25">25</xref>] to further characterize and visualize the interactions between Gag and Staufen1. Our results demonstrate that Staufen1 and Gag interact at both intracellular and plasma membrane compartments. In addition, we show that Staufen1 is recruited by Gag to the plasma membrane at lipid raft domains. TriFC analysis also showed that Staufen1 and Gag were able to recruit each other while bound to mRNA. Furthermore, when we depleted cells of Staufen1, multimerized Gag molecules were inefficiently localized to the plasma membrane, indicating that Staufen1 modulates the localization of the assembling Gag. This work provides new information on how HIV-1 co-opts cellular factors to ensure proper viral assembly.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Bimolecular fluorescence complementation (BiFC) to visualize Gag-Staufen1 interactions in live mammalian cells</title>
+        <p>Recently, the relationship between Staufen1 and precursor Gag molecule (pr55<sup>Gag</sup>) was characterized. While Staufen1 is found predominantly in the cytoplasm at the endoplasmic reticulum [<xref ref-type="bibr" rid="B26">26</xref>]; Gag is localized in a punctate, non-uniform pattern throughout the cytoplasm and is enriched at the plasma membrane [<xref ref-type="bibr" rid="B13">13</xref>]. Here, we used the BiFC assay because it enables live cell visualization of protein-protein interactions. Moreover, it has proven to provide a reliable read-out of protein-protein interaction sites in several cell types and organisms [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B27">27</xref>-<xref ref-type="bibr" rid="B31">31</xref>]. As a starting point for this part of our research, we studied the interaction between Rev-dependent Gag proteins as depicted in Figure <xref ref-type="fig" rid="F1">1A</xref> (top) [<xref ref-type="bibr" rid="B6">6</xref>]. Gag multimerized and assembled with high efficiency as shown by strong green fluorescence signals due to Gag-VenusC (VC) and VenusN (VN) BiFC (Figure <xref ref-type="fig" rid="F1">1A</xref>, bottom panels). Gag-Gag multimerization occurred at the plasma membrane, and numerous Gag-Gag interaction events were also seen within the cytoplasm.</p>
+        <fig id="F1" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Gag interactions with host proteins Staufen1 and IMP1 occur in the cytoplasm and at the plasma membrane of transfected HeLa and Jurkat T cells as determined by BiFC</bold>. <bold>(A) </bold>Top - schematic representation of BiFC method. Bottom - Rev-dependent Gag-VN and Gag-VC were co-transfected with pCMV-Rev in HeLa cells. At 24 hr post-transfection, cells were imaged by laser scanning confocal microscopy to detect BiFC. The white arrows indicate plasma membrane concentrated accumulations of Gag-Gag BiFC signals. <bold>(B) </bold>Gag-VN and Staufen1-VC (top panels) or Gag-VN and IMP1-VC (bottom panels) interactions identified by BiFC. BiFC signals for these interacting pairs were mainly detected in the cytoplasm (indicated by white arrows) and at or near the plasma membrane. <bold>(C) </bold>Interactions between Gag-VN with IMP1-KH(1-4)-VC (top) and with IMP1-RRM(1-2)-VC (bottom) as determined by BiFC analysis. Evidence for interaction is demonstrated by a green fluorescence signal. <bold>(D) </bold>The interaction between Gag-VN and Gag-VC (top) or Gag-VN and Staufen1-VC (bottom) was determined by BiFC in Jurkat T cells. Magnified sections demonstrate details on the shapes of BiFC signals/complexes. The size bars are equal to 10 μm.</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-1"/>
+        </fig>
+        <p>We then characterized the interaction between Gag and Staufen1. These proteins are known to interact in a RNA-independent manner [<xref ref-type="bibr" rid="B22">22</xref>] and are in close proximity (≈10 nm) as determined by bioluminescence resonance energy transfer experiments [<xref ref-type="bibr" rid="B21">21</xref>-<xref ref-type="bibr" rid="B23">23</xref>], thus we expected to observe BiFC; but in addition, we wanted to identify the interaction sites for this virus-host pair. We detected small and large robust BiFC signals in the cytoplasm. Furthermore, a close examination of cells revealed that the Staufen1 and Gag BiFC signals coincided with the plasma membrane periphery (Figure <xref ref-type="fig" rid="F1">1B</xref>, top panels), similar to what was found for Gag. This was observed in over 90% of cells (n &gt; 300) exhibiting BiFC.</p>
+        <p>We also performed BiFC to identify where Gag and Insulin like growth factor II mRNA binding protein (IMP1) interacted in cells. We chose IMP1 because it is a component of the Staufen1 RNP [<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B33">33</xref>] and because IMP1 associates to Gag and is incorporated in HIV-1 [<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B35">35</xref>]. The co-expression of Gag-VN and IMP1-VC generated intense BiFC signals predominantly in the cytoplasm (Figure <xref ref-type="fig" rid="F1">1B</xref>, bottom panels) with a detectable amount at the plasma membrane in some cells (not shown; see Figure <xref ref-type="fig" rid="F2">2C</xref>). IMP1-Gag exhibited a very specific and abundant interaction and shared some features with the interaction site that we identified for Staufen1-Gag including well defined cytoplasmic and plasma membrane foci. The Gag-binding domain in IMP1 was mapped to the four KH RNA-binding domains [<xref ref-type="bibr" rid="B35">35</xref>]. Therefore we performed BiFC analysis; and as expected, the IMP1-KH(1-4)-Gag interaction was maintained (Figure <xref ref-type="fig" rid="F1">1C</xref>, top panels) whereas the expression of IMP1-RRM(1-2), lacking the interaction domain, failed to complement with Gag in this assay (Figure <xref ref-type="fig" rid="F1">1C</xref>, bottom panels). A variety of other negative controls were performed. For example, the co-expression of bacteriophage coat protein MS2 fused to the VN moiety with either Gag-VC, Staufen1-VC or IMP1-VC did not produce BiFC signals in any cell, demonstrating the specificity of the method (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S1-A). Furthermore, we expressed the BiFC Gag moieties along with pNL4.3 proviral DNA at a 1:5 molar ratio in order to demonstrate that the resulting BiFC signals are specific and not due to artifacts created by Gag-VC/VN overexpression or changes in the kinetics of viral particle assembly, consistent with an earlier report [<xref ref-type="bibr" rid="B36">36</xref>]. BiFC will only be positive in cells expressing pNL4.3 in the presence of Rev. Importantly, this experimental set up, that also includes the expression of the full complement of viral genes, leads to identical BiFC signals (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S1-B). Finally, BiFC analyses were performed in Jurkat T cells, and again, robust Gag-Gag and Gag-Staufen1 BiFC signals were evident at the periphery of T cells (Figure <xref ref-type="fig" rid="F1">1D</xref>).</p>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Interactions between Gag and cellular proteins Staufen1 or IMP1 at GM1 containing lipid rafts on the plasma membrane as determined by BiFC</bold>. <bold>(A) </bold>HeLa cells were co-transfected with pCMV-Rev and Rev-dependent Gag-VN and Gag-VC plasmids. At 24 hr post-transfection lipid raft staining in live cells was performed. Images were captured using laser scanning confocal microscopy to detect the co-localization patterns of oligomerizing Gag molecules and lipid raft microdomains (indicated by CT-B that binds the pentasaccharide chain of the raft marker protein, GM1). <bold>(B) </bold>Gag-VN/Staufen1-VC BiFC signals and CT-B staining in live cells. <bold>(C) </bold>Gag-VN/IMP1-VC BiFC signals and CT-B staining in live cells. <bold>(D) </bold>HeLa cells or <bold>(E) </bold>Jurkat T cells were co-transfected with pCMV-Rev and Rev-dependent Gag-VN and Gag-VC plasmids. At 24 hr post-transfection the cells were fixed in 4% paraformaldehyde (T cells were attached to poly-D-lysine coated coverslips before fixation), permeabilized in 0.2% Triton and stained for endogenous Staufen1 and p17 to detect Gag (in Jurkat T cells only; <bold>(E)</bold>, Gag is presented in blue). BiFC signals also identify Gag-Gag oligomers in fixed cells. Magnifications of cells on right show endogenous Staufen1 in Gag-Gag BiFC-negative (box 1) and positive (box 2) HeLa (D) or Jurkat T (E) cells. The size bars are equal to 10 μm.</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Association of Gag and cellular factors at GM1-containing lipid rafts on the plasma membrane</title>
+        <p>Our earlier reports indicated that Staufen1 associates with vRNA and Gag in both cells and virus [<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B24">24</xref>]. Our recent data suggest that this host protein modulates Gag multimerization on membranes [<xref ref-type="bibr" rid="B21">21</xref>]. Gag preferentially mediates viral assembly at specific sites on the plasma membrane called lipid raft microdomains [<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B38">38</xref>] that are composed of cholesterol and sphingolipids, and contain several other components such as ganglioside GM1, glycophosphatidylinositol-anchored (GPI-anchored) proteins, tyrosine kinases of the Src family and others. Because the Gag and Staufen1 interaction occurs also on well defined plasma membrane structures (Figure <xref ref-type="fig" rid="F1">1B</xref>), we next determined the nature of these interaction domains using BiFC concomitant with live cell lipid raft staining. We transfected cells with Gag-VN and Gag-, Staufen1- or IMP1-VC BiFC constructs, and at 24 hr stained lipid rafts using AlexaFluor 594-labeled cholera toxin subunit B (CT-B) as described in Materials and Methods. As a reference condition for the association and multimerization of Gag on the plasma membrane, we again used Gag-VN and Gag-VC in BiFC (Figure <xref ref-type="fig" rid="F2">2A</xref>). We observed an almost complete co-localization of CT-B label and oligomerizing Gag, which is in accordance with previously published work [<xref ref-type="bibr" rid="B39">39</xref>-<xref ref-type="bibr" rid="B41">41</xref>]. Furthermore, BiFC between Gag-VN and Staufen1-VC followed by GM1 labeling revealed that a substantial part of these interactions also occurred at lipid rafts (Figure <xref ref-type="fig" rid="F2">2B</xref>). Likewise, a proportion of the Gag-IMP1 BiFC signals coincided with lipid raft domains, although as reported above, the plasma membrane localization was not as marked (Figure <xref ref-type="fig" rid="F2">2C</xref>).</p>
+        <p>Staufen1's abundance at the plasma membrane was puzzling since it is normally distributed in the cytoplasm co-localizing with the endoplasmic reticulum [<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B42">42</xref>]. Therefore, to determine if Staufen1 is recruited by Gag to lipid raft domains, we co-transfected HeLa cells with the BiFC plasmid pair Gag-VN and Gag-VC, and at 24 hr post-transfection, we fixed and then stained the cells for endogenous Staufen1 (Figure <xref ref-type="fig" rid="F2">2D</xref>). The BiFC signals between Gag-VN/Gag-VC were observed at the plasma membrane and were preserved following fixation. Notably, abundant staining for endogenous Staufen1 coincided with the majority of the Gag BiFC signals in whole cells (Figure <xref ref-type="fig" rid="F2">2D</xref>, left panel) and in the expanded region on the right (Figure <xref ref-type="fig" rid="F2">2D</xref>, Gag-Gag positive cell) whereas in Gag-Gag negative cells, Staufen1 was dispersed in the cytoplasm. Thus, Staufen1 is recruited presumably by Gag to plasma membrane lipid rafts. Finally, we performed a similar analysis for endogenous Staufen1 in Jurkat T cells. Upon expression of Gag-VC and Gag-VN, endogenous Staufen1 coincided with Gag BiFC signals at cell-to-cell contact sites in Gag-expressing Jurkat T cells (Figure <xref ref-type="fig" rid="F2">2E</xref>).</p>
+        <p>We also observed Staufen1-Gag BiFC signals at intracellular domains marked by CT-B. These sites appeared to be vesicular in nature and were observed in ~75% of all cells examined (in &gt;200 cells in 6 experiments; Figure <xref ref-type="fig" rid="F2">2B</xref>, white arrow). These sites of interaction with CT-B staining represent either rapidly internalized raft membrane domains or sites of raft biogenesis/synthesis [<xref ref-type="bibr" rid="B43">43</xref>,<xref ref-type="bibr" rid="B44">44</xref>]. To characterize them further, we performed time lapse imaging of live cells. The structures were mostly immobile, but several were dynamic showing characteristics of membranes that were capable of fusion, fission, detachment and subsequent trafficking towards the plasma membrane (Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>: Figure S2). This result suggests that Gag passes through intracellular lipid raft membrane domains on its way to the plasma membrane.</p>
+      </sec>
+      <sec>
+        <title>Biochemical fractionation of lipid rafts</title>
+        <p>We performed a detergent-free membrane flotation assay to purify lipid rafts with the advantages that fewer insoluble aggregates form, and the purifications are met with less contamination from non-raft cellular membranes ([<xref ref-type="bibr" rid="B45">45</xref>]; Figure <xref ref-type="fig" rid="F3">3A</xref>). We either mock transfected HeLa cells or co-transfected them with Gag-VN and Gag-VC plasmids to reproduce our BiFC conditions above. Alternatively, cells were transfected with a Rev-dependent GagΔNC/p6 construct [<xref ref-type="bibr" rid="B46">46</xref>] as a negative virus assembly control. At 24 hr post-transfection cells were lysed, washed and processed for fractionation. Eighteen fractions from each gradient were probed for the raft marker Caveolin-1 and for Staufen1, IMP1 and Tuberin (TSC2). Gag was detected with either an anti-GFP (recognizing VC of Gag-VC; Figure <xref ref-type="fig" rid="F3">3C</xref>) or with an anti-p24 (Figure <xref ref-type="fig" rid="F3">3D</xref>) antibody. Lipid rafts and associated proteins such as Caveolin-1 accumulated principally in fractions #2 to #6 in all conditions (mock and in the presence of Gag or truncated Gag proteins). The cytoplasmic protein TSC2 principally sedimented to fractions #12 to #18 (Figure <xref ref-type="fig" rid="F3">3B-D</xref>, representing non-membrane fractions), but small amounts were detected in association with rafts in the upper fractions as reported [<xref ref-type="bibr" rid="B47">47</xref>]. In mock conditions, a fraction of Staufen1 sedimented to the lipid rafts (≈6.5% of total Staufen1; Figure <xref ref-type="fig" rid="F3">3B</xref> &amp;<xref ref-type="fig" rid="F3">3E</xref>). In the presence of Gag however, a notable three-fold increase of Staufen1 (≈19%) fractionated to lipid raft fractions (Figure <xref ref-type="fig" rid="F3">3C</xref> &amp;<xref ref-type="fig" rid="F3">3E</xref>) with ≈14% of total Gag sedimenting within these fractions. In addition, a shift of IMP1 was observed within the gradient when Gag was expressed. Approximately 10% (vs ≈6% in mock conditions) and ≈31% (vs ≈5% in mock conditions) of IMP1 was found in lipid raft and intermediary fractions (#7-#10), respectively. This was consistent with our imaging data that detected a small proportion of IMP1 in the lipid rafts in Gag-expressing cells (Figures <xref ref-type="fig" rid="F1">1</xref> &amp;<xref ref-type="fig" rid="F2">2</xref>). Of interest is the observation that IMP1 overexpression disrupts the association of mature Gag products on membranes [<xref ref-type="bibr" rid="B35">35</xref>]; therefore, the abundance of IMP1 on lipid raft domains might be underrepresented. LAMP-3/CD63 reactivity co-sedimented to these intermediary fractions (M.P.M. &amp; A.J.M., data not shown) and further study of these membrane domains will be necessary. As a control we expressed the assembly defective GagΔNC/p6 which can not bind to several host proteins like Staufen1, IMP1 and HP68 (ABCE1), for example [<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B46">46</xref>]. Neither GagΔNC/p6 nor Staufen1 sedimented to any great extent to the lipid raft fractions (Figure <xref ref-type="fig" rid="F3">3D</xref>) indicating a dependence on Gag for the enhanced recruitment of Staufen1 to lipid rafts. These biochemical data reflect our imaging data that showed a recruitment of Staufen1 to lipid raft microdomains in the majority of Gag-transfected cells (Figure <xref ref-type="fig" rid="F2">2B</xref> &amp;<xref ref-type="fig" rid="F2">2D</xref>).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>Staufen1 co-fractionates with Gag in lipid rafts</bold>. <bold>(A) </bold>A detergent-free method for the isolation and fractionation of lipid rafts. HeLa cells were mock transfected <bold>(B) </bold>or co-transfected with pCMV-Rev and Rev-dependent Gag-VN and Gag-VC <bold>(C) </bold>or Rev-dependent GagΔNC/p6 <bold>(D)</bold>. At 24 hr post-transfection, cells were harvested and fractionated on Optiprep gradients: lipid rafts fractionated in fractions #2-6 and non-membrane associated proteins in the bottom fractions. Western blotting identified Caveolin-1 (Cav-1), Staufen1 (two isoforms: St-55, St-63), IMP1, TSC2, Gag-VC (in C) and p24 (to detect GagΔNC/p6 in (D)) in each fraction. <bold>(E) </bold>The relative quantities of Staufen1 in each fraction were measured using ImageJ software (NIH) (the sum of all fractions per condition = 1.0).</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-3"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Depletion of membrane cholesterol by hydroxy-propyl-β-cyclodextrin (HβCD) reduces Gag-Gag and Gag-Staufen1 membrane BiFC</title>
+        <p>Since cholesterol is essential for lipid raft structure and function, its depletion should disrupt BiFC signals occurring at these sites. Indeed, cholesterol depletion from the rafts reduces the total amount of associated Gag and more specifically the presence of higher-order Gag multimers on the plasma membrane [<xref ref-type="bibr" rid="B38">38</xref>]. Thus, to confirm that the plasma membrane domains where we find Gag-Staufen1 BiFC are lipid rafts, we depleted cholesterol from membranes using HβCD. At various time points between 0 and 25 minutes, lipid rafts were detected by CT-B staining; and the BiFC signals were imaged by laser scanning confocal microscopy. Multimerized Gag demonstrated strong association with GM1-containing lipid microdomains before addition of HβCD (Figure <xref ref-type="fig" rid="F4">4A</xref>, <italic>t </italic>= 0 min). We then perfused cells with HβCD and collected images from live cells at time points thereafter. Time-lapse imaging revealed a significant decrease in CT-B staining at all time points after 15 minutes indicating that HβCD was effective at disrupting lipid rafts. The BiFC signals for Gag-Gag also dramatically decreased over time (Figure <xref ref-type="fig" rid="F4">4A</xref>). The decreases in Gag-Gag and Gag-Staufen1 BiFC signals were likely due to the disruption of plasma membrane assembly domains thereby preventing both the accumulation of Gag and the bimolecular interactions. Because we took multiple laser scans of the same cells, we attempted to rule out any effect photobleaching might have in the BiFC and CT-B signals captured at the later time points. We therefore transfected cells with a Rev-dependent Gag construct and at 24 hr treated them with HβCD over an extended period of time (0-45 min). Cells were subsequently fixed, and immunofluorescence was performed to obtain snapshots of the distributions of Gag and of the raft marker protein, Caveolin-1 (Figure <xref ref-type="fig" rid="F4">4B</xref>). Indeed, both Caveolin-1 and Gag staining were diminished over the course of this experiment. Therefore, we can conclude that photobleaching is not significant in these experiments, and also that the scaffold for interactions between Gag and host proteins is disrupted by cholesterol depletion. Finally, whereas the BiFC signals for both the Staufen1-Gag and IMP1-Gag interactions were observed at time 0 (data not shown but refer to Figures <xref ref-type="fig" rid="F2">2</xref> and <xref ref-type="fig" rid="F3">3</xref>), these substantially decreased over time following HβCD treatment indicating that intact lipid rafts contribute to these bimolecular interactions (Figure <xref ref-type="fig" rid="F4">4C</xref>).</p>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Time-dependent depletion of cholesterol from lipid rafts leads to the disruption of Gag-Gag, Gag-Staufen1 or Gag-IMP1 BiFC</bold>. <bold>(A) </bold>HeLa cells were co-transfected with pCMV-Rev, Gag-VN and Gag-VC. At 24 hr post-transfection the cells were stained with the Vybrant Lipid Raft Labeling Kit and treated with cholesterol disrupting drug HβCD (final concentration 30 mM). Pictures were taken at the indicated times post-HβCD treatment. <bold>(B) </bold>HeLa cells were co-transfected with pCMV-Rev and the Rev-dependent Gag [<xref ref-type="bibr" rid="B46">46</xref>] and at 24 hr post-transfection were treated with HβCD for different periods of time (as indicated, for up to 45 min). The cells were then fixed, stained for Caveolin-1 and Gag and visualized by laser scanning confocal microscopy. <bold>(C) </bold>Hela cells were co-transfected with pCMV-Rev and either Gag-VN and Staufen1-VC or Gag-VN (top panels) and IMP1-VC (lower panels). At 24 hr post-transfection lipid rafts were identified in live cells using the Vybrant Lipid Raft Labeling and treated with HβCD for up to 25 min. The BiFC signals were determined at <italic>t </italic>= 0 (not shown) and at the latest time point of <italic>t </italic>= 25 min. The size bars are equal to 10 μm.</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Effects of modulating Staufen1 levels on the distribution of Gag-Gag BiFC complexes</title>
+        <p>To characterize the role of Staufen1 in the trafficking and formation of Gag-Gag assembly complexes in live cells, we depleted or overexpressed Staufen1 using siStaufen1 or a Staufen1-HA cDNA, respectively [<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B24">24</xref>]. The depletion of Staufen1 was efficient and reduced expression levels to less than 1/6 while the over-expression increased cellular Staufen1 levels approximately 6-fold (Figure <xref ref-type="fig" rid="F5">5A</xref>). In cells transfected with a control siRNA (siNS) co-expressing Gag-VN and Gag-VC, Gag BiFC was found at the plasma membrane and in discrete cytoplasmic domains as shown earlier (Figure <xref ref-type="fig" rid="F5">5B</xref>). However, in Staufen1-depleted cells, in addition to the Gag-Gag BiFC signals observed at the plasma membrane, strong signals were observed at cytoplasmic juxtanuclear regions (Figure <xref ref-type="fig" rid="F5">5C</xref>). When Staufen1-HA was over-expressed, we observed that the Gag-Gag BiFC punctae were abundant and well defined, and we could not detect any marked changes in plasma membrane association of Gag-Gag BiFC compared to the control siNS condition (Figure <xref ref-type="fig" rid="F5">5D</xref>). Neither the depletion nor the over-expression of Staufen1 caused any significant redistribution of ABCE1, a host factor that interacts with NC domain of Gag and is involved in assembly [<xref ref-type="bibr" rid="B46">46</xref>,<xref ref-type="bibr" rid="B48">48</xref>], in relationship to the localization of Gag-Gag BiFC or <italic>gag </italic>RNA signals (Additional file <xref ref-type="supplementary-material" rid="S3">3</xref>: Figure S3). Likewise, the depletion of the Staufen1<sup>63 kDa </sup>isoform alone [<xref ref-type="bibr" rid="B49">49</xref>] or the depletion of UPF1 [<xref ref-type="bibr" rid="B32">32</xref>] did not result in intracellular Gag BiFC signals (M.P.M., Lara Ajamian and A.J.M., data not shown).</p>
+        <fig id="F5" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>Staufen1 depletion decreases plasma membrane-associated Gag and results in intracellular clustering of Gag-Gag BiFC signals</bold>. HeLa cells were co-transfected with pCMV-Rev, Gag-VN and Gag-VC plasmids with control non-silencing siRNA (siNS), Staufen1 siRNA (siStaufen1) or Staufen1-HA. At 24 hr post-transfection cells were harvested for western blotting for Staufen1, Gag, Caveolin-1 and TSC2 (as loading controls) <bold>(A) </bold>or stained for lipid rafts in live cells. BiFC signals and lipid raft (CT-B) staining were captured by laser scanning confocal microscopy in cells transfected with siNS <bold>(B)</bold>, siStaufen1 <bold>(C) </bold>or Staufen1-HA <bold>(D)</bold>. Black and white images of lipid rafts (CT-B) and Gag-Gag BiFC signals and merged colour representations are shown. The insets are magnifications of boxed areas. The size bars are equal to 10 μm.</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-5"/>
+        </fig>
+        <p>We noticed earlier that Gag-Gag BiFC occurred on sometimes circular, membrane-like structures. Moreover, Gag, Staufen1 and vRNA traffic on endosomal membranes and in a manner that is dependent on endosomal vesicle positioning [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>]. Therefore to determine the nature of the Gag structures, we co-expressed RFP fusion marker proteins Rab5 (early endosomes), Rab7 (late endosomes), Rab9 (Golgi/endoplasmic reticulum), LAMP1 (late endosomes) and Caveolin-1 (lipid rafts/caveosomes) in Staufen1-depleted cells. This analysis revealed that the Gag-Gag BiFC signals were on membranes that bore characteristics of endosomal membranes/vesicles, consistent with recent work ([<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>]; Figure <xref ref-type="fig" rid="F6">6</xref>). Specifically, the Gag-Gag BiFC multimers that coalesced intracellularly upon Staufen1 depletion coincided to varying extents with late endosomal membrane components LAMP-1-, Rab7- and on Rab9-containing membranes. While Staufen1 depletion did not influence the patterns of Rab7, Rab5, endoplasmic reticulum or Golgi staining (M.P.M. and A.J.M., data not shown), we nevertheless attempted to identify the origin of the Gag BiFC signals in Staufen1-depleted cells. To do this, we overexpressed two <italic>trans</italic>-dominant negative (TDN) proteins that efficiently block endocytosis at various steps as described [<xref ref-type="bibr" rid="B13">13</xref>]. These include Eps15-TDN-GFP and Rab7-TDN-GFP. These have been shown to block early endocytic events as shown by a block to Transferrin receptor recycling. Identical distributions of the Gag (expressed here as Rev-dependent Gag only [<xref ref-type="bibr" rid="B46">46</xref>]) signals were obtained when clathrin-dependent and clathrin-independent (M.P.M. and A.J.M., data not shown) endocytosis was blocked in Staufen1-depleted cells (Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>: Figure S4 and data not shown). Therefore, we propose that the localization of the BiFC signals obtained in Staufen1-depleted cells was unlikely to be due to endocytosed Gag-Gag multimers (see Discussion).</p>
+        <fig id="F6" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p><bold>Gag localizes near Rab7-, Rab9- and LAMP1-containing membranes at cytoplasmic and juxtanuclear sites in Staufen1-depleted cells</bold>. HeLa cells were transfected with pCMV-Rev, Gag-VN and Gag-VC with either siNS or siStaufen1 siRNAs and one of the following plasmids: <bold>(A) </bold>Rab5-RFP, <bold>(B) </bold>Rab7-RFP, <bold>(C) </bold>Rab9-RFP, <bold>(D) </bold>LAMP1-RFP or <bold>(E) </bold>Caveolin-1-RFP. At 24 hr post-transfection, the distributions of Gag-Gag BiFC and RFP fusion proteins were visualized in live cells by laser scanning confocal microscopy. The insets show zoomed boxed regions of cells to demonstrate the levels of co-localization of Gag-Gag BiFC signals with either of membrane marker proteins. White arrows identify Gag-Gag BiFC aggregates. The size bars are equal to 10 μm.</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-6"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Trimolecular fluorescence complementation (TriFC) to visualize specific Gag- RNA interactions in living mammalian cells</title>
+        <p>Gag-Gag and Gag-Staufen1 interactions as visualized by BiFC were found consistently in the cytoplasm and at plasma membrane lipid raft domains. Because both Gag and Staufen1 bind mRNAs, we therefore explored how the association to mRNA would influence the Gag-Gag and Gag-Staufen1 associations. To do this, we employed TriFC, a method that allows the detection of protein-RNA or protein-protein-RNA interactions in live cells [<xref ref-type="bibr" rid="B33">33</xref>]. To validate this assay we took advantage of the well characterized Gag-vRNA association mediated by the <italic>psi </italic>RNA packaging signal sequence. Thus, we generated constructs that expressed mRNAs containing either the complete packaging signal <italic>psi </italic>(pGL3MS2site-<italic>psi</italic>; including SL2 and SL3 sequences), or delta <italic>psi </italic>domain in which 19 nucleotides are deleted from SL3 (pGL3MS2site-Delta-<italic>psi</italic>; Table <xref ref-type="table" rid="T1">1</xref>; [<xref ref-type="bibr" rid="B50">50</xref>]). The mRNA reporters, based on pGL3MS2 site/basic [<xref ref-type="bibr" rid="B33">33</xref>], were also designed to contain an MS2 binding site that provides an efficient tethering of MS2-VN fusion protein. The K<sub>D </sub>of this interaction falls in the nanomolar range [<xref ref-type="bibr" rid="B51">51</xref>], and it likely occurs rapidly and is stable. As shown in Figure <xref ref-type="fig" rid="F7">7A</xref> in order for the successful complementation of both VN and VC fragments the simultaneous expression of three plasmids is required. In the first case the VN is expressed as a fusion MS2-VN protein and can tether to the RNA reporter in proximity to the <italic>psi </italic>sequence (Figure <xref ref-type="fig" rid="F7">7A</xref>). hGag-VC will interact with the <italic>psi </italic>domain of the reporter to allow for fluorescence complementation (Figure <xref ref-type="fig" rid="F7">7A</xref>); or when the <italic>psi </italic>is mutated, fluorescence complementation will not occur (Figure <xref ref-type="fig" rid="F7">7B</xref>). Using this assay, we found intense TriFC signals in the juxtanuclear region and cytoplasm (Figure <xref ref-type="fig" rid="F7">7C</xref>). In contrast, we did not detect TriFC when the mRNA reporter harboring the mutated <italic>psi </italic>(delta <italic>psi</italic>) was expressed (Figure <xref ref-type="fig" rid="F7">7D</xref>), and this was found in at least 5 experiments and having examined &gt;400 viable cells. This result was in accordance with our expectation because packaging into virions of the virus-specific RNA harboring this deletion was less than 2% of that of the wild-type virus [<xref ref-type="bibr" rid="B50">50</xref>]. These findings indicate that the association of Gag with mRNA reporter molecules is sufficient to sequester them into granules that bear hallmark appearance of RNP containing proteins and mRNA [<xref ref-type="bibr" rid="B33">33</xref>]. The experiments demonstrated the biological relevance and specificity of the interactions between Gag and the HIV-1 vRNA <italic>psi </italic>packaging domain detected by TriFC. When full-length Venus was expressed in the context of the fusion MS2-Venus and co-expressed with the reporter mRNA bearing MS2 binding domains, a uniformly distributed fluorescence signal was obtained throughout the cell, in contrast to what we have obtained above (Additional file <xref ref-type="supplementary-material" rid="S5">5</xref>: Figure S5). Additional negative controls included the expression of a <italic>psi </italic>mRNA reporter (pGL3MS2site-Delta-<italic>psi</italic>), the expression of Staufen1- or IMP1-VC fusion proteins (Figure <xref ref-type="fig" rid="F7">7E</xref> &amp;<xref ref-type="fig" rid="F7">7F</xref>) or the exclusion of the VN or VC expression vectors in the transfections (M.P.M. and A.J.M., data not shown). We also expressed an mRNA reporter that contains the β-Actin zipcode RNA sequence, and we did not detect fluorescence complementation (Figure <xref ref-type="fig" rid="F7">7G</xref>), whereas a strong fluorescence signal was obtained using the cognate binding protein IMP1-VC (Figure <xref ref-type="fig" rid="F7">7H</xref>; [<xref ref-type="bibr" rid="B33">33</xref>]). Because Gag expression is Rev-independent and may traffic aberrantly in this set of experiments, we modified the TriFC assay and employed a Rev-dependent Gag expressor. We co-expressed the luciferase mRNA reporter harboring the <italic>psi </italic>domain (or a mutated form as described above), MS2-VN to tether to the MS2 RNA loops, Staufen1-VC, a Rev-dependent Gag expressor [<xref ref-type="bibr" rid="B46">46</xref>] and pCMV-Rev as depicted (Additional file <xref ref-type="supplementary-material" rid="S6">6</xref>: Figure S6-A). In this setup Gag must be brought in proximity to the RNA in order to recruit Staufen1-VC to generate a TriFC signal. Indeed, robust TriFC signals were obtained in cells. The removal of MS2-VN, mutation of <italic>psi </italic>RNA and the expression of Rev-dependent GagΔNC/p6 ([<xref ref-type="bibr" rid="B46">46</xref>]; Additional file <xref ref-type="supplementary-material" rid="S6">6</xref>: Figure S6-B) abrogated the TriFC signals in all cells examined demonstrating the specificity of the assay.</p>
+        <table-wrap id="T1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>List of plasmids used in this study.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Plasmid name</th>
+                <th align="left">Source or reference</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">pMS2-VenusFL</td>
+                <td align="left">[<xref ref-type="bibr" rid="B33">33</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pMS2-VN</td>
+                <td align="left">[<xref ref-type="bibr" rid="B33">33</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pMS2-Staufen1</td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pMS2-hGag</td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pIMP1-VC</td>
+                <td align="left">[<xref ref-type="bibr" rid="B33">33</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pIMP1-KH(1-4)-VC</td>
+                <td align="left">[<xref ref-type="bibr" rid="B33">33</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pIMP1-RRM(1-2)-VC</td>
+                <td align="left">[<xref ref-type="bibr" rid="B33">33</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pStaufen1-VC</td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pStaufen1-HA</td>
+                <td align="left">[<xref ref-type="bibr" rid="B24">24</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">phGag-VC</td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pMS2-Gag(C36S)</td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pGag-VN</td>
+                <td align="left">[<xref ref-type="bibr" rid="B6">6</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pGag-VC</td>
+                <td align="left">[<xref ref-type="bibr" rid="B6">6</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pCMV-Rev</td>
+                <td align="left">NIH</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pSVGagRRE-R</td>
+                <td align="left">[<xref ref-type="bibr" rid="B70">70</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pGag-ΔNC/p6(Tr361)</td>
+                <td align="left">[<xref ref-type="bibr" rid="B46">46</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pGL3MS2 site/basic</td>
+                <td align="left">[<xref ref-type="bibr" rid="B33">33</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pGL3-βActin zipcode</td>
+                <td align="left">[<xref ref-type="bibr" rid="B33">33</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pGL3MS2site-<italic>psi</italic></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pGL3MS2site-Delta-<italic>psi</italic></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pEps15-TDN-GFP</td>
+                <td align="left">[<xref ref-type="bibr" rid="B13">13</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">pRab5-TDN-GFP</td>
+                <td align="left">[<xref ref-type="bibr" rid="B13">13</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">mRFP-Rab5</td>
+                <td align="left">Addgene plasmid 14437, [<xref ref-type="bibr" rid="B71">71</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">dsRed-rab7</td>
+                <td align="left">Addgene plasmid 12661, [<xref ref-type="bibr" rid="B72">72</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">dsRed-rab9 WT</td>
+                <td align="left">Addgene plasmid 12677, [<xref ref-type="bibr" rid="B72">72</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">Cav1-mRFP</td>
+                <td align="left">Addgene plasmid 14434, [<xref ref-type="bibr" rid="B73">73</xref>]</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">LAMP1-RFP</td>
+                <td align="left">Addgene plasmid 1817, [<xref ref-type="bibr" rid="B74">74</xref>]</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <fig id="F7" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p><bold>TriFC analysis for studying RNA-protein interactions in live cells</bold>. <bold>(A) </bold>Depiction of the TriFC analysis employed in the study. The mRNA-reporter molecule contains HIV-1 vRNA packaging signal <italic>psi </italic>in close proximity to the integrated MS2 RNA-binding site (MS2BS). MS2-VN binds MS2BS to tether to the mRNA molecule. The C-terminal moiety of Venus (VC) is expressed as hGag-VC fusion and binding of hGag-VC to the RNA packaging sequence (<italic>psi </italic>domain) will bring both VN and VC Venus moieties in close enough proximity to generate a fluorescent signal by VN-VC complementation. <bold>(B) </bold>A 19-basepair deletion from SL3 of <italic>psi </italic>prevents the binding between hGag-VC and <italic>psi </italic>RNA and does not yield fluorescence complementation. <bold>(C) </bold>HeLa cells were grown on coverslips and transfected with pGL3MS2site-<italic>psi</italic>, MS2-VN and Gag-VN. 24 hr later laser scanning confocal microscopy was used to assess TriFC. Bright fluorescence signals in cytoplasmic punctae were detected indicating that the interaction between hGag-VC and the <italic>psi </italic>RNA domain occurred. This condition represented a positive control for the TriFC system employed here. TriFC signals were not detected when HeLa cells were transfected with the mutated <italic>psi </italic>reporter (pGL3MS2site-Delta-<italic>psi</italic>) <bold>(D)</bold>. In order to determine the specificity of the TriFC assay, HeLa cells were co-transfected with plasmids expressing either Staufen1-VC <bold>(E) </bold>or IMP1-VC <bold>(F) </bold>along with MS2-VN and pGL3MS2site-<italic>psi</italic>. TriFC was absent in all cells examined indicating that Staufen1 and IMP1 do not bind the <italic>psi </italic>RNA. In parallel experiments, Gag did not associate with mRNA reporter bearing β-Actin zipcode sequence (pGL3-βActin zipcode) <bold>(G) </bold>whereas IMP1 did <bold>(H)</bold>, as expected [<xref ref-type="bibr" rid="B33">33</xref>]. Phase contrast images are shown on the left of each panel in (<bold>C</bold>)-(<bold>H</bold>). The size bars are equal to 10 μm.</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-7"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>TriFC visualization of protein-protein recruitment and interactions on mRNA template</title>
+        <p>Using TriFC, we next evaluated whether Gag, while tethered to the mRNA, could recruit Staufen1 and other host proteins. MS2-Staufen1, MS2-hGag and MS2-Gag(C36S) expression constructs were created for this purpose. When mRNA reporters are co-expressed with MS2-VN and MS2-fusion proteins, these molecules will tether to the same MS2 RNA-binding site (MS2BS) on the mRNA. This is a native property of the bacteriophage coat protein that binds the MS2BS hairpin as a dimer [<xref ref-type="bibr" rid="B52">52</xref>,<xref ref-type="bibr" rid="B53">53</xref>]. In addition, in this system we expressed a second protein of interest as a fusion with VC. When MS2-hGag was co-tethered with MS2-VN to the mRNA reporter without any additional protein binding domains [<xref ref-type="bibr" rid="B33">33</xref>], hGag-VC was recruited to the mRNA as evidenced by bright TriFC signals (Figure <xref ref-type="fig" rid="F8">8A</xref>). At the later time point (40 hr), the punctae were larger, more abundant and were better defined. Nevertheless, the signal intensity and abundance of TriFC signals generally correlated with protein expression levels (Figure <xref ref-type="fig" rid="F8">8A</xref>). mRNA-tethered MS2-hGag recruited both Staufen1-VC and IMP1-VC (Figure <xref ref-type="fig" rid="F8">8B</xref> &amp;<xref ref-type="fig" rid="F8">8C</xref>). TriFC signals had apparent sizes ranging from 0.2 to 1.25 μm in diameter and were distributed in the cytoplasm of host cells, similar to what we found for hGag proteins (see Discussion). Because NC is the interacting domain for APOBEC3G [<xref ref-type="bibr" rid="B54">54</xref>], Staufen1 [<xref ref-type="bibr" rid="B22">22</xref>], and IMP1 [<xref ref-type="bibr" rid="B35">35</xref>], we tethered MS2-Gag(C36S) along with MS2-VN and assessed the level of interaction with Staufen1-VC. We did not detect fluorescence complementation in the cells (M.P.M. &amp; A.J.M., data not shown).</p>
+        <fig id="F8" position="float">
+          <label>Figure 8</label>
+          <caption>
+            <p><bold>Gag recruits host proteins Staufen1 and IMP1 while tethered to mRNA</bold>. HeLa cells were co-transfected with mRNA-reporter pGL3-basic/site, MS2-VN, MS2-Gag or MS2-Staufen1 and hGag-VC, Staufen1-VC or IMP-VC as indicated. TriFC analysis was performed at 24 and 40 hr post-transfection. MS2 RNA-tethered hGag recruits Gag <bold>(A)</bold>, Staufen1 <bold>(B) </bold>and IMP1 <bold>(C) </bold>to generate TriFC signals in cells. MS2 RNA-tethered Staufen1 recruits hGag <bold>(D)</bold>. Western blotting analysis for Staufen1, p24 (to identify Gag), and GFP (that recognizes C terminal part of Venus) and Luciferase (reporter mRNA, pGL3-basic/site expressed Luciferase) confirmed expression of DNA constructs. Negative controls included transfections that omitted either the VC fusion proteins <bold>(</bold>bottom left in panels <bold>(A)-(D)) </bold>or the bridging MS2 molecule (MS2-hGag, MS2-Gag(C36S) or MS2-Staufen1; data not shown). The size bars are equal to 10 μm.</p>
+          </caption>
+          <graphic xlink:href="1742-4690-7-41-8"/>
+        </fig>
+        <p>When we tethered MS2-VN and MS2-Staufen1 to the mRNA via MS2BS and expressed Gag-VC, TriFC was readily detected, indicating that Staufen1, when bound to mRNA, recruits Gag (Figure <xref ref-type="fig" rid="F8">8D</xref>). These results demonstrate that Gag potentially recruits cellular factors while bound to an mRNA; and likewise, RNA-binding host factors can recruit Gag to mRNA. The results also support the notion that the HIV-1 RNP, containing at its core the precursor Gag and the genomic RNA, will selectively engage cellular factors such as Staufen1 and IMP1 during assembly.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <sec>
+        <title>Gag-Staufen1 interactions in living cells</title>
+        <p>Staufen1 was previously found as a component of HIV-1 particles [<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B55">55</xref>]. We have uncovered additional roles for this host factor including one in promoting Gag multimerization and assembly and another in the selection of vRNA for encapsidation [<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B49">49</xref>]. In the present study, we extend our understanding of Staufen1's role in HIV-1 replication by characterizing its interactions with Gag using two powerful, live cell fluorescence complementation techniques. We demonstrate that Staufen1 interacts with Gag, that Staufen1 recruits Gag when it is bound to mRNA and likewise, Gag recruits Staufen1 when bound to the cognate <italic>psi </italic>packaging signal. The results highlight Staufen1's involvement in the HIV-1 RNP in the assembly of HIV-1.</p>
+      </sec>
+      <sec>
+        <title>Recruitment of Staufen1 by Gag to lipid rafts and to mRNA</title>
+        <p>Our earlier work demonstrated that when we modulated Staufen1 levels in cells, Gag-Gag interactions increased, and these accumulated in detergent-resistant complexes [<xref ref-type="bibr" rid="B21">21</xref>]. Here, we used BiFC to evaluate where Staufen1 and Gag interact. This approach, which employs native Gag sequences, has become increasingly popular to visualize Gag in cells [<xref ref-type="bibr" rid="B56">56</xref>]. While Staufen1 and Gag are shown to associate in cytoplasmic compartments, our results also reveal that these interactions occur on membranes and at the plasma membrane where Gag multimerizes during assembly [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B21">21</xref>]. Whereas Staufen1 is usually found to localize on reticulotubular structures and the endoplasmic reticulum [<xref ref-type="bibr" rid="B26">26</xref>], we show that Staufen1 is recruited from the cytoplasm to lipid rafts at the plasma membrane where it interacts with Gag. Consistently, Staufen1 co-localizes with Gag and vRNA at this location [<xref ref-type="bibr" rid="B49">49</xref>], and the distribution of the Staufen1-interacting partner, UPF1, also shuttles to the plasma membrane domain in HIV-1 expressing cells [<xref ref-type="bibr" rid="B32">32</xref>]. Here, Gag expression alone appears to be the driving force behind Staufen1 recruitment to GM1-positive plasma membrane domains that serve as the main platforms for viral assembly [<xref ref-type="bibr" rid="B57">57</xref>]. Gag's ability to recruit host factors and bind <italic>psi </italic>RNA concomitantly, via the same protein domain (NC), reveals a rather multifaceted property of Gag and further strengthens the implication of Staufen1 in HIV-1 assembly [<xref ref-type="bibr" rid="B21">21</xref>]. Furthermore, time-lapse confocal imaging showed that Gag-Staufen1 foci are mobile and dynamic and are able to merge with similar structures and separate over time into smaller particles that traffic to and anchor at the plasma membrane (Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>: Figure S2). Consistently, distinct populations of Gag and Staufen1 (and the vRNA) traffic on endosomal membranes in cells [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>]. Moreover, the Gag-vRNA interactions as well intermediary Gag assembly domains have been found in juxtanuclear domains [<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B58">58</xref>-<xref ref-type="bibr" rid="B60">60</xref>]. Thus, we propose that Staufen1 is hijacked by Gag shortly after its synthesis in order to assist in trafficking and assembly.</p>
+        <p>There are potentially two caveats with respect to the TriFc method used here. First is the use of codon-optimized hGag, that when expressed, could result in deviations in transport and assembly. Nevertheless, several recent studies have utilized Rev-independent hGag expressors to uncover new information on intracellular Gag trafficking and Gag interacting partners [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B56">56</xref>]. Furthermore, we show that by employing a Rev-dependent Gag expressor in a modified TriFC analyses nearly identical TriFC signals were obtained, revealing that codon-optimization of hGag did not have a significant bearing on the results. The second caveat is the possibility for an alternative interpretation that includes the order in which the protein-protein and protein-RNA interactions occur. We are claiming that either Gag or Staufen1 recruits the other partner while bound to mRNA, and this is supported by BiFC and endogenous Staufen1 staining (Figure <xref ref-type="fig" rid="F2">2</xref>). However, the bimolecular interaction between Gag and Gag and that found between Staufen1 and Gag could represent the initial event after which the bimolecular complex co-traffics to the mRNA substrate. Even though the K<sub>D </sub>for MS2-MS2BS interaction is in the low nanomolar range, further work will be necessary in order to confidently differentiate between some of these possibilities.</p>
+      </sec>
+      <sec>
+        <title>Involvement of Staufen1 in the anterograde trafficking of Gag</title>
+        <p>We recently showed that a population of Staufen1 associates along with Gag and vRNA on endosomal membranes [<xref ref-type="bibr" rid="B13">13</xref>]. Likewise, RNPs translocate within cells by making use of machineries that direct traffic of cellular membranes and vesicles (reviewed in [<xref ref-type="bibr" rid="B61">61</xref>]). In this study we wanted to characterize the possible roles of Staufen1 in the transport and distribution of multimerizing Gag-Gag that we can readily visualize in live cells. To resolve this, we modulated Staufen1 expression levels in cells that expressed Gag-VN/Gag-VC. When we depleted Staufen1, Gag-Gag BiFC signals were found at the plasma membrane but also in the cytoplasm at juxtanuclear regions on what appeared to be endosomal membrane vesicles. We suspect that the Gag-Gag BiFC signals are due to coalescing HIV-1 RNPs that tether to endosomal membrane populations that may not traffic properly. These were identified in earlier work [<xref ref-type="bibr" rid="B13">13</xref>] and were found to form in an HIV-1-dependent manner containing Staufen1, Gag (and Gag multimers) and vRNA reactivity later named Staufen1 HIV-1-dependent ribonucleoproteins (SHRNPs; [<xref ref-type="bibr" rid="B49">49</xref>]). The data shown here are consistent with the enhanced Gag-Gag multimerization in Staufen1-depleted cells that we found using another biophysical technique (bioluminescence resonance energy transfer) [<xref ref-type="bibr" rid="B21">21</xref>], but also reveal some of the principal locations of these events (at juxtanuclear and raft domains) [<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B49">49</xref>]. It is possible that, during viral egress, Gag mediates the formation of its own mixed type of membranes bearing several endosomal marker proteins similar to those that other viruses engineer [<xref ref-type="bibr" rid="B62">62</xref>]. Of interest are data from recently published work in which the accumulation of HIV-1 Gag and cholesterol-enriched membranes was observed in juxtanuclear late endosomal compartments in Niemann-Pick type C1-deficient cells [<xref ref-type="bibr" rid="B63">63</xref>]. Furthermore, the targeted depletion of the suppressor of cytokine signalling 1 reduced the transport of Gag to the plasma membrane, leading to accumulations of it near the nucleus [<xref ref-type="bibr" rid="B64">64</xref>]. In addition, strong co-localization between another late endosomal marker, CD63, and Gag was observed as a result of Rab9 depletion [<xref ref-type="bibr" rid="B65">65</xref>]. These domains appear to be important for steps in assembly including Gag-Gag and Gag-vRNA associations [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B58">58</xref>,<xref ref-type="bibr" rid="B59">59</xref>], vRNA encapsidation [<xref ref-type="bibr" rid="B49">49</xref>] and Gag trafficking [<xref ref-type="bibr" rid="B60">60</xref>,<xref ref-type="bibr" rid="B66">66</xref>] and in one case, for Gag degradation [<xref ref-type="bibr" rid="B64">64</xref>]. Importantly, we showed that the cytoplasmic accumulations of Gag did not form because of endocytosed Gag or viral particles derived from the plasma membrane (Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>: Figure S4). These results suggest that the Staufen1 plays roles in the anterograde transport of Gag, but is also a host factor involved in the formation of the HIV-1 RNP during viral egress and assembly.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusions</title>
+      <p>In the present study, we demonstrate that the intermolecular associations between the host mRNA-binding protein Staufen1 and HIV-1 Gag occur in the cytoplasm and at the plasma membrane in HeLa cells and T lymphocytes. Furthermore, we demonstrate that Staufen1 is recruited by Gag to lipid raft microdomains and present results that indicate Staufen1 has potentially novel functions in the intracellular trafficking of HIV-1 Gag during viral egress.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Cell culture and transfections</title>
+        <p>HeLa cells and Jurkat T cells were maintained under standard conditions at 37°C with in Dulbecco's modified Eagle's medium or RPMI, respectively, supplemented with 10% fetal bovine serum (FBS), 100 units/ml penicillin and 100 mg/ml streptomycin (Invitrogen). Lipofectamine 2000 (Invitrogen) was used for the DNA transfections of Jurkat T cells or HeLa cells according to the manufacturer's protocol. 1 day before transfection 1.5-1.8 × 10<sup>5 </sup>or 4-5 × 10<sup>5 </sup>HeLa cells were seeded in 6-well plates or 60-mm dishes, respectively to have ~60% confluency when transfected. 10<sup>6 </sup>Jurkat T cells were transfected in 25 ml tissue culture flasks.</p>
+      </sec>
+      <sec>
+        <title>BiFC and TriFC analysis</title>
+        <p>For the BiFC and TriFC experiments, HeLa cells were plated on poly-D-lysine-coated 18 mm micro-glass coverslips (VWR) or 40 mm Bioptechs cover glasses 20-24 hr prior to transfection. Cells were transfected with 1.5 μg to 3 μg plasmid DNA per 18 mm and 3 μg to 5 μg per 40 mm depending on the design of the experiment. Jurkat T cells were transfected in suspension. At 24 hr post-transfection coverslips (HeLa cells) were mounted on a Bioptechs FCS3 imaging perfusion chamber (Bioptechs, Inc.), continuously perfused with fresh medium and warmed using a heating element (Bioptechs, Inc.). For Jurkat T cells, cell adherence to coverslips was promoted using poly-D-lysine (Sigma-Aldrich, Inc). Live cell imaging was performed at 37°C using either Zeiss Pascal LSM5 confocal microscope (Carl-Zeiss, Inc.) with 63×1.3 oil immersion objective or inverted Leica fluorescence microscope. Time-lapse images were captured using 63×1.3 oil immersion objective mounted on a motorized Leica microscope equipped with a PerkinElmer ERS spinning disk confocal system with heated stage and chamber to maintain the cells at 37°C and CO<sub>2</sub>. Images were collected at the times shown or as stated otherwise, for the indicated period. Two-dimensional data sets were deconvoluted using AutoDeblur (MediaCybernetics, Inc.) and compiled using Imaris 6.3.1 software (Bitplane, Inc.). In some experiments, BiFC and TriFC signals were measured in two-dimensional single confocal planes using Imaris software.</p>
+      </sec>
+      <sec>
+        <title>Immunofluorescence and Fluorescence <italic>in situ </italic>hybridization (IF/FISH) analyses</title>
+        <p>Laser scanning confocal microscopy was performed using a Leica microscope equipped with a PerkinElmer ERS spinning disk or a Carl-Zeiss LSM5 Pascal confocal microscope . Combined 2- and 3-colour IF/FISH co-analyses were performed exactly as described [<xref ref-type="bibr" rid="B13">13</xref>]. Images were captured at 512×512 or at 1024×1024 pixels resolution.</p>
+      </sec>
+      <sec>
+        <title>SDS-PAGE, Western blot analysis and antibodies</title>
+        <p>SDS-PAGE and western blotting were performed as described earlier [<xref ref-type="bibr" rid="B49">49</xref>]. Antibodies used included: rabbit anti-Caveolin-1 (Santa Cruz); rabbit anti-Tuberin (TSC1, Abcam); rabbit anti-p24 (Intracell); mouse anti-p24 (NIH); rabbit anti-IMP1 (gift from Finn Nielsen, Rigshospitalet, Copenhagen, Denmark); mouse or rabbit anti-Staufen1 (gifts from Luc DesGroseillers, Université de Montréal, Canada and Graciela Boccaccio, University LeLoir, Argentina); rabbit anti-ABCE1 (a gift from Jais Lingappa, University of Washington); mouse anti-GFP (Roche) and mouse anti-Luciferase (Sigma-Aldrich).</p>
+      </sec>
+      <sec>
+        <title>Lipid rafts staining</title>
+        <p>To visualize the distribution of insoluble membrane microdomains we used Vybrant Lipid Raft Labeling Kit (Invitrogen) according to the manufacturer's protocol. The method relies on the binding of a red-fluorescent AlexaFluor 594 conjugate of cholera toxin subunit B (CT-B) to the pentasaccharide chain of plasma membrane ganglioside GM1 (a lipid raft marker). An antibody that recognizes CT-B is then used to cross-link the CT-B-labeled lipid rafts into distinct patches on the plasma membrane, which we visualized by microscopy. The coverslips with stained live cells were mounted on Bioptechs FCS3 live cell perfusion chamber and were visualized by laser scanning confocal microscopy.</p>
+      </sec>
+      <sec>
+        <title>Isolation and analysis of detergent-free lipid rafts</title>
+        <p>We used a simplified method for the fractionation of lipid rafts that does not require the use of detergent [<xref ref-type="bibr" rid="B45">45</xref>]. All procedures were carried out with RNAse-free equipment and materials and on ice. Briefly, for each of the cases, two 175 cm<sup>2 </sup>of HeLa cells were transfected with corresponding plasmids. 24 hr later they were washed 3 times and scraped into buffer B1 (20 mM Tris-HCl pH7.8, 250 mM sucrose, 1 mM CaCl<sub>2</sub>, 1 mM MgCl<sub>2 </sub>and RNAse out (Invitrogen) 1 μl/5 ml), centrifuged for 5 min at 1500 rpm and resuspended again in 1 ml of buffer B1 containing complete protease inhibitor cocktail (Roche). The cells were homogenized in RNAse free 1.5 ml Eppendorf tubes with plastic pestles, centrifuged at 1000 rpm for 10 min and the supernatant (S1) was collected. The pellet was lysed in 1 ml of B1 and homogenized again. Following centrifugation at 500 × <italic>g </italic>for 10 min, the second supernatant (S2) was collected and mixed with S1 (total ~2 ml). 2 ml of 50% OptiPrep (diluted in B1 without Ca<sup>2+ </sup>and Mg<sup>2+ </sup>to reach 50%) was added to S1 and S2. The resulting 4 ml of 25% OptiPrep mixture was first poured in 12 ml centrifugation tubes (Beckman Coulter). A step gradient 0-20% was then created using 1.6 ml of 20%, 15%, 10%, 5% and 0% OptiPrep mixtures. The samples were centrifuged in a Beckman ultracentrifuge for 90 min at 52 000 × <italic>g </italic>with rotor SW41. After centrifugation 0.66 ml fractions (18 in total) starting from the top of the tube were collected and 150 μl were used for western blot analysis. Optical densities of resultant bands were quantified using ImageJ software (freeware from the NIH) as described [<xref ref-type="bibr" rid="B59">59</xref>].</p>
+      </sec>
+      <sec>
+        <title>Cholesterol depletion</title>
+        <p>For the complete depletion of cellular cholesterol in live cells, cells were first stained with Vybrant Lipid Raft Labeling Kit (Invitrogen). Coverslips were then mounted in Bioptechs environmental chamber and by perfusion DMEM medium was exchanged with DMEM containing 30 mM 2-hydroxypropyl-β-cyclodextrin (HβCD) [<xref ref-type="bibr" rid="B67">67</xref>]. Pictures were taken at <italic>t </italic>= 0 min before addition HβCD and at different time points after addition as indicated in the figures.</p>
+      </sec>
+      <sec>
+        <title>Plasmid expression constructs and siRNAs</title>
+        <p>The plasmids pMS2-Venus, pMS2-VN, pStaufen1-VC, pIMP1-VC, pFMRP-VC, pGL3-basic/site and pGL3-βActin zipcode have been described previously [<xref ref-type="bibr" rid="B33">33</xref>]. To generate pMS2-Staufen1, pMS2-humanized(h)Gag and pMS2-Gag(C36S) vectors Staufen1, hGag and Gag(C36S) sequences were amplified by PCR from pcDNA-Staufen1-TAP [<xref ref-type="bibr" rid="B68">68</xref>], pCMV55M1-10 [<xref ref-type="bibr" rid="B24">24</xref>] and pNL4.3(C36S) [<xref ref-type="bibr" rid="B69">69</xref>] and replaced the VN sequence from pMS2-VN between XhoI and NotI. To generate phGag-VenusC and pGag(C36S)-VenusC, hGag and Gag(C36S) (amplified from pNL4.3(C36S) [<xref ref-type="bibr" rid="B69">69</xref>]) PCR fragments replaced IMP1 sequence from pIMP1-VenusC between NheI and XhoI. The Rev-responsive Gag expressor, pSVGagRRE-R was generously supplied by David Rekosh (University of Virginia, U.S.A.; [<xref ref-type="bibr" rid="B70">70</xref>]).</p>
+        <p>For the generation of mRNA reporter expressing plasmids pGL3MS2site-<italic>psi </italic>or pGL3MS2site-Delta-<italic>psi </italic>the fragments containing vRNA packaging signal <italic>psi </italic>(52 bp) and delta <italic>psi </italic>(33 bp) were amplified from plasmids HxBRU and plasmid pHXBAP1 [<xref ref-type="bibr" rid="B24">24</xref>] and cloned in pGL3MS2site/basic vector between NheI and XhoI. All plasmids were purified using the Sigma GeneElute Maxi-prep kit. pCMV-Rev was obtained from the National Institutes of Health AIDS Research and Reference Reagent Program. The complete list of plasmids used in this work is given in Table <xref ref-type="table" rid="T1">1</xref>.</p>
+        <p>siRNAs used to deplete Staufen1 (targeting both isoforms - 55 and 63 kDa, siStaufen) or the higher molecular weight isoform (Staufen1-63 kDa) were described earlier [<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B49">49</xref>].</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Competing interests</title>
+      <p>The authors declare that they have no competing interests.</p>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>M.P.M. and A.J.M. designed experiments and analyzed data; M.P.M. performed the experiments and drafted the manuscript; C.M.B. provided expression vectors and detailed advice on their use; all authors edited and approved the manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="S1">
+        <caption>
+          <title>Additional file 1</title>
+          <p><bold>Supplemental Figure S1. Controls for the specificity of the BiFC method</bold>. (A) HeLa cells were transfected with the fusion proteins MS2-VN and Gag-VC (top panels) or with MS2-VN and Staufen1-VC (bottom panels) and examined for green fluorescent signals (i.e., BiFC) at 24 hr post-transfection. (B) HeLa cells were co-transfected with pNL4.3-WT and Gag-VN/Gag-VC (top panels), Gag-VN/Staufen1-VC (middle panels) or Gag-VN/IMP1-VC BiFC pairs (bottom panels). At 24 hr post-transfection, cells were fixed in 4% paraformaldehyde, permeabilized with 0.2% Triton X-100 and processed for fluorescence <italic>in situ </italic>hybridization analyses to identify the vRNA. Black and white renditions are presented for BiFC and vRNA signals with phase contrast and merged colour images in 1<sup>st </sup>and 4<sup>th </sup>columns, respectively. The vRNA is shown in red. Hatched areas are magnified in insets on right. The size bars are equal to 10 μm.</p>
+        </caption>
+        <media xlink:href="1742-4690-7-41-S1.JPEG" mimetype="image" mime-subtype="jpeg">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S2">
+        <caption>
+          <title>Additional file 2</title>
+          <p><bold>Supplemental Figure S2. Time-lapse confocal imaging of Gag-Staufen1</bold>. HeLa cells were co-transfected with pCMV-Rev, Gag-VN and Staufen1-VC. At 24 hr post-transfection, Gag-Staufen1 BiFC complexes were imaged every 15 sec for a period of 2 min in the same cell. Two-dimensional data sets were analysed using Imaris software (Bitplane, Inc.). The BiFC signals for Gag-Staufen1 BiFC complexes in a selected area (boxed) are presented as a time series from 0 to 120 sec. The movements of the dynamic vesicle-like structures harbouring Gag-Staufen1 BiFC complexes are identified with arrowheads. Blue arrows track the fission events of these structures. The size bars are equal to 10 μm.</p>
+        </caption>
+        <media xlink:href="1742-4690-7-41-S2.JPEG" mimetype="image" mime-subtype="jpeg">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S3">
+        <caption>
+          <title>Additional file 3</title>
+          <p><bold>Supplemental Figure S3. Depletion of Staufen1 alters the distributions of Gag-Gag BiFC and <italic>gag </italic>mRNA, but not that of ABCE1</bold>. HeLa cells were co-transfected with pCMV-Rev, Gag-VN and Gag-VC plasmids with either control siNS (A), or siStaufen1 <bold>(B) </bold>or with Staufen1-HA <bold>(C)</bold>. At 24 hr post-transfection the cells were fixed in 4% paraformaldehyde, permeabilized with 0.2% Triton X-100 and processed for combined immunofluorescence and fluorescence <italic>in situ </italic>hybridization analyses to identify ABCE1 (1<sup>st </sup>column) and the <italic>gag </italic>RNA (2<sup>nd </sup>column). Gag-Gag BiFC signals (3<sup>rd </sup>column) were stable following fixation. A merged colour rendition is shown in the 4<sup>th </sup>column (the <italic>gag </italic>RNA is shown in blue). The size bars are equal to 10 μm.</p>
+        </caption>
+        <media xlink:href="1742-4690-7-41-S3.JPEG" mimetype="image" mime-subtype="jpeg">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S4">
+        <caption>
+          <title>Additional file 4</title>
+          <p><bold>Supplemental Figure S4. Depletion of Staufen1 causes cytoplasmic and juxtanuclear redistribution of Gag-Gag multimers when endocytosis is inhibited</bold>. HeLa cells were co-transfected pCMV-Rev, Rev-dependent Gag DNA and the <italic>trans</italic>-dominant negative mutant Eps15-TDN-GFP <bold>(A) </bold>or Rab5-TDN-GFP <bold>(B) </bold>in order to assess the contribution of the endocytosis to the relocalization of Gag (and Gag-Gag BiFC signals) in Staufen1-depleted cells. The cells were fixed at 24 hr post-transfection and processed for immunofluorescence to detect Gag. Cells co-expressing Gag and the TDN-GFP protein were identified. Phase contrast (1<sup>st </sup>column in <bold>(A) </bold>and <bold>(B)</bold>), black and white renditions for Eps15-TDN-GFP or Rab5-TDN-GFP (2<sup>nd </sup>column in <bold>(A)</bold>), Gag (3<sup>rd </sup>column) and colour merges without (4<sup>th </sup>column) and with (5<sup>th </sup>column) phase contrast are shown. The size bars are equal to 10 μm.</p>
+        </caption>
+        <media xlink:href="1742-4690-7-41-S4.JPEG" mimetype="image" mime-subtype="jpeg">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S5">
+        <caption>
+          <title>Additional file 5</title>
+          <p><bold>Supplemental Figure S5. Tethering of MS2-VenusFL (full length) fusion protein to mRNA reporters used in the study</bold>. mRNA reporter molecules based on pGL3MS2 site/basic harbouring different regulatory protein binding domains - β-Actin zipcode (pGL3-βActin zipcode), HIV-1 vRNA packaging signal <italic>psi </italic>(pGL3MS2site-<italic>psi</italic>) and delta <italic>psi </italic>(pGL3MS2site-Delta-<italic>psi</italic>) were co-expressed in HeLa cells with the fusion MS2-Venus protein. 24 and 40 hr later TriFC signals were visualized in live cells by laser scanning confocal microscopy. Western blotting analyses of Luciferase and MS2-Venus are shown in the bottom panel. The size bars are equal to 10 μm.</p>
+        </caption>
+        <media xlink:href="1742-4690-7-41-S5.JPEG" mimetype="image" mime-subtype="jpeg">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S6">
+        <caption>
+          <title>Additional file 6</title>
+          <p><bold>Supplemental Figure S6. Rev-dependent Gag recruits host protein Staufen1 while bound to <italic>psi </italic>RNA</bold>. (A) Modified TriFC system employing Rev-dependent Gags. HeLa cells were co-transfected with pGL3MS2site-<italic>psi</italic>, pCMV-Rev, MS2-VN, and Rev-dependent Gag <bold>(A) </bold>or GagΔNC/p6 <bold>(B)</bold>. Either Gag-VC (Rev-dependent) or Staufen1-VC were included in transfections of <bold>(A) </bold>or <bold>(B)</bold>. TriFC signals were visualized at 24 hr post-transfection by laser scanning confocal microscopy. Gag, expressed from a Rev-dependent expressor in this experiment, can bind <italic>psi </italic>RNA directly or serve as a bridging molecule between the RNA packaging signal, <italic>psi </italic>and either (Rev-dependent) Gag-VC <bold>(C) </bold>or Staufen1-VC <bold>(D)</bold>. The expression of GagΔNC/p6 prevents both the Gag-Staufen1-VC and Gag-<italic>psi </italic>RNA interaction and does not result in TriFC <bold>(B and E)</bold>. The size bars are equal to 10 μm.</p>
+        </caption>
+        <media xlink:href="1742-4690-7-41-S6.JPEG" mimetype="image" mime-subtype="jpeg">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>We thank Graciela Boccaccio, Luc DesGroseillers, Ronald Montelaro, Jing Jin, Jaisri Lingappa, David Rekosh and Finn Nielsen for gifts of plasmids and antibodies; Oliver Rackham for contributions to the generation of plasmids; Laurent Chatel-Chaix for helpful discussions; Bashar Ghoujal for constructive comments on the manuscript and Lara Ajamian for scientific input. A.J.M. is the recipient of a Canadian Institutes of Health Research (CIHR) New Investigator and <italic>Fonds de la recherche en santé du Québec </italic>Chercheur-boursier Senior career awards. This work was supported by grants from the New Zealand Health Research Council (grant #05/195) to Warren Tate, Elizabeth Poole and C.M.B., the Canadian Foundation for Innovation (project #6848) and the CIHR (#MOP-38111 and #MOP-56974) to A.J.M.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Goff</surname>
+            <given-names>SP</given-names>
+          </name>
+          <article-title>Host factors exploited by retroviruses</article-title>
+          <source>Nat Rev Microbiol</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <fpage>253</fpage>
+          <lpage>263</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrmicro1541</pub-id>
+          <pub-id pub-id-type="pmid">17325726</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Freed</surname>
+            <given-names>EO</given-names>
+          </name>
+          <article-title>HIV-1 gag proteins: diverse functions in the virus life cycle</article-title>
+          <source>Virology</source>
+          <year>1998</year>
+          <volume>251</volume>
+          <fpage>1</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1006/viro.1998.9398</pub-id>
+          <pub-id pub-id-type="pmid">9813197</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>McLaren</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Marsh</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Cochrane</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Modulating HIV-1 RNA processing and utilization</article-title>
+          <source>Front Biosci</source>
+          <year>2008</year>
+          <volume>13</volume>
+          <fpage>5693</fpage>
+          <lpage>5707</lpage>
+          <pub-id pub-id-type="doi">10.2741/3110</pub-id>
+          <pub-id pub-id-type="pmid">18508616</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Cochrane</surname>
+            <given-names>AW</given-names>
+          </name>
+          <name>
+            <surname>McNally</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>The retrovirus RNA trafficking granule: from birth to maturity</article-title>
+          <source>Retrovirology</source>
+          <year>2006</year>
+          <volume>3</volume>
+          <fpage>18</fpage>
+          <pub-id pub-id-type="doi">10.1186/1742-4690-3-18</pub-id>
+          <pub-id pub-id-type="pmid">16545126</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Swanson</surname>
+            <given-names>CM</given-names>
+          </name>
+          <name>
+            <surname>Puffer</surname>
+            <given-names>BA</given-names>
+          </name>
+          <name>
+            <surname>Ahmad</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Doms</surname>
+            <given-names>RW</given-names>
+          </name>
+          <name>
+            <surname>Malim</surname>
+            <given-names>MH</given-names>
+          </name>
+          <article-title>Retroviral mRNA nuclear export elements regulate protein function and virion assembly</article-title>
+          <source>EMBO J</source>
+          <year>2004</year>
+          <volume>23</volume>
+          <fpage>2632</fpage>
+          <lpage>2640</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7600270</pub-id>
+          <pub-id pub-id-type="pmid">15201866</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jin</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Sturgeon</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Watkins</surname>
+            <given-names>SC</given-names>
+          </name>
+          <name>
+            <surname>Weisz</surname>
+            <given-names>OA</given-names>
+          </name>
+          <name>
+            <surname>Montelaro</surname>
+            <given-names>RC</given-names>
+          </name>
+          <article-title>Distinct intracellular trafficking of equine infectious anemia virus and human immunodeficiency virus type 1 Gag during viral assembly and budding revealed by bimolecular fluorescence complementation assays</article-title>
+          <source>J Virol</source>
+          <year>2007</year>
+          <volume>81</volume>
+          <fpage>11226</fpage>
+          <lpage>11235</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.00431-07</pub-id>
+          <pub-id pub-id-type="pmid">17686839</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Swanson</surname>
+            <given-names>CM</given-names>
+          </name>
+          <name>
+            <surname>Malim</surname>
+            <given-names>MH</given-names>
+          </name>
+          <article-title>Retrovirus RNA trafficking: from chromatin to invasive genomes</article-title>
+          <source>Traffic</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>1440</fpage>
+          <lpage>1450</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2006.00488.x</pub-id>
+          <pub-id pub-id-type="pmid">16984406</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Scarlata</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Carter</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Role of HIV-1 Gag domains in viral assembly</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2003</year>
+          <volume>1614</volume>
+          <fpage>62</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0005-2736(03)00163-9</pub-id>
+          <pub-id pub-id-type="pmid">12873766</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gamble</surname>
+            <given-names>TR</given-names>
+          </name>
+          <name>
+            <surname>Yoo</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Vajdos</surname>
+            <given-names>FF</given-names>
+          </name>
+          <name>
+            <surname>von Schwedler</surname>
+            <given-names>UK</given-names>
+          </name>
+          <name>
+            <surname>Worthylake</surname>
+            <given-names>DK</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>McCutcheon</surname>
+            <given-names>JP</given-names>
+          </name>
+          <name>
+            <surname>Sundquist</surname>
+            <given-names>WI</given-names>
+          </name>
+          <name>
+            <surname>Hill</surname>
+            <given-names>CP</given-names>
+          </name>
+          <article-title>Structure of the carboxyl-terminal dimerization domain of the HIV-1 capsid protein</article-title>
+          <source>Science</source>
+          <year>1997</year>
+          <volume>278</volume>
+          <fpage>849</fpage>
+          <lpage>853</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.278.5339.849</pub-id>
+          <pub-id pub-id-type="pmid">9346481</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ganser-Pornillos</surname>
+            <given-names>BK</given-names>
+          </name>
+          <name>
+            <surname>von Schwedler</surname>
+            <given-names>UK</given-names>
+          </name>
+          <name>
+            <surname>Stray</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Aiken</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Sundquist</surname>
+            <given-names>WI</given-names>
+          </name>
+          <article-title>Assembly properties of the human immunodeficiency virus type 1 CA protein</article-title>
+          <source>J Virol</source>
+          <year>2004</year>
+          <volume>78</volume>
+          <fpage>2545</fpage>
+          <lpage>2552</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.78.5.2545-2552.2004</pub-id>
+          <pub-id pub-id-type="pmid">14963157</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Burniston</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Cimarelli</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Colgan</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Curtis</surname>
+            <given-names>SP</given-names>
+          </name>
+          <name>
+            <surname>Luban</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Human immunodeficiency virus type 1 Gag polyprotein multimerization requires the nucleocapsid domain and RNA and is promoted by the capsid-dimer interface and the basic region of matrix protein</article-title>
+          <source>J Virol</source>
+          <year>1999</year>
+          <volume>73</volume>
+          <fpage>8527</fpage>
+          <lpage>8540</lpage>
+          <pub-id pub-id-type="pmid">10482606</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gottlinger</surname>
+            <given-names>HG</given-names>
+          </name>
+          <article-title>The HIV-1 assembly machine</article-title>
+          <source>AIDS</source>
+          <year>2001</year>
+          <volume>15</volume>
+          <issue>Suppl 5</issue>
+          <fpage>S13</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1097/00002030-200100005-00003</pub-id>
+          <pub-id pub-id-type="pmid">11816161</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Milev</surname>
+            <given-names>MP</given-names>
+          </name>
+          <name>
+            <surname>Abrahamyan</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Yao</surname>
+            <given-names>XJ</given-names>
+          </name>
+          <name>
+            <surname>Pante</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>Intracellular transport of human immunodeficiency virus type 1 genomic RNA and viral production are dependent on dynein motor function and late endosome positioning</article-title>
+          <source>J Biol Chem</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>14572</fpage>
+          <lpage>14585</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M808531200</pub-id>
+          <pub-id pub-id-type="pmid">19286658</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Molle</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Segura-Morales</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Camus</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Berlioz-Torrent</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Kjems</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Basyuk</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Bertrand</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>Endosomal trafficking of HIV-1 gag and genomic RNAs regulates viral egress</article-title>
+          <source>J Biol Chem</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>19727</fpage>
+          <lpage>19743</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.019844</pub-id>
+          <pub-id pub-id-type="pmid">19451649</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Martinez</surname>
+            <given-names>NW</given-names>
+          </name>
+          <name>
+            <surname>Xue</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Berro</surname>
+            <given-names>RG</given-names>
+          </name>
+          <name>
+            <surname>Kreitzer</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Resh</surname>
+            <given-names>MD</given-names>
+          </name>
+          <article-title>Kinesin KIF4 regulates intracellular trafficking and stability of the human immunodeficiency virus type 1 Gag polyprotein</article-title>
+          <source>J Virol</source>
+          <year>2008</year>
+          <volume>82</volume>
+          <fpage>9937</fpage>
+          <lpage>9950</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.00819-08</pub-id>
+          <pub-id pub-id-type="pmid">18684836</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Camus</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Segura-Morales</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Molle</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Lopez-Verges</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Begon-Pescia</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Cazevieille</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Schu</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Bertrand</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Berlioz-Torrent</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Basyuk</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>The clathrin adaptor complex AP-1 binds HIV-1 and MLV Gag and facilitates their budding</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2007</year>
+          <volume>18</volume>
+          <fpage>3193</fpage>
+          <lpage>3203</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E06-12-1147</pub-id>
+          <pub-id pub-id-type="pmid">17538020</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Batonick</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Favre</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Boge</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Spearman</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Honing</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Thali</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Interaction of HIV-1 Gag with the clathrin-associated adaptor AP-2</article-title>
+          <source>Virology</source>
+          <year>2005</year>
+          <volume>342</volume>
+          <fpage>190</fpage>
+          <lpage>200</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.virol.2005.08.001</pub-id>
+          <pub-id pub-id-type="pmid">16139856</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Dong</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Li</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Derdowski</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Ding</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Burnett</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Peters</surname>
+            <given-names>TR</given-names>
+          </name>
+          <name>
+            <surname>Dermody</surname>
+            <given-names>TS</given-names>
+          </name>
+          <name>
+            <surname>Woodruff</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>JJ</given-names>
+          </name>
+          <name>
+            <surname>Spearman</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>AP-3 directs the intracellular trafficking of HIV-1 Gag and plays a key role in particle assembly</article-title>
+          <source>Cell</source>
+          <year>2005</year>
+          <volume>120</volume>
+          <fpage>663</fpage>
+          <lpage>674</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2004.12.023</pub-id>
+          <pub-id pub-id-type="pmid">15766529</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Fantini</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Garmy</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Mahfoud</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Yahi</surname>
+            <given-names>N</given-names>
+          </name>
+          <article-title>Lipid rafts: structure, function and role in HIV, Alzheimer's and prion diseases</article-title>
+          <source>Expert Rev Mol Med</source>
+          <year>2002</year>
+          <volume>4</volume>
+          <fpage>1</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.1017/S1462399402005392</pub-id>
+          <pub-id pub-id-type="pmid">14987385</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Campbell</surname>
+            <given-names>SM</given-names>
+          </name>
+          <name>
+            <surname>Crowe</surname>
+            <given-names>SM</given-names>
+          </name>
+          <name>
+            <surname>Mak</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Lipid rafts and HIV-1: from viral entry to assembly of progeny virions</article-title>
+          <source>J Clin Virol</source>
+          <year>2001</year>
+          <volume>22</volume>
+          <fpage>217</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1386-6532(01)00193-7</pub-id>
+          <pub-id pub-id-type="pmid">11564586</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chatel-Chaix</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Abrahamyan</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Frechina</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>DesGroseillers</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>The host protein Staufen1 participates in human immunodeficiency virus type 1 assembly in live cells by influencing pr55Gag multimerization</article-title>
+          <source>J Virol</source>
+          <year>2007</year>
+          <volume>81</volume>
+          <fpage>6216</fpage>
+          <lpage>6230</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.00284-07</pub-id>
+          <pub-id pub-id-type="pmid">17428849</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chatel-Chaix</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Clement</surname>
+            <given-names>JF</given-names>
+          </name>
+          <name>
+            <surname>Martel</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Beriault</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Gatignol</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>DesGroseillers</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>Identification of Staufen in the human immunodeficiency virus type 1 Gag ribonucleoprotein complex and a role in generating infectious viral particles</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2004</year>
+          <volume>24</volume>
+          <fpage>2637</fpage>
+          <lpage>2648</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.24.7.2637-2648.2004</pub-id>
+          <pub-id pub-id-type="pmid">15024055</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chatel-Chaix</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Boulay</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Desgroseillers</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>The host protein Staufen1 interacts with the Pr55Gag zinc fingers and regulates HIV-1 assembly via its N-terminus</article-title>
+          <source>Retrovirology</source>
+          <year>2008</year>
+          <volume>5</volume>
+          <fpage>41</fpage>
+          <pub-id pub-id-type="doi">10.1186/1742-4690-5-41</pub-id>
+          <pub-id pub-id-type="pmid">18498651</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Mercier</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Luo</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Bernier</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>DesGroseillers</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Cohen</surname>
+            <given-names>EA</given-names>
+          </name>
+          <article-title>The double-stranded RNA-binding protein Staufen is incorporated in human immunodeficiency virus type 1: evidence for a role in genomic RNA encapsidation</article-title>
+          <source>J Virol</source>
+          <year>2000</year>
+          <volume>74</volume>
+          <fpage>5441</fpage>
+          <lpage>5451</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.74.12.5441-5451.2000</pub-id>
+          <pub-id pub-id-type="pmid">10823848</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hu</surname>
+            <given-names>CD</given-names>
+          </name>
+          <name>
+            <surname>Chinenov</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Kerppola</surname>
+            <given-names>TK</given-names>
+          </name>
+          <article-title>Visualization of interactions among bZIP and Rel family proteins in living cells using bimolecular fluorescence complementation</article-title>
+          <source>Mol Cell</source>
+          <year>2002</year>
+          <volume>9</volume>
+          <fpage>789</fpage>
+          <lpage>798</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1097-2765(02)00496-3</pub-id>
+          <pub-id pub-id-type="pmid">11983170</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wickham</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Duchaine</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Luo</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Nabi</surname>
+            <given-names>IR</given-names>
+          </name>
+          <name>
+            <surname>DesGroseillers</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Mammalian staufen is a double-stranded-RNA- and tubulin-binding protein which localizes to the rough endoplasmic reticulum</article-title>
+          <source>Mol Cell Biol</source>
+          <year>1999</year>
+          <volume>19</volume>
+          <fpage>2220</fpage>
+          <lpage>2230</lpage>
+          <pub-id pub-id-type="pmid">10022909</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hemerka</surname>
+            <given-names>JN</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Weng</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Lu</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Kaushik</surname>
+            <given-names>RS</given-names>
+          </name>
+          <name>
+            <surname>Jin</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Harmon</surname>
+            <given-names>AF</given-names>
+          </name>
+          <name>
+            <surname>Li</surname>
+            <given-names>F</given-names>
+          </name>
+          <article-title>Detection and characterization of influenza A virus PA-PB2 interaction through a bimolecular fluorescence complementation assay</article-title>
+          <source>J Virol</source>
+          <year>2009</year>
+          <volume>83</volume>
+          <fpage>3944</fpage>
+          <lpage>3955</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.02300-08</pub-id>
+          <pub-id pub-id-type="pmid">19193801</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Friew</surname>
+            <given-names>YN</given-names>
+          </name>
+          <name>
+            <surname>Boyko</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Hu</surname>
+            <given-names>WS</given-names>
+          </name>
+          <name>
+            <surname>Pathak</surname>
+            <given-names>VK</given-names>
+          </name>
+          <article-title>Intracellular interactions between APOBEC3G, RNA, and HIV-1 Gag: APOBEC3G multimerization is dependent on its association with RNA</article-title>
+          <source>Retrovirology</source>
+          <year>2009</year>
+          <volume>6</volume>
+          <fpage>56</fpage>
+          <pub-id pub-id-type="doi">10.1186/1742-4690-6-56</pub-id>
+          <pub-id pub-id-type="pmid">19497112</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Harrist</surname>
+            <given-names>AV</given-names>
+          </name>
+          <name>
+            <surname>Ryzhova</surname>
+            <given-names>EV</given-names>
+          </name>
+          <name>
+            <surname>Harvey</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Gonzalez-Scarano</surname>
+            <given-names>F</given-names>
+          </name>
+          <article-title>Anx2 interacts with HIV-1 Gag at phosphatidylinositol (4,5) bisphosphate-containing lipid rafts and increases viral production in 293T cells</article-title>
+          <source>PLoS One</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>e5020</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0005020</pub-id>
+          <pub-id pub-id-type="pmid">19325895</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Boyko</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Leavitt</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Gorelick</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Fu</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Nikolaitchik</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Pathak</surname>
+            <given-names>VK</given-names>
+          </name>
+          <name>
+            <surname>Nagashima</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Hu</surname>
+            <given-names>WS</given-names>
+          </name>
+          <article-title>Coassembly and complementation of Gag proteins from HIV-1 and HIV-2, two distinct human pathogens</article-title>
+          <source>Mol Cell</source>
+          <year>2006</year>
+          <volume>23</volume>
+          <fpage>281</fpage>
+          <lpage>287</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2006.05.028</pub-id>
+          <pub-id pub-id-type="pmid">16857594</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kenney</surname>
+            <given-names>SP</given-names>
+          </name>
+          <name>
+            <surname>Lochmann</surname>
+            <given-names>TL</given-names>
+          </name>
+          <name>
+            <surname>Schmid</surname>
+            <given-names>CL</given-names>
+          </name>
+          <name>
+            <surname>Parent</surname>
+            <given-names>LJ</given-names>
+          </name>
+          <article-title>Intermolecular interactions between retroviral Gag proteins in the nucleus</article-title>
+          <source>J Virol</source>
+          <year>2008</year>
+          <volume>82</volume>
+          <fpage>683</fpage>
+          <lpage>691</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.02049-07</pub-id>
+          <pub-id pub-id-type="pmid">17977961</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ajamian</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Abrahamyan</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Milev</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Ivanov</surname>
+            <given-names>PV</given-names>
+          </name>
+          <name>
+            <surname>Kulozik</surname>
+            <given-names>AE</given-names>
+          </name>
+          <name>
+            <surname>Gehring</surname>
+            <given-names>NH</given-names>
+          </name>
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>Unexpected roles for UPF1 in HIV-1 RNA metabolism and translation</article-title>
+          <source>RNA</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>914</fpage>
+          <lpage>927</lpage>
+          <pub-id pub-id-type="doi">10.1261/rna.829208</pub-id>
+          <pub-id pub-id-type="pmid">18369187</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rackham</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Brown</surname>
+            <given-names>CM</given-names>
+          </name>
+          <article-title>Visualization of RNA-protein interactions in living cells: FMRP and IMP1 interact on mRNAs</article-title>
+          <source>EMBO J</source>
+          <year>2004</year>
+          <volume>23</volume>
+          <fpage>3346</fpage>
+          <lpage>3355</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7600341</pub-id>
+          <pub-id pub-id-type="pmid">15282548</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Roy</surname>
+            <given-names>BB</given-names>
+          </name>
+          <name>
+            <surname>Hu</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Guo</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Russell</surname>
+            <given-names>RS</given-names>
+          </name>
+          <name>
+            <surname>Guo</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Kleiman</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Liang</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Association of RNA helicase a with human immunodeficiency virus type 1 particles</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>281</volume>
+          <fpage>12625</fpage>
+          <lpage>12635</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M510596200</pub-id>
+          <pub-id pub-id-type="pmid">16527808</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Rong</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Lu</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Pan</surname>
+            <given-names>Q</given-names>
+          </name>
+          <name>
+            <surname>Liang</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Insulin-like growth factor II mRNA binding protein 1 associates with Gag protein of human immunodeficiency virus type 1, and its overexpression affects virus assembly</article-title>
+          <source>J Virol</source>
+          <year>2008</year>
+          <volume>82</volume>
+          <fpage>5683</fpage>
+          <lpage>5692</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.00189-08</pub-id>
+          <pub-id pub-id-type="pmid">18385235</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jouvenet</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Bieniasz</surname>
+            <given-names>PD</given-names>
+          </name>
+          <name>
+            <surname>Simon</surname>
+            <given-names>SM</given-names>
+          </name>
+          <article-title>Imaging the biogenesis of individual HIV-1 virions in live cells</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>454</volume>
+          <fpage>236</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature06998</pub-id>
+          <pub-id pub-id-type="pmid">18500329</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lindwasser</surname>
+            <given-names>OW</given-names>
+          </name>
+          <name>
+            <surname>Resh</surname>
+            <given-names>MD</given-names>
+          </name>
+          <article-title>Multimerization of human immunodeficiency virus type 1 Gag promotes its localization to barges, raft-like membrane microdomains</article-title>
+          <source>J Virol</source>
+          <year>2001</year>
+          <volume>75</volume>
+          <fpage>7913</fpage>
+          <lpage>7924</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.75.17.7913-7924.2001</pub-id>
+          <pub-id pub-id-type="pmid">11483736</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ono</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Waheed</surname>
+            <given-names>AA</given-names>
+          </name>
+          <name>
+            <surname>Freed</surname>
+            <given-names>EO</given-names>
+          </name>
+          <article-title>Depletion of cellular cholesterol inhibits membrane binding and higher-order multimerization of human immunodeficiency virus type 1 Gag</article-title>
+          <source>Virology</source>
+          <year>2007</year>
+          <volume>360</volume>
+          <fpage>27</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.virol.2006.10.011</pub-id>
+          <pub-id pub-id-type="pmid">17095032</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jolly</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Sattentau</surname>
+            <given-names>QJ</given-names>
+          </name>
+          <article-title>Human immunodeficiency virus type 1 virological synapse formation in T cells requires lipid raft integrity</article-title>
+          <source>J Virol</source>
+          <year>2005</year>
+          <volume>79</volume>
+          <fpage>12088</fpage>
+          <lpage>12094</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.79.18.12088-12094.2005</pub-id>
+          <pub-id pub-id-type="pmid">16140785</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jolly</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Mitar</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>Sattentau</surname>
+            <given-names>QJ</given-names>
+          </name>
+          <article-title>Requirement for an intact T-cell actin and tubulin cytoskeleton for efficient assembly and spread of human immunodeficiency virus type 1</article-title>
+          <source>J Virol</source>
+          <year>2007</year>
+          <volume>81</volume>
+          <fpage>5547</fpage>
+          <lpage>5560</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.01469-06</pub-id>
+          <pub-id pub-id-type="pmid">17360745</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ono</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Freed</surname>
+            <given-names>EO</given-names>
+          </name>
+          <article-title>Role of lipid rafts in virus replication</article-title>
+          <source>Adv Virus Res</source>
+          <year>2005</year>
+          <volume>64</volume>
+          <fpage>311</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0065-3527(05)64010-9</pub-id>
+          <pub-id pub-id-type="pmid">16139599</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Thomas</surname>
+            <given-names>MG</given-names>
+          </name>
+          <name>
+            <surname>Martinez Tosar</surname>
+            <given-names>LJ</given-names>
+          </name>
+          <name>
+            <surname>Loschi</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Pasquini</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Correale</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Kindler</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Boccaccio</surname>
+            <given-names>GL</given-names>
+          </name>
+          <article-title>Staufen recruitment into stress granules does not affect early mRNA transport in oligodendrocytes</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2005</year>
+          <volume>16</volume>
+          <fpage>405</fpage>
+          <lpage>420</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E04-06-0516</pub-id>
+          <pub-id pub-id-type="pmid">15525674</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Brown</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>London</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>Structure and origin of ordered lipid domains in biological membranes</article-title>
+          <source>J Membr Biol</source>
+          <year>1998</year>
+          <volume>164</volume>
+          <fpage>103</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1007/s002329900397</pub-id>
+          <pub-id pub-id-type="pmid">9662555</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Brown</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>London</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>Functions of lipid rafts in biological membranes</article-title>
+          <source>Annu Rev Cell Dev Biol</source>
+          <year>1998</year>
+          <volume>14</volume>
+          <fpage>111</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.cellbio.14.1.111</pub-id>
+          <pub-id pub-id-type="pmid">9891780</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Macdonald</surname>
+            <given-names>JL</given-names>
+          </name>
+          <name>
+            <surname>Pike</surname>
+            <given-names>LJ</given-names>
+          </name>
+          <article-title>A simplified method for the preparation of detergent-free lipid rafts</article-title>
+          <source>J Lipid Res</source>
+          <year>2005</year>
+          <volume>46</volume>
+          <fpage>1061</fpage>
+          <lpage>1067</lpage>
+          <pub-id pub-id-type="doi">10.1194/jlr.D400041-JLR200</pub-id>
+          <pub-id pub-id-type="pmid">15722565</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lingappa</surname>
+            <given-names>JR</given-names>
+          </name>
+          <name>
+            <surname>Dooher</surname>
+            <given-names>JE</given-names>
+          </name>
+          <name>
+            <surname>Newman</surname>
+            <given-names>MA</given-names>
+          </name>
+          <name>
+            <surname>Kiser</surname>
+            <given-names>PK</given-names>
+          </name>
+          <name>
+            <surname>Klein</surname>
+            <given-names>KC</given-names>
+          </name>
+          <article-title>Basic residues in the nucleocapsid domain of Gag are required for interaction of HIV-1 gag with ABCE1 (HP68), a cellular protein important for HIV-1 capsid assembly</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>281</volume>
+          <fpage>3773</fpage>
+          <lpage>3784</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M507255200</pub-id>
+          <pub-id pub-id-type="pmid">16275648</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jones</surname>
+            <given-names>KA</given-names>
+          </name>
+          <name>
+            <surname>Jiang</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Yamamoto</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Yeung</surname>
+            <given-names>RS</given-names>
+          </name>
+          <article-title>Tuberin is a component of lipid rafts and mediates caveolin-1 localization: role of TSC2 in post-Golgi transport</article-title>
+          <source>Exp Cell Res</source>
+          <year>2004</year>
+          <volume>295</volume>
+          <fpage>512</fpage>
+          <lpage>524</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2004.01.022</pub-id>
+          <pub-id pub-id-type="pmid">15093748</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Dooher</surname>
+            <given-names>JE</given-names>
+          </name>
+          <name>
+            <surname>Schneider</surname>
+            <given-names>BL</given-names>
+          </name>
+          <name>
+            <surname>Reed</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Lingappa</surname>
+            <given-names>JR</given-names>
+          </name>
+          <article-title>Host ABCE1 is at plasma membrane HIV assembly sites and its dissociation from Gag is linked to subsequent events of virus production</article-title>
+          <source>Traffic</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>195</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2006.00524.x</pub-id>
+          <pub-id pub-id-type="pmid">17233757</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Abrahamyan</surname>
+            <given-names>LG</given-names>
+          </name>
+          <name>
+            <surname>Chatel-Chaix</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Ajamian</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Milev</surname>
+            <given-names>MP</given-names>
+          </name>
+          <name>
+            <surname>Monette</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Clement</surname>
+            <given-names>JF</given-names>
+          </name>
+          <name>
+            <surname>Song</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>DesGroseillers</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Laughrea</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Novel Staufen1 ribonucleoproteins prevent formation of stress granules but favour encapsidation of HIV-1 genomic RNA</article-title>
+          <source>J Cell Sci</source>
+          <year>2010</year>
+          <volume>123</volume>
+          <fpage>369</fpage>
+          <lpage>383</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.055897</pub-id>
+          <pub-id pub-id-type="pmid">20053637</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B50">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lever</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Gottlinger</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Haseltine</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Sodroski</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Identification of a sequence required for efficient packaging of human immunodeficiency virus type 1 RNA into virions</article-title>
+          <source>J Virol</source>
+          <year>1989</year>
+          <volume>63</volume>
+          <fpage>4085</fpage>
+          <lpage>4087</lpage>
+          <pub-id pub-id-type="pmid">2760989</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B51">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>LeCuyer</surname>
+            <given-names>KA</given-names>
+          </name>
+          <name>
+            <surname>Behlen</surname>
+            <given-names>LS</given-names>
+          </name>
+          <name>
+            <surname>Uhlenbeck</surname>
+            <given-names>OC</given-names>
+          </name>
+          <article-title>Mutants of the bacteriophage MS2 coat protein that alter its cooperative binding to RNA</article-title>
+          <source>Biochemistry</source>
+          <year>1995</year>
+          <volume>34</volume>
+          <fpage>10600</fpage>
+          <lpage>10606</lpage>
+          <pub-id pub-id-type="doi">10.1021/bi00033a035</pub-id>
+          <pub-id pub-id-type="pmid">7544616</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B52">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ni</surname>
+            <given-names>CZ</given-names>
+          </name>
+          <name>
+            <surname>Syed</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Kodandapani</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Wickersham</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Peabody</surname>
+            <given-names>DS</given-names>
+          </name>
+          <name>
+            <surname>Ely</surname>
+            <given-names>KR</given-names>
+          </name>
+          <article-title>Crystal structure of the MS2 coat protein dimer: implications for RNA binding and virus assembly</article-title>
+          <source>Structure</source>
+          <year>1995</year>
+          <volume>3</volume>
+          <fpage>255</fpage>
+          <lpage>263</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0969-2126(01)00156-3</pub-id>
+          <pub-id pub-id-type="pmid">7788292</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B53">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Valegard</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Murray</surname>
+            <given-names>JB</given-names>
+          </name>
+          <name>
+            <surname>Stonehouse</surname>
+            <given-names>NJ</given-names>
+          </name>
+          <name>
+            <surname>Worm</surname>
+            <given-names>S van den</given-names>
+          </name>
+          <name>
+            <surname>Stockley</surname>
+            <given-names>PG</given-names>
+          </name>
+          <name>
+            <surname>Liljas</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>The three-dimensional structures of two complexes between recombinant MS2 capsids and RNA operator fragments reveal sequence-specific protein-RNA interactions</article-title>
+          <source>J Mol Biol</source>
+          <year>1997</year>
+          <volume>270</volume>
+          <fpage>724</fpage>
+          <lpage>738</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1997.1144</pub-id>
+          <pub-id pub-id-type="pmid">9245600</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B54">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Alce</surname>
+            <given-names>TM</given-names>
+          </name>
+          <name>
+            <surname>Popik</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>APOBEC3G is incorporated into virus-like particles by a direct interaction with HIV-1 Gag nucleocapsid protein</article-title>
+          <source>J Biol Chem</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>34083</fpage>
+          <lpage>34086</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.C400235200</pub-id>
+          <pub-id pub-id-type="pmid">15215254</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B55">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kozak</surname>
+            <given-names>SL</given-names>
+          </name>
+          <name>
+            <surname>Marin</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Rose</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Bystrom</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Kabat</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>The anti-HIV-1 editing enzyme APOBEC3G binds HIV-1 RNA and messenger RNAs that shuttle between polysomes and stress granules</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>281</volume>
+          <fpage>29105</fpage>
+          <lpage>29119</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M601901200</pub-id>
+          <pub-id pub-id-type="pmid">16887808</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B56">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jin</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Sturgeon</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Weisz</surname>
+            <given-names>OA</given-names>
+          </name>
+          <name>
+            <surname>Mothes</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Montelaro</surname>
+            <given-names>RC</given-names>
+          </name>
+          <article-title>HIV-1 matrix dependent membrane targeting is regulated by Gag mRNA trafficking</article-title>
+          <source>PLoS One</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>e6551</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0006551</pub-id>
+          <pub-id pub-id-type="pmid">19662089</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B57">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ono</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>HIV-1 Assembly at the Plasma Membrane: Gag Trafficking and Localization</article-title>
+          <source>Future Virol</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>241</fpage>
+          <lpage>257</lpage>
+          <pub-id pub-id-type="doi">10.2217/fvl.09.4</pub-id>
+          <pub-id pub-id-type="pmid">19802344</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B58">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Poole</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Strappe</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Mok</surname>
+            <given-names>HP</given-names>
+          </name>
+          <name>
+            <surname>Hicks</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Lever</surname>
+            <given-names>AM</given-names>
+          </name>
+          <article-title>HIV-1 Gag-RNA interaction occurs at a perinuclear/centrosomal site; analysis by confocal microscopy and FRET</article-title>
+          <source>Traffic</source>
+          <year>2005</year>
+          <volume>6</volume>
+          <fpage>741</fpage>
+          <lpage>755</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2005.00312.x</pub-id>
+          <pub-id pub-id-type="pmid">16101678</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B59">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Levesque</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Halvorsen</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Abrahamyan</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Chatel-Chaix</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Poupon</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Gordon</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>DesGroseillers</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Gatignol</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Mouland</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>Trafficking of HIV-1 RNA is mediated by heterogeneous nuclear ribonucleoprotein A2 expression and impacts on viral assembly</article-title>
+          <source>Traffic</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>1177</fpage>
+          <lpage>1193</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2006.00461.x</pub-id>
+          <pub-id pub-id-type="pmid">17004321</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B60">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Perlman</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Resh</surname>
+            <given-names>MD</given-names>
+          </name>
+          <article-title>Identification of an intracellular trafficking and assembly pathway for HIV-1 gag</article-title>
+          <source>Traffic</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>731</fpage>
+          <lpage>745</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1398-9219.2006.00428.x</pub-id>
+          <pub-id pub-id-type="pmid">16683918</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B61">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Cohen</surname>
+            <given-names>RS</given-names>
+          </name>
+          <article-title>The role of membranes and membrane trafficking in RNA localization</article-title>
+          <source>Biol Cell</source>
+          <year>2005</year>
+          <volume>97</volume>
+          <fpage>5</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1042/BC20040056</pub-id>
+          <pub-id pub-id-type="pmid">15601254</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B62">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Novoa</surname>
+            <given-names>RR</given-names>
+          </name>
+          <name>
+            <surname>Calderita</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Arranz</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Fontana</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Granzow</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Risco</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Virus factories: associations of cell organelles for viral replication and morphogenesis</article-title>
+          <source>Biol Cell</source>
+          <year>2005</year>
+          <volume>97</volume>
+          <fpage>147</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1042/BC20040058</pub-id>
+          <pub-id pub-id-type="pmid">15656780</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B63">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tang</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Leao</surname>
+            <given-names>IC</given-names>
+          </name>
+          <name>
+            <surname>Coleman</surname>
+            <given-names>EM</given-names>
+          </name>
+          <name>
+            <surname>Broughton</surname>
+            <given-names>RS</given-names>
+          </name>
+          <name>
+            <surname>Hildreth</surname>
+            <given-names>JE</given-names>
+          </name>
+          <article-title>Deficiency of niemann-pick type C-1 protein impairs release of human immunodeficiency virus type 1 and results in Gag accumulation in late endosomal/lysosomal compartments</article-title>
+          <source>J Virol</source>
+          <year>2009</year>
+          <volume>83</volume>
+          <fpage>7982</fpage>
+          <lpage>7995</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.00259-09</pub-id>
+          <pub-id pub-id-type="pmid">19474101</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B64">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ryo</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Tsurutani</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Ohba</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Kimura</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Komano</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Nishi</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Soeda</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Hattori</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Perrem</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Yamamoto</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>SOCS1 is an inducible host factor during HIV-1 infection and regulates the intracellular trafficking and stability of HIV-1 Gag</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>294</fpage>
+          <lpage>299</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0704831105</pub-id>
+          <pub-id pub-id-type="pmid">18172216</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B65">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Murray</surname>
+            <given-names>JL</given-names>
+          </name>
+          <name>
+            <surname>Mavrakis</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>McDonald</surname>
+            <given-names>NJ</given-names>
+          </name>
+          <name>
+            <surname>Yilla</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Sheng</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Bellini</surname>
+            <given-names>WJ</given-names>
+          </name>
+          <name>
+            <surname>Zhao</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Le Doux</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Shaw</surname>
+            <given-names>MW</given-names>
+          </name>
+          <name>
+            <surname>Luo</surname>
+            <given-names>CC</given-names>
+          </name>
+          <article-title>Rab9 GTPase is required for replication of human immunodeficiency virus type 1, filoviruses, and measles virus</article-title>
+          <source>J Virol</source>
+          <year>2005</year>
+          <volume>79</volume>
+          <fpage>11742</fpage>
+          <lpage>11751</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.79.18.11742-11751.2005</pub-id>
+          <pub-id pub-id-type="pmid">16140752</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B66">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jaber</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Bohl</surname>
+            <given-names>CR</given-names>
+          </name>
+          <name>
+            <surname>Lewis</surname>
+            <given-names>GL</given-names>
+          </name>
+          <name>
+            <surname>Wood</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>West</surname>
+            <given-names>JT</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <name>
+            <surname>Weldon</surname>
+            <given-names>RA</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <article-title>Human Ubc9 contributes to production of fully infectious human immunodeficiency virus type 1 virions</article-title>
+          <source>J Virol</source>
+          <year>2009</year>
+          <volume>83</volume>
+          <fpage>10448</fpage>
+          <lpage>10459</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.00237-09</pub-id>
+          <pub-id pub-id-type="pmid">19640976</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B67">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Liao</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Graham</surname>
+            <given-names>DR</given-names>
+          </name>
+          <name>
+            <surname>Hildreth</surname>
+            <given-names>JE</given-names>
+          </name>
+          <article-title>Lipid rafts and HIV pathogenesis: virion-associated cholesterol is required for fusion and infection of susceptible cells</article-title>
+          <source>AIDS Res Hum Retroviruses</source>
+          <year>2003</year>
+          <volume>19</volume>
+          <fpage>675</fpage>
+          <lpage>687</lpage>
+          <pub-id pub-id-type="doi">10.1089/088922203322280900</pub-id>
+          <pub-id pub-id-type="pmid">13678470</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B68">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Villace</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Marion</surname>
+            <given-names>RM</given-names>
+          </name>
+          <name>
+            <surname>Ortin</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>The composition of Staufen-containing RNA granules from human cells indicates their role in the regulated transport and translation of messenger RNAs</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2004</year>
+          <volume>32</volume>
+          <fpage>2411</fpage>
+          <lpage>2420</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkh552</pub-id>
+          <pub-id pub-id-type="pmid">15121898</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B69">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gorelick</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <name>
+            <surname>Nigida</surname>
+            <given-names>SM</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <name>
+            <surname>Bess</surname>
+            <given-names>JW</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <name>
+            <surname>Arthur</surname>
+            <given-names>LO</given-names>
+          </name>
+          <name>
+            <surname>Henderson</surname>
+            <given-names>LE</given-names>
+          </name>
+          <name>
+            <surname>Rein</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Noninfectious human immunodeficiency virus type 1 mutants deficient in genomic RNA</article-title>
+          <source>J Virol</source>
+          <year>1990</year>
+          <volume>64</volume>
+          <fpage>3207</fpage>
+          <lpage>3211</lpage>
+          <pub-id pub-id-type="pmid">2191147</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B70">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Smith</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Srinivasakumar</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Hammarskjold</surname>
+            <given-names>ML</given-names>
+          </name>
+          <name>
+            <surname>Rekosh</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>Requirements for incorporation of Pr160gag-pol from human immunodeficiency virus type 1 into virus-like particles</article-title>
+          <source>J Virol</source>
+          <year>1993</year>
+          <volume>67</volume>
+          <fpage>2266</fpage>
+          <lpage>2275</lpage>
+          <pub-id pub-id-type="pmid">8445731</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B71">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Vonderheit</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Helenius</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Rab7 associates with early endosomes to mediate sorting and transport of Semliki forest virus to late endosomes</article-title>
+          <source>PLoS Biol</source>
+          <year>2005</year>
+          <volume>3</volume>
+          <fpage>e233</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pbio.0030233</pub-id>
+          <pub-id pub-id-type="pmid">15954801</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B72">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Choudhury</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Dominguez</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Puri</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Sharma</surname>
+            <given-names>DK</given-names>
+          </name>
+          <name>
+            <surname>Narita</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Wheatley</surname>
+            <given-names>CL</given-names>
+          </name>
+          <name>
+            <surname>Marks</surname>
+            <given-names>DL</given-names>
+          </name>
+          <name>
+            <surname>Pagano</surname>
+            <given-names>RE</given-names>
+          </name>
+          <article-title>Rab proteins mediate Golgi transport of caveola-internalized glycosphingolipids and correct lipid trafficking in Niemann-Pick C cells</article-title>
+          <source>J Clin Invest</source>
+          <year>2002</year>
+          <volume>109</volume>
+          <fpage>1541</fpage>
+          <lpage>1550</lpage>
+          <pub-id pub-id-type="pmid">12070301</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B73">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tagawa</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Mezzacasa</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Hayer</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Longatti</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Pelkmans</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Helenius</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Assembly and trafficking of caveolar domains in the cell: caveolae as stable, cargo-triggered, vesicular transporters</article-title>
+          <source>J Cell Biol</source>
+          <year>2005</year>
+          <volume>170</volume>
+          <fpage>769</fpage>
+          <lpage>779</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200506103</pub-id>
+          <pub-id pub-id-type="pmid">16129785</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B74">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Sherer</surname>
+            <given-names>NM</given-names>
+          </name>
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Jimenez-Soto</surname>
+            <given-names>LF</given-names>
+          </name>
+          <name>
+            <surname>Ingmundson</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Horner</surname>
+            <given-names>SM</given-names>
+          </name>
+          <name>
+            <surname>Cicchetti</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Allen</surname>
+            <given-names>PG</given-names>
+          </name>
+          <name>
+            <surname>Pypaert</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Cunningham</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Mothes</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Visualization of retroviral replication in living cells reveals budding into multivesicular bodies</article-title>
+          <source>Traffic</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>785</fpage>
+          <lpage>801</lpage>
+          <pub-id pub-id-type="doi">10.1034/j.1600-0854.2003.00135.x</pub-id>
+          <pub-id pub-id-type="pmid">14617360</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

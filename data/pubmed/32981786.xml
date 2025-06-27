@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2014//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_140101.dtd">
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">32981786</PMID>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1989-2284</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>Sep</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nefrologia : publicacion oficial de la Sociedad Espanola Nefrologia</Title>
+                <ISOAbbreviation>Nefrologia</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Control of phosphorus and prevention of fractures in the kidney patient.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S0211-6995(20)30115-6</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.nefro.2020.05.015</ELocationID>
+            <Abstract>
+                <AbstractText>Patients with chronic kidney disease have a higher risk of fractures than the general population due to the added factor of uraemia. Although the mechanisms behind uraemia-associated fractures are not fully understood, it is widely accepted that the decrease in bone mineral content and alteration in bone architecture both increase bone fragility. As chronic kidney disease progresses, the risk of fracture increases, especially once the patient requires dialysis. Among the many causes of the increased risk are advanced age, amenorrhoea, steroid exposure, decreased vitamin D, increased parathyroid hormone (PTH), malnutrition and chronic inflammation. Serum phosphorus, whether high or very low, seems to correlate with the risk of fracture. Moreover, increased serum phosphate is known to directly and indirectly affect bone metabolism through the development of adaptive hormonal mechanisms aimed at preventing hyperphosphataemia, such as the increase in PTH and fibroblast growth factor 23Â (FGF23) and the reduction in calcitriol. These adaptive mechanisms are less intense if the intestinal absorption of phosphorus is reduced with the use of phosphorus captors, which seem to have a positive impact in reducing the risk of fractures. We describe here the possible mechanisms associating serum phosphorus levels, the adaptive mechanisms typical in kidney disease and the use of drugs to control hyperphosphataemia with the risk of fractures. We found no studies in the literature providing evidence on the influence of different treatments on the risk of fractures in patients with chronic kidney disease. We suggest that control of phosphorus should be an objective to consider.</AbstractText>
+                <CopyrightInformation>Copyright Â© 2020 Sociedad EspaÃ±ola de NefrologÃ­a. Published by Elsevier EspaÃ±a, S.L.U. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>GonzÃ¡lez-Parra</LastName>
+                    <ForeName>Emilio</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital Universitario FundaciÃ³n JimÃ©nez DÃ­az, Madrid, EspaÃ±a. Electronic address: egparra@fjd.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bover</LastName>
+                    <ForeName>Jordi</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>FundaciÃ³n Puigvert, Barcelona, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Herrero</LastName>
+                    <ForeName>Jose</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital ClÃ­nico, Madrid, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>SÃ¡nchez</LastName>
+                    <ForeName>Emilio</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital Universitario de CabueÃ±es, GijÃ³n, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Molina</LastName>
+                    <ForeName>Pablo</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital de Peset, Valencia, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martin-Malo</LastName>
+                    <ForeName>Alejandro</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital Reina SofÃ­a, CÃ³rdoba, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bajo Rubio</LastName>
+                    <ForeName>Maria Auxiladora</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital de La Paz, Madrid, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lloret</LastName>
+                    <ForeName>Susa</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>FundaciÃ³n Puigvert, Barcelona, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Navarro</LastName>
+                    <ForeName>Juan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital Universitario Nuestra SeÃ±ora de Candelaria, Santa Cruz de Tenerife, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arenas</LastName>
+                    <ForeName>MarÃ­a Dolores</ForeName>
+                    <Initials>MD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hospital del Mar, Barcelona, EspaÃ±a.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <Language>spa</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <VernacularTitle>Control del fÃ³sforo y prevenciÃ³n de fracturas en el paciente renal.</VernacularTitle>
+            <ArticleDate DateType="Electronic">
+                <Year>2020</Year>
+                <Month>09</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Spain</Country>
+            <MedlineTA>Nefrologia</MedlineTA>
+            <NlmUniqueID>8301215</NlmUniqueID>
+            <ISSNLinking>0211-6995</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bone</Keyword>
+            <Keyword MajorTopicYN="N">Enfermedad renal</Keyword>
+            <Keyword MajorTopicYN="N">Fractura</Keyword>
+            <Keyword MajorTopicYN="N">Fracture</Keyword>
+            <Keyword MajorTopicYN="N">FÃ³sforo</Keyword>
+            <Keyword MajorTopicYN="N">Hueso</Keyword>
+            <Keyword MajorTopicYN="N">Kidney disease</Keyword>
+            <Keyword MajorTopicYN="N">Osteoporosis</Keyword>
+            <Keyword MajorTopicYN="N">Phosphorus</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2020</Year>
+                <Month>02</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2020</Year>
+                <Month>05</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2020</Year>
+                <Month>05</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>5</Hour>
+                <Minute>34</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32981786</ArticleId>
+            <ArticleId IdType="pii">S0211-6995(20)30115-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.nefro.2020.05.015</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,2490 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Gastroenterol Res Pract</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Gastroenterol Res Pract</journal-id>
+      <journal-id journal-id-type="publisher-id">GRP</journal-id>
+      <journal-title-group>
+        <journal-title>Gastroenterology Research and Practice</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1687-6121</issn>
+      <issn pub-type="epub">1687-630X</issn>
+      <publisher>
+        <publisher-name>Hindawi Publishing Corporation</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">20814553</article-id>
+      <article-id pub-id-type="pmc">2931394</article-id>
+      <article-id pub-id-type="doi">10.1155/2010/312790</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Rat Strain Differences in Susceptibility to Alcohol-Induced Chronic Liver Injury and Hepatic Insulin Resistance</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>DeNucci</surname>
+            <given-names>Sarah M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tong</surname>
+            <given-names>Ming</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Longato</surname>
+            <given-names>Lisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lawton</surname>
+            <given-names>Margot</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Setshedi</surname>
+            <given-names>Mashiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carlson</surname>
+            <given-names>Rolf I.</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wands</surname>
+            <given-names>Jack R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>de la Monte</surname>
+            <given-names>Suzanne M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+          <xref ref-type="corresp" rid="cor1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="I1">Departments of Medicine and Pathology, Liver Research Center, Rhode Island Hospital and the Warren Alpert Medical School of Brown University, Pierre Galletti Research Building, 55 Claverick Street, Room 421, Providence, RI 02903, USA</aff>
+      <author-notes>
+        <corresp id="cor1">*Suzanne M. de la Monte: <email>suzanne_delamonte_md@brown.edu</email></corresp>
+        <fn fn-type="other">
+          <p>Academic Editor: Christian Trautwein</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>8</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>2010</volume>
+      <elocation-id>312790</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>16</day>
+          <month>5</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>5</day>
+          <month>7</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright © 2010 Sarah M. DeNucci et al.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <copyright-holder>Copyright © 2010 Sarah M. DeNucci et al.</copyright-holder>
+        <license xlink:href="https://creativecommons.org/licenses/by/3.0/">
+          <license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The finding of more severe steatohepatitis in alcohol fed Long Evans (LE) compared with Sprague Dawley (SD) and Fisher 344 (FS) rats prompted us to determine whether host factors related to alcohol metabolism, inflammation, and insulin/IGF signaling predict proneness to alcohol-mediated liver injury. Adult FS, SD, and LE rats were fed liquid diets containing 0% or 37% (calories) ethanol for 8 weeks. Among controls, LE rats had significantly higher ALT and reduced GAPDH relative to SD and FS rats. Among ethanol-fed rats, despite similar blood alcohol levels, LE rats had more pronounced steatohepatitis and fibrosis, higher levels of ALT, DNA damage, pro-inflammatory cytokines, ADH, ALDH, catalase, GFAP, desmin, and collagen expression, and reduced insulin receptor binding relative to FS rats. Ethanol-exposed SD rats had intermediate degrees of steatohepatitis, increased ALT, ADH and profibrogenesis gene expression, and suppressed insulin receptor binding and GAPDH expression, while pro-inflammatory cytokines were similarly increased as in LE rats. Ethanol feeding in FS rats only reduced IL-6, ALDH1–3, CYP2E1, and GAPDH expression in liver. In conclusion, susceptibility to chronic steatohepatitis may be driven by factors related to efficiency of ethanol metabolism and degree to which ethanol exposure causes hepatic insulin resistance and cytokine activation.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>1. Introduction</title>
+      <p>Chronic alcohol abuse causes liver injury that can progress through stages of simple steatosis to steatohepatitis, fibrosis, cirrhosis, and finally end-stage liver disease, and it also impairs the regenerative capacity of the liver [<xref rid="B1" ref-type="bibr">1</xref>–<xref rid="B4" ref-type="bibr">4</xref>]. Ethanol mediates these effects by compromising insulin signaling, which is needed for DNA synthesis, cell survival, gene expression, cell motility, and energy metabolism [<xref rid="B5" ref-type="bibr">5</xref>–<xref rid="B10" ref-type="bibr">10</xref>]. Insulin functions by activating its own receptor tyrosine kinase, which transmits signals downstream through insulin receptor substrate proteins and a complex sequence of adaptor molecules [<xref rid="B11" ref-type="bibr">11</xref>]. Ethanol inhibits at all levels of the insulin signaling cascade, but importantly, it impairs insulin receptor binding [<xref rid="B12" ref-type="bibr">12</xref>, <xref rid="B13" ref-type="bibr">13</xref>] and activation of insulin receptor tyrosine kinase [<xref rid="B6" ref-type="bibr">6</xref>–<xref rid="B9" ref-type="bibr">9</xref>, <xref rid="B14" ref-type="bibr">14</xref>]. Consequently, the toxic/metabolic effects of ethanol are mediated at proximal points within the insulin signaling cascade [<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B15" ref-type="bibr">15</xref>], thereby accounting for the broad range of cellular functions impaired by ethanol [<xref rid="B11" ref-type="bibr">11</xref>], and the varied mechanisms of liver injury including increased DNA damage, activation of proapoptosis pathways, and mitochondrial dysfunction [<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B16" ref-type="bibr">16</xref>, <xref rid="B17" ref-type="bibr">17</xref>].</p>
+      <p>Previous studies showed that Long Evans (LE) rats were highly susceptible to the effects of chronic alcohol exposure, both in terms of liver [<xref rid="B14" ref-type="bibr">14</xref>] and brain [<xref rid="B18" ref-type="bibr">18</xref>–<xref rid="B21" ref-type="bibr">21</xref>] injury. In contrast to other rodent models in which chronic ethanol feeding for as long as 30 or 40 weeks results in mild microsteatosis with minimal inflammation, LE rats develop prominent steatohepatitis with increased DNA damage and evidence of apoptosis and necrosis within 5 or 6 weeks of ethanol feeding [<xref rid="B12" ref-type="bibr">12</xref>, <xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B15" ref-type="bibr">15</xref>, <xref rid="B22" ref-type="bibr">22</xref>]. Moreover, chronic ethanol feeding in LE rats causes hepatic insulin resistance with inhibition of survival signaling [<xref rid="B12" ref-type="bibr">12</xref>]. Altogether, the abnormalities produced by chronic ethanol exposure in LE rats resemble human chronic alcoholic steatohepatitis, suggesting that this model is an excellent tool for exploring means of preventing or minimizing the long-term consequences of alcohol-induced liver injury, including deficits in the liver's capacity to regenerate. </p>
+      <p> Empirical observations in our laboratory revealed that chronic ethanol exposure in other strains, including Sprague Dawley (SD) and Fisher 344 (FS) rats, did not produce as robust a model of steatohepatitis compared with LE rats, raising a fundamental question about the role of genetic or strain background in relation to host susceptibility to alcohol-mediated liver injury. We hypothesized that premorbid and/or postethanol exposure differences in hepatic insulin responsiveness, alcohol metabolizing enzyme gene expression, and proinflammatory status in liver would correlate with severity of alcoholic steatohepatitis. To address this question, we compared liver histology and several biochemical and molecular parameters of hepatic dysfunction, including steatosis, insulin and insulin-like growth factor (IGF) receptor binding, and mRNA levels of alcohol metabolizing enzymes, proinflammatory cytokine, and hepatic cellular function genes among LE, SD, and FS rats which were empirically found to differ with respect to severity of chronic ethanol-induced liver injury. The primary objective of this study was to determine if the strains differed significantly with regard to these parameters, either before or after chronic ethanol exposure. The expectation was that if pre- or postethanol exposure differences exist and correlate with injury and functional impairments in liver, future efforts could be productively directed to identify relevant biomarkers and design therapies that target fundamental abnormalities.</p>
+    </sec>
+    <sec id="sec2">
+      <title>2. Methods</title>
+      <sec sec-type="subsection" id="sec2.1">
+        <title>2.1. Chronic Ethanol Exposure Model</title>
+        <p>Adult male (~200–250 g) FS, LE, and SD rats (Harlan Sprague Dawley, Inc., Indianapolis, Indiana) were pair-fed with isocaloric liquid diets (BioServ, Frenchtown, NJ) for 8 weeks [<xref rid="B14" ref-type="bibr">14</xref>]. Two weeks prior to the experiment, rats were adapted to the liquid diets by incrementing the ethanol content from 0% to 11.8%, 23.6%, and then 37% of the caloric content. Controls were adapted to ethanol-free liquid diets over the same period. Thereafter, rats were maintained on 0% or 37% ethanol-containing diets throughout the study [<xref rid="B14" ref-type="bibr">14</xref>]. Rats were monitored daily to ensure adequate nutritional intake and maintenance of body weight. Blood alcohol levels were measured at 8 AM using the Analox GM7 apparatus (Analox Instruments USA, Lunenburg, MA) according to the manufacturer's protocol. At the end of the feeding period, the rats were sacrificed by i.p. injection of 120 mg/kg sodium pentobarbital, and liver tissues were snap-frozen in a dry ice/methanol bath for later protein and RNA studies, or immersion fixed in Histochoice (Amresco, Solon, OH) for histological studies. Throughout the experiment, rats were housed under humane conditions and kept on a 12-hour light/dark cycle with free access to food. All experiments were performed in accordance with protocols approved by Institutional Animal Care and Use Committee at the Lifespan-Rhode Island Hospital, and conform to guidelines established by the National Institutes of Health. </p>
+      </sec>
+      <sec sec-type="subsection" id="sec2.2">
+        <title>2.2. Histopathologic Studies</title>
+        <p>Paraffin-embedded histological sections were stained with Hematoxylin and Eosin (H&amp;E), and adjacent sections were stained with Sirius Red F3B to detect fibrosis, or immunostained to detect single-stranded DNA as an index of DNA damage [<xref rid="B23" ref-type="bibr">23</xref>]. Prior to immunostaining, the tissue sections were pretreated with proteinase K and blocked to reduce nonspecific binding according to the manufacturer's protocol. The sections were immunostained with 1 <italic>μ</italic>g/mL of mouse monoclonal anti-single-stranded DNA antibody (Chemicon, Temecula, CA), and immunoreactivity was detected with horseradish peroxidase (HRP)-conjugated polymer-tagged secondary antibodies (Abcam, Cambridge, MA, USA) and diaminobenzidine as the chromogen. The sections were lightly counterstained with Hematoxylin. Percentages of labeled cells per 100x magnification field were determined using Image Pro-3 Plus software (Media Cybernetics Inc., Bethesda, MD).</p>
+      </sec>
+      <sec sec-type="subsection" id="sec2.3">
+        <title>2.3. Lipid Assays</title>
+        <p> Lipid analyses were performed on chloroform-methanol (2 : 1) extracted fresh frozen liver tissue homogenates [<xref rid="B24" ref-type="bibr">24</xref>]. Total lipid content was measured using a Nile Red fluorescence-based assay (Molecular Probes, Eugene, OR) [<xref rid="B25" ref-type="bibr">25</xref>–<xref rid="B27" ref-type="bibr">27</xref>], and fluorescence intensity (Ex 485/Em 572) was measured in a SpectraMax M5 microplate reader (Molecular Devices Corp., Sunnyvale, CA). Triglycerides and cholesterol were measured with commercially available assay kits (Serum Triglyceride Determination kit, Sigma-Aldrich Co., St. Louis, MO; Amplex Red Cholesterol Assay Kit, Molecular Probes, Eugene, OR). Results were normalized to liver sample weight.</p>
+      </sec>
+      <sec sec-type="subsection" id="sec2.4">
+        <title>2.4. Quantitative Reverse Transcriptase Polymerase Chain Reaction (qRT-PCR) Assays of Gene Expression</title>
+        <p>Total RNA was reverse transcribed with random oligodeoxynucleotide primers, and the resulting cDNA templates were PCR amplified with gene specific primers [<xref rid="B28" ref-type="bibr">28</xref>] (<xref ref-type="table" rid="tab1">Table 1</xref>). Amplified products were detected and analyzed in triplicate using the Mastercycler ep realplex instrument and software (Eppendorf AG, Hamburg, Germany) [<xref rid="B24" ref-type="bibr">24</xref>]. Relative mRNA abundance was calculated from the ng ratios of mRNA to 18S rRNA measured in the same samples, and those data were used for intergroup comparisons. Control studies included analysis of: (1) template-free reactions, (2) RNA that had not been reverse transcribed, (3) RNA samples pretreated with DNAse I, (4) samples treated with RNAse A prior to the reverse transcriptase reaction, and (5) genomic DNA. Although mRNA levels measured by qRT-PCR can be compared using various approaches, including the 2<sup>−ΔΔCT</sup> method [<xref rid="B29" ref-type="bibr">29</xref>], we elected to calculate relative transcript abundance with 18S rRNA as the denominator because this approach allows one to more effectively correct for differences in template input and differences in amplification efficiency pertaining to rat strain and ethanol exposure [<xref rid="B30" ref-type="bibr">30</xref>].</p>
+      </sec>
+      <sec sec-type="subsection" id="sec2.5">
+        <title>2.5. Enzyme-Linked Immunosorbant Assay (ELISA)</title>
+        <p>Tissues were homogenized in radioimmunoprecipitation assay buffer containing protease and phosphatase inhibitors [<xref rid="B31" ref-type="bibr">31</xref>]. Direct binding ELISAs were performed in 96-well plates (Nunc, Rochester, NY) [<xref rid="B18" ref-type="bibr">18</xref>]. In brief, proteins (40 ng/100 <italic>μ</italic>L) adsorbed to well bottoms by overnight incubation at 4°C were blocked with 3% BSA in Tris buffered saline (TBS) and then incubated with primary antibody (0.2–1.0 <italic>μ</italic>g/mL) for 1 hour at room temperature. Immunoreactivity was detected with horseradish peroxidase- (HRP-) conjugated secondary antibody (1 : 10000; Pierce, Rockford, IL) and Amplex Red soluble fluorophore (Molecular Probes, Eugene, OR) [<xref rid="B18" ref-type="bibr">18</xref>]. Fluorescence was measured (Ex 530/Em 590) in a SpectraMax M5 microplate reader. Binding specificity was monitored in parallel control incubations that included nonrelevant antibodies, or omitted the primary or secondary antibody. Immunoreactivity was normalized to protein content in parallel wells as determined with the NanoOrange Protein Quantification Kit (Molecular Probes, Eugene, OR).</p>
+      </sec>
+      <sec sec-type="subsection" id="sec2.6">
+        <title>2.6. Receptor Binding Assays</title>
+        <p>Competitive equilibrium binding studies were used to measure effects of chronic ethanol feeding on insulin, IGF-1, and IGF-2 receptor binding [<xref rid="B20" ref-type="bibr">20</xref>, <xref rid="B31" ref-type="bibr">31</xref>]. For total binding, NP-40 lysis buffer homogenates were incubated in 100 <italic>μ</italic>L reactions containing binding buffer (100 mM HEPES (4-(2-hydroxyethyl)-1-piperazine-ethanesulfonic acid), pH 8.0, 118 mM NaCl, 1.2 mM MgSO<sub>4</sub>, 8.8 mM dextrose, 5 mM KCl, 1% bovine serum albumin) and 0.0031 to 1 <italic>μ</italic>Ci/mL of [<sup>125</sup>I] (2000 Ci/mmol) 50 nCi/ml of [<sup>125</sup>I] (2000 Ci/mmol; 50 pM) insulin, IGF-1, or IGF-2. For nonspecific binding, identical reactions were prepared with the addition of 0.1 <italic>μ</italic>M unlabeled ligand. After 16-hours incubation at 4°C, reactions were harvested (Corning, Lowell, MA) onto 96-well GF/C filter plates that were presoaked in 0.33% polyethyleneimine. The filters were vacuum washed with 50 mM HEPES, pH 7.4, 500 mM NaCl, and 0.1% BSA. [<sup>125</sup>I]-bound insulin, IGF-1, or IGF-2 was measured in a TopCount (Perkin-Elmer, Boston, MA). Specific binding was calculated by subtracting fmol/mg of nonspecifically bound isotope from the total bound isotope. The results were plotted and analyzed using GraphPad Prism 5 software (San Diego, CA).</p>
+      </sec>
+      <sec sec-type="subsection" id="sec2.7">
+        <title>2.7. Sources of Reagents</title>
+        <p>Human recombinant [<sup>125</sup>I]-Insulin, IGF-1, and IGF-2 were purchased from Amersham Biosciences (Boston, MA). Unlabeled human insulin and recombinant IGF-1 and IGF-2 were obtained from Bachem (Torrance, CA). QuantiTect SYBR Green PCR Mix was obtained from Qiagen, Inc. (Valencia, CA). Unless otherwise indicated, all other fine chemicals were purchased from either CalBiochem (Carlsbad, CA) or Sigma-Aldrich (St. Louis, MO).</p>
+      </sec>
+      <sec sec-type="subsection" id="sec2.8">
+        <title>2.8. Statistical Analysis</title>
+        <p>Data depicted in the graphs and tables represent the means ± S.E.M.'s for 8–12 samples per group. Intergroup comparisons were made using two-way ANOVA and the Bonferroni post hoc multiple comparison test. Statistical analyses were performed using the GraphPad Prism 5 software (GraphPad Software, Inc., San Diego, CA). Significant <italic>P</italic>-values are shown in the graphs and tables. </p>
+      </sec>
+    </sec>
+    <sec id="sec3">
+      <title>3. Results</title>
+      <sec sec-type="subsection" id="sec3.1">
+        <title>3.1. Weight Gain Associated with Liquid Diet Feeding</title>
+        <p> Rats in all groups consumed similar quantities of food, and correspondingly all gained weight over the course of the study. Despite identical birth weights and ages, FS rats had the lowest original and final body weights, SD rats were intermediate, and LE's were the largest. The curves corresponding to body weight over time were virtually identical for pair-fed LE rats and SD rats, whereas in FS rats, the trends were more tapered for ethanol-fed relative to controls after 3-4 weeks on the liquid diets (<xref ref-type="fig" rid="fig1">Figure 1(a)</xref>). Correspondingly, linear regression analysis of weight gain over time demonstrated slopes of 9.28 ± 1.49 and 7.77 ± 1.09 for control and ethanol-fed LE rats (<italic>P</italic> = .42), and 12.63 ± 0.80 and 11.39 ± 0.81 for control and ethanol-fed SD rats (<italic>P</italic> = .277), reflecting the similar within-group mean percentage increases in body weight (<xref ref-type="table" rid="tab2">Table 2</xref>). In contrast, for the FS strain, the slopes reflecting weight gain over time were 11.18 ± 0.82 and 7.74 ± 0.68 for control and ethanol fed rats (<italic>P</italic> = .0018), correlating with the significant differences in their mean percentages of weight gained (<xref ref-type="table" rid="tab2">Table 2</xref>). Among the 3 ethanol-fed groups, trends in weight gain were similar for the FS (Slope = 7.74 ± 0.67) and LE (Slope = 7.77 ± 1.09) strains, and both were significantly lower than that measured for the SD strain (11.39 ± 0.81) (<italic>P</italic> = .0037). Therefore, FS and LE rats exhibited similar percentage increases in body weight, but the ethanol-associated dampening of growth in FS rats reduced the net weight gained relative to the other strains. SD rats gained more weight and at faster rates than the other two groups. Despite these differences in weight gained over time, the mean blood alcohol levels were similar among the ethanol-fed groups (<xref ref-type="fig" rid="fig1">Figure 1(b)</xref>). Therefore, any distinctions found with respect to the effects of chronic ethanol exposure could not be attributed to differences in blood alcohol levels.</p>
+      </sec>
+      <sec sec-type="subsection" id="sec3.2">
+        <title>3.2. Effects of Ethanol on Biomarkers of Liver Injury and Steatosis</title>
+        <p> Among controls, mean serum alanine transaminase (ALT) was significantly higher in LE compared with FS rats (<xref ref-type="fig" rid="fig1">Figure 1(c)</xref>), indicating higher baseline levels of hepatocellular injury in the LE strain. Among ethanol-fed rats, the LE strain also had the highest mean ALT. Although ethanol feeding increased ALT in all 3 strains relative to pair-fed controls, the within-group differences were not statistically significant due to variability in the magnitude of responses. However, mean ALT was significantly higher in ethanol-fed LE and SD rats than in FS controls. </p>
+        <p>The Nile red assay was used to quantify hepatic neutral lipid content (fluorescent light units; FLU) with values normalized to sample weight (<xref ref-type="fig" rid="fig1">Figure 1(d)</xref>). Hepatic Nile red fluorescence was significantly increased by chronic ethanol exposure in the LE but not in the FS or SD strain. Moreover, Nile red fluorescence was significantly higher in livers of ethanol-fed LE rats compared to all other groups. </p>
+        <p>Hepatic triglyceride content was similarly low among the 3 control groups, and the chronic ethanol-fed FS rats (<xref ref-type="fig" rid="fig1">Figure 1(e)</xref>). Chronic ethanol feeding significantly increased hepatic triglyceride content in LE and SD relative to control and ethanol-fed FS rats. In addition, hepatic triglyceride content was significantly higher in ethanol-fed relative to control SD rats. The mean hepatic cholesterol levels were similar among all groups except the ethanol-fed LE rats, in which the mean level was significantly higher than in all other groups except SD controls (<xref ref-type="fig" rid="fig1">Figure 1(f)</xref>).</p>
+        <p>Histopathological studies demonstrated the expected regular chord-like architecture with minimal steatosis or inflammation in control FS and SD livers, and mild microvesicular steatosis in control LE livers (<xref ref-type="fig" rid="fig2">Figure 2</xref>). Chronic ethanol feeding produced subtle increases in hepatocellular macrosteatosis with rare foci of lymphomononuclear inflammation in FS rats, but conspicuously increased mixed patterns of micro- and macrosteatosis with foci of inflammation and apoptosis in SD rats. LE rats had the most pronounced histopathological responses to chronic alcohol exposure characterized by increased disorganization of hepatic chord architecture, prominent micro- and macrosteatosis, and conspicuous foci of inflammation and necrosis or apoptosis. Sirius red-stained sections of liver revealed minimal collagen fibril deposition in FS controls, but conspicuously more abundant labeling of coarser peri-hepatocyte fibrils in LE and SD controls (Figures <xref ref-type="fig" rid="fig3">3(a)</xref>, <xref ref-type="fig" rid="fig3">3(c)</xref>, and <xref ref-type="fig" rid="fig3">3(e)</xref>). All 3 strains exhibited increased peri-hepatocyte collagen deposition following 8 weeks of ethanol feeding, but the degrees were greater in LE and SD compared with FS rats (<xref ref-type="fig" rid="fig3">Figure 3</xref>). In addition, LE livers exhibited “chickenwire fibrosis” characterized by a trabecular or mesh-like pattern of fibrosis with collagen fibrils completely surrounding single hepatocytes (<xref ref-type="fig" rid="fig3">Figure 3(d)</xref>). </p>
+      </sec>
+      <sec sec-type="subsection" id="sec3.3">
+        <title>3.3. Effects of Strain and Ethanol on Inflammatory Mediators</title>
+        <p> To assess the effects of strain and chronic ethanol exposure on cytokine expression, we used qRT-PCR to measure interleukin-6 (IL-6), IL-1<italic>β</italic>, and tumor necrosis factor-alpha (TNF-<italic>α</italic>) mRNA levels (Figures <xref ref-type="fig" rid="fig4">4(a)</xref>–<xref ref-type="fig" rid="fig4">4(c)</xref>). These proinflammatory cytokines were investigated because of their known roles in steatohepatitis due to chronic alcohol exposure or metabolic syndrome [<xref rid="B32" ref-type="bibr">32</xref>, <xref rid="B33" ref-type="bibr">33</xref>]. In addition, we quantified DNA damage in histological sections by immunostaining for single-stranded DNA nicks and performing image analysis to determine the percentages of labeled nuclei (<xref ref-type="fig" rid="fig4">Figure 4(d)</xref>). In FS rats, the mean levels of TNF-<italic>α</italic> and IL-1<italic>β</italic> expression were unchanged by chronic ethanol feeding, whereas IL-6 expression was significantly reduced. In LE rats, chronic ethanol feeding significantly increased expression of all 3 cytokines relative to the pair-fed controls. In SD rats, chronic ethanol feeding significantly increased TNF-<italic>α</italic> and IL-1<italic>β</italic> but not IL-6 expression relative to control. Among ethanol-fed rats, the LE and SD strains had similar and significantly higher hepatic expression of all 3 cytokines relative to ethanol-fed FS rats. In addition, chronic ethanol feeding significantly increased the single-stranded DNA labeling indices in both LE and SD relative to corresponding and FS control livers. In the FS strain, single-strand DNA labeling indices were increased by ethanol exposure, but the difference from control did not reach statistical significance due to broad variability in responses.</p>
+      </sec>
+      <sec sec-type="subsection" id="sec3.4">
+        <title>3.4. Effects of Strain and Chronic Ethanol Exposure on Alcohol-Metabolizing Enzymes</title>
+        <p> Ethanol is metabolized to acetaldehyde by alcohol dehydrogenases (ADH) and catalase, and from acetaldehyde to carbon dioxide and water via aldehyde dehydrogenase (ALDH) and CYP2E1 [<xref rid="B34" ref-type="bibr">34</xref>]. To determine if strain, that is genetic background, modulates liver capacity to metabolize ethanol, we measured ADH, ALDH, catalase, and CYP2E1 expression in liver by qRT-PCR. Exploratory studies showed that rat livers express ADH1, ADH7, ALDH1-ALDH3, catalase, and CYP2E1; therefore, our analyses were confined to these genes. Control rats had similar mean levels of hepatic ADH1 and ADH7 across the strains. Chronic ethanol exposure significantly increased ADH1 and/or ADH7 mRNA levels in LE and SD livers, but not FS livers (Figures <xref ref-type="fig" rid="fig5">5(a) </xref>and <xref ref-type="fig" rid="fig5">5(b)</xref>). </p>
+        <p>Among controls, ALDH1 expression was similar in FS, LE, and SD rats, while ALDH2 and ALDH3 expressions were significantly lower in LE and SD relative to FS rats. In addition, catalase and CYP2E1 expression were significantly lower in SD relative to FS controls. With regard to chronic ethanol feeding, for the FS strain, the mean levels of ALDH1, ALDH3, and CYP2E1 were significantly reduced, while ALDH2 and catalase were unchanged relative to control (Figures <xref ref-type="fig" rid="fig5">5(c)</xref>–<xref ref-type="fig" rid="fig5">5(g)</xref>). For the LE strain, chronic ethanol feeding significantly increased ALDH1, ALDH2, ALDH3, and catalase mRNA relative to control, but did not affect CYP2E1 expression. Within the SD strain, chronic ethanol exposure significantly increased catalase expression relative to control, but had no effect on hepatic expression of ALDH1, ALDH2, ALDH3, or CYP2E1. Therefore, LE rats were distinguished from FS and SD rats by their broad upregulation of genes that control rates of alcohol and acetaldehyde metabolism following chronic ethanol exposure. Among SD rats, the ethanol-stimulated increases in ADH and catalase, without corresponding increases in ALDH expression may reflect an increased tendency to accumulate acetaldehyde in liver. The significant ethanol-mediated downregulation of CYP2E1 in FS could represent a cytoprotective response, as CYP2E1 promotes oxidative stress in the context of ethanol exposure, and high levels of the enzyme are cytotoxic to liver cells [<xref rid="B35" ref-type="bibr">35</xref>, <xref rid="B36" ref-type="bibr">36</xref>].</p>
+      </sec>
+      <sec sec-type="subsection" id="sec3.5">
+        <title>3.5. Effects of Strain and Ethanol Exposure on Insulin and IGF Receptor Binding</title>
+        <p>Since one of the major effects of chronic ethanol exposure is hepatic insulin resistance leading to impairments in energy metabolism, repair, and regeneration [<xref rid="B12" ref-type="bibr">12</xref>, <xref rid="B13" ref-type="bibr">13</xref>, <xref rid="B37" ref-type="bibr">37</xref>–<xref rid="B40" ref-type="bibr">40</xref>], we assessed the influence of genetic strain on insulin and IGF receptor binding in relation to chronic ethanol exposure. We performed competitive saturation binding assays and calculated the BMAX (top level binding) and Kd (binding affinity) for each group (<xref ref-type="fig" rid="fig6">Figure 6 </xref>and <xref ref-type="table" rid="tab3">Table 3</xref>). Among controls, the BMAXs for insulin receptor binding were not distinguished by strain, whereas with regard to IGF-1, the BMAXs were significantly higher, and for IGF-2, they were significantly reduced in SD and LE relative to FS rats. The Kds for insulin and IGF-1 receptor binding were similar among the control groups whereas for IGF-2, the Kds were significantly lower (increased affinity) in SD and LE relative to FS livers. </p>
+        <p>In FS rats, chronic ethanol feeding had no significant effect on the BMAX of insulin, IGF-1, or IGF-2 receptor binding, or the Kd for insulin or IGF-2 receptor binding. However, chronic ethanol feeding did significantly reduce the Kd, that is, it increased binding affinity for the IGF-1 receptor in FS rat livers. In SD and LE rats, the main effect of ethanol was to significantly reduce both the BMAX and Kd for insulin receptor binding relative to the levels observed in pair-fed controls, and both control and ethanol-fed FS rats (<xref ref-type="table" rid="tab3">Table 3</xref>). Although ethanol did not significantly alter either the BMAX or Kd for IGF-1 receptor binding in LE and SD rats, each of these indices was significantly higher than in control and ethanol-fed FS rats. Paradoxically, chronic ethanol feeding in LE and SD rats significantly increased the BMAX and Kd for IGF-2 receptor binding relative to pair-fed controls. Consequently, the ethanol-associated IGF-2 receptor BMAXs and Kds were similar in LE, SD, and FS rat livers (<xref ref-type="table" rid="tab3">Table 3</xref>). </p>
+      </sec>
+      <sec sec-type="subsection" id="sec3.6">
+        <title>3.6. Consequences of Chronic Ethanol Consumption on Hepatic Gene Expression in Different Rat Strains</title>
+        <p> We used qRT-PCR assays to examine strain and ethanol effects on gene expression corresponding to specific cell types and functions in liver (<xref ref-type="fig" rid="fig7">Figure 7</xref>). Albumin mRNA, which marks hepatocyte function, was expressed at similar levels in control FS, LE, and SD rats. Chronic ethanol feeding had no effect on albumin expression in FS rats, but significantly increased the levels in LE and SD rats (<xref ref-type="fig" rid="fig7">Figure 7(a)</xref>). Apical sodium-dependent bile acid transporter (ABST) marks bile duct epithelial cell function. The lowest ABST expression was measured in FS control and ethanol exposed livers. Among controls, there were no significant differences in the mean levels of ABST. Chronic ethanol exposure significantly increased ABST expression in LE, but not FS or SD rats. Kupffer cell glycoprotein receptor (KCR) marks resident macrophage abundance. Although the highest levels of KCR expression were observed in LE rats, the intergroup differences were not statistically significant. Glial fibrillary acidic protein (GFAP) is expressed in stellate cells. Alpha-smooth muscle actin (<italic>α</italic>-SMA) and desmin, an extracellular matrix product of stellate cells, report activated stellate cell function. The control groups had similar mean hepatic expression levels of GFAP, desmin, and <italic>α</italic>-SMA. Chronic ethanol feeding significantly increased GFAP and desmin expression only in LE rats. Otherwise, hepatic mRNA levels of GFAP, desmin, and <italic>α</italic>-SMA were not significantly modulated with respect to rat strain or ethanol exposure. Finally, collagen gene expression, which reflects fibrogenesis, was similarly low level in all control groups, and in ethanol-fed FS rats. However, in LE and SD rats, chronic ethanol feeding significantly increased pro-alpha-2(1) collagen (COL1a2) gene expression in liver. Therefore, chronic ethanol feeding significantly increased expression of albumin, ABST, desmin, GFAP, and COL1a2 in LE rats, and albumin and COL1a2 in SD rats. In contrast, in FS rats, ethanol had no significant effect on the expression levels of any of the hepatic genes examined.</p>
+        <p>We measured GAPDH immunoreactivity by ELISA to assess the effects of strain and ethanol exposure on the expression of an important insulin-responsive gene. We simultaneously measured <italic>β</italic>-actin immunoreactivity as a negative control (<xref ref-type="fig" rid="fig8">Figure 8</xref>). Among controls, GAPDH immunoreactivity was the highest in FS, followed by SD livers. In LE livers, basal GAPDH expression was significantly lower than in FS control livers. Chronic ethanol feeding significantly suppressed GAPDH expression in FS and SD, but not LE rats. Nonetheless, following chronic ethanol exposure, the mean levels of GAPDH were significantly higher in FS than LE or SD livers. The mean hepatic levels of <italic>β</italic>-actin were relatively similar among the 3 strains, irrespective of ethanol feeding. However, <italic>β</italic>-actin expression was significantly higher in ethanol exposed relative to control SD livers. </p>
+      </sec>
+    </sec>
+    <sec id="sec4">
+      <title>4. Discussion</title>
+      <p>This study examined the effects of strain, that is, genetic background on an array of host factors related to alcohol metabolism, inflammation, and insulin/IGF signaling to determine if baseline or ethanol-induced differences predict proneness to alcohol-mediated liver injury. This work was inspired by findings in a previous study demonstrating that LE rats exhibited conspicuous alcohol-mediated hepatitis after 6–8 weeks of chronic exposure [<xref rid="B12" ref-type="bibr">12</xref>, <xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B22" ref-type="bibr">22</xref>], whereas in other models, significant liver injury mainly occurs when ethanol exposure is combined with other injurious treatments [<xref rid="B41" ref-type="bibr">41</xref>, <xref rid="B42" ref-type="bibr">42</xref>]. Moreover, empirical studies suggested that FS and SD rats were relatively insensitive to ethanol's effects on liver compared with LE rats. Therefore, we generated in vivo models of chronic ethanol feeding in which rats were pair-fed for 8 weeks with liquid diets containing 0% or 37% ethanol by caloric content. The expectation was that this type of investigation would eventually lead to the identification of biomarkers that could be applied to humans, and also help develop therapeutic approaches which target factors that increase proneness to progressive alcohol-related liver disease. </p>
+      <p>The main findings in this study were that (1) there were clear strain differences concerning susceptibility to alcohol-mediated liver injury and steatohepatitis that were not attributable to differences in blood alcohol levels; (2) postexposure hepatic insulin resistance, characterized by reduced insulin receptor binding and insulin responsive gene expression, for example, GAPDH, correlated with enhanced susceptibility to alcohol-induced liver injury; (3) ethanol-induced increases in proinflammatory and pro-fibrogenic genes correlated with severity of steatohepatitis; (4) resistance to chronic alcohol-induced liver injury in FS rats was associated with minimal or negative (inhibitory) modulation of alcohol-metabolizing genes, particularly ADH1 and CYP2E1. Of note is that downregulation of ADH1 would serve to reduce acetaldehyde generation while reduced CYP2E1 would be protective against oxidative injury in the liver [<xref rid="B35" ref-type="bibr">35</xref>, <xref rid="B43" ref-type="bibr">43</xref>]. Moreover, recent studies showed that chemical inhibition of CYP2E1 and other alcohol metabolizing enzymes reduces alcoholic steatohepatitis by decreasing triglyceride accumulation and proinflammatory cytokine levels in liver [<xref rid="B44" ref-type="bibr">44</xref>]. In essence, the FS strain appears to harbor an endogenously (genetically) favorable physiological state that protects the liver from alcohol-mediated injury, and utilizes mechanisms that could be exploited for therapeutic gains.</p>
+      <p> Despite similar mean blood alcohol levels, histopathologic studies demonstrated that LE rats developed chronic alcohol-induced liver injury characterized by micro- and macrosteatosis, multifocal lymphomononuclear inflammation and necrosis/apoptosis, increased single-strand DNA labeling, that is DNA damage, and loss of the regular chord-like architecture. Livers of ethanol fed FS rats exhibited minimal injury and steatosis with relative preservation of hepatic chord architecture, whereas in SD rats, chronic ethanol feeding produced levels of steatohepatitis that were intermediate between LE and Fisher rats. Correspondingly, the serum ALT levels and degrees of triglyceride and cholesterol accumulation in liver were highest in ethanol-fed LE, followed by SD rats. Moreover, proinflammatory cytokine gene expression was sharply increased by chronic ethanol exposure in LE and SD, but not FS rats. </p>
+      <p>Since blood alcohol levels were similar in the 3 strains, the strain-related adverse effects of ethanol most likely mark inherent (genetic) differences in susceptibility to alcohol-mediated liver injury. Of particular note is that we detected several baseline (nonethanol exposure related) abnormalities consisting of higher levels of serum ALT, hepatic cholesterol, DNA damage, and IL-1<italic>β</italic> mRNA, and lower levels of insulin receptor binding (BMAX) and affinity (higher Kd), and insulin responsive gene expression (GAPDH), consistent with insulin resistance, in LE compared with FS rats who proved to be fairly resistant to ethanol-mediated liver injury. This suggests that individuals at increased risk for developing significant and possibly progressive alcohol-related liver disease may manifest evidence of low-level ongoing hepatocellular injury, inflammation, and insulin resistance, together with increased cholesterol content in liver, and therefore could potentially be identified prior to significant alcohol exposure. </p>
+      <p>Our studies also showed that the ethanol-induced expression levels of multiple genes that regulate alcohol metabolism, including CYP2E1, were correlated with severity of steatohepatitis, that is, they were highest in LE, intermediate and variable in SD, and lowest in FS rats. To some extent, this result is at variance with a recent report by Ciuclan et al. in which downregulation of ADH by TGF-<italic>β</italic>1 was correlated with increased hepatocellular injury [<xref rid="B45" ref-type="bibr">45</xref>]. However, the differences might be explained by the fact that the responses were demonstrated using relatively short-term isolated hepatocyte cultures, and the overall goal of their experiment was to examine how TGF-<italic>β</italic>1 enhances ethanol-induced hepatotoxicity. Therefore, TGF-<italic>β</italic>1 was the main independent variable in the paper by Ciuclan et al., whereas chronic ethanol exposure was the primary independent variable in the present work. Finally, the findings herein suggest that differences in response to ethanol may vary according to genetic factors, including strain or species. </p>
+      <p>The differences observed among the 3 strains with respect to ethanol's effects on alcohol-metabolizing enzyme gene expression could reflect inherent differences in alcohol metabolism efficiency, with higher levels of gene expression being required to detoxify ethanol in LE than in FS rats. Consequences of inefficient alcohol metabolism would include increased acetaldehyde build-up and oxidative stress. In addition, the relatively higher levels of CYP2E1 expression in ethanol-exposed LE compared with ethanol-exposed FS livers may have contributed to the increased severity of steatohepatitis in LE rats because high levels of CYP2E1 promote oxidative stress and reduce fatty acid oxidation via inhibition of PPAR-<italic>α</italic> expression, and thereby enhance ethanol-induced hepatic steatosis [<xref rid="B43" ref-type="bibr">43</xref>]. Correspondingly, the ethanol-induced downregulation of CYP2E1 expression in the FS strain could represent an inherent cytoprotective response, abrogating the cytotoxic effects of ethanol on liver cells [<xref rid="B35" ref-type="bibr">35</xref>, <xref rid="B36" ref-type="bibr">36</xref>]. </p>
+      <p>To better understand the contributions of insulin and/or IGF resistance in the pathogenesis of alcohol-induced chronic liver disease, we measured insulin, IGF-1, and IGF-2 receptor binding. Those investigations mainly demonstrated reduced insulin receptor binding in ethanol-exposed LE and SD relative to FS livers. Likewise, GAPDH, which is regulated by insulin [<xref rid="B46" ref-type="bibr">46</xref>], was expressed at lower levels in ethanol-exposed SD and LE compared to FS livers. The finding of reduced GAPDH expression in control LE rats further suggests impairments in hepatic insulin signaling in this strain at baseline, despite relatively preserved insulin receptor binding. These results corroborate the concept that chronic ethanol exposure causes hepatic insulin resistance. Furthermore, the findings suggest that endogenous/genetic factors dictate the degree to which chronic ethanol exposure will likely cause steatohepatitis and hepatic insulin resistance. </p>
+      <p>With regard to IGF-1 receptor binding, the major influence of strain was to significantly lower the binding affinity in SD and LE rats, with or without chronic ethanol exposure. Since IGF-1 is an important regulator of hepatocellular growth and repair, IGF-1 resistance would likely contribute to impaired regenerative and reparative capacity of the liver. The finding that SD and LE controls had significantly lower BMAXs for IGF-2 receptor binding in liver relative to FS controls supports the notion that endogenous inter-strain differences pertain to both basal and ethanol-induced differences in insulin/IGF signaling mechanisms in the liver. On the other hand, the ethanol-associated normalization of IGF-2 receptor BMAX in SD and LE livers is of interest in light of the coexisting impairments in insulin and IGF-1 receptor binding, as IGF-2 can crosstalk with insulin and IGF-1 signaling pathways [<xref rid="B47" ref-type="bibr">47</xref>]. Consequently, the ethanol-associated enhancements of IGF-2 receptor binding could represent compensatory responses that aided in maintaining survival and metabolic functions in ethanol-exposed LE and SD livers. </p>
+      <p>Finally, in LE rats, chronic ethanol exposure significantly increased expression of ABST, GFAP, desmin, and collagen, indicating that bile duct epithelium and stellate cells were more activated, and that genes responsible for hepatic fibrosis, that is, desmin and collagen, were up-regulated. In our models, <italic>α</italic>-SMA, the most widely used marker of early stellate cell activation which marks transition from quiescence to a contractile myofibroblast phenotype [<xref rid="B48" ref-type="bibr">48</xref>, <xref rid="B49" ref-type="bibr">49</xref>], was expressed in livers from all groups. Although <italic>α</italic>-SMA mRNA levels were not significantly increased by chronic ethanol exposure, 3 other indices of the pro-fibrogenic state were increased in LE rats, correlating with the increased Sirius Red staining of collagen in liver. Previously it was shown that increased GFAP expression marks activated stellate cells in rat liver [<xref rid="B50" ref-type="bibr">50</xref>], and increased levels correlate with hepatic fibrosis in human livers [<xref rid="B51" ref-type="bibr">51</xref>], consistent with the findings herein. Moreover, cells other than stellate cells, including portal fibroblasts and bone marrow derived cells contribute to hepatic fibrosis [<xref rid="B48" ref-type="bibr">48</xref>]. Activation of stellate and other extracellular matrix producing cells with attendant increased expression of pro-fibrogenesis genes most likely reflects a tendency for the alcohol-induced steatohepatitis to progress to hepatic fibrosis and liver dysfunction. Although stellate cell activation and fibrogenesis are known consequences of chronic alcohol abuse in humans [<xref rid="B52" ref-type="bibr">52</xref>–<xref rid="B54" ref-type="bibr">54</xref>], our results link genetic factors and ethanol-mediated insulin/IGF-1 resistance to severity of steatohepatitis and proneness to develop progressive alcoholic liver disease. </p>
+      <p>An important and novel conclusion from these studies is that low levels of chronic injury, inflammation, and insulin resistance in the “normal” or baseline state of liver function could play a critical role in predisposing individuals to alcohol-induced chronic liver disease. A second point is that ethanol-induced stimulation of alcohol-metabolizing enzymes, or downregulation of CYP2E1, distinguishes the 3 rat strains according to their differential susceptibilities to chronic alcohol-mediated liver injury. Third, the degrees to which GFAP, desmin, and collagen 1 expression, that is indices of fibrogenesis, were increased by chronic ethanol exposure correlated with inherent strain sensitivity to ethanol-induced liver injury. These results suggest that future investigations should focus on both basal and ethanol-induced abnormalities in liver function including insulin responsiveness, cell turnover, inflammation, alcohol metabolizing enzyme gene expression, and pro-fibrogenesis pathways. Furthermore, our findings suggest that additional biomarkers that report mild insulin resistance, injury, and proinflammatory states in liver may help predict long-term adverse responses to alcohol, and possibly other drugs that utilize alcohol detoxification pathways. </p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgment</title>
+      <p> Research Supported by AA02666, AA02169, AA11431, AA12908, AA-16126, and CA-35711 from the National Institutes of Health.</p>
+    </ack>
+    <ref-list>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duguay</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Coutu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hetu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Joly</surname>
+              <given-names>J-G</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of liver regeneration by chronic alcohol administration</article-title>
+          <source>
+            <italic>Gut</italic>
+          </source>
+          <year>1982</year>
+          <volume>23</volume>
+          <issue>1</issue>
+          <fpage>8</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="pmid">7056500</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Bucher</surname>
+              <given-names>NLR</given-names>
+            </name>
+            <name>
+              <surname>Isselbacher</surname>
+              <given-names>KJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of hepatic regeneration in rats by acute and chronic ethanol intoxication</article-title>
+          <source>
+            <italic>Gastroenterology</italic>
+          </source>
+          <year>1979</year>
+          <volume>77</volume>
+          <issue>3</issue>
+          <fpage>528</fpage>
+          <lpage>531</lpage>
+          <pub-id pub-id-type="pmid">572315</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diehl</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Thorgeirsson</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Steer</surname>
+              <given-names>CJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethanol inhibits liver regeneration in rats without reducing transcripts of key protooncogenes</article-title>
+          <source>
+            <italic>Gastroenterology</italic>
+          </source>
+          <year>1990</year>
+          <volume>99</volume>
+          <issue>4</issue>
+          <fpage>1105</fpage>
+          <lpage>1112</lpage>
+          <pub-id pub-id-type="pmid">2394331</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Bucher</surname>
+              <given-names>NL</given-names>
+            </name>
+            <name>
+              <surname>Isselbacher</surname>
+              <given-names>KJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of acute and chronic ethanol intoxication on hepatic regeneration</article-title>
+          <source>
+            <italic>Advances in Experimental Medicine and Biology</italic>
+          </source>
+          <year>1980</year>
+          <volume>132</volume>
+          <fpage>663</fpage>
+          <lpage>670</lpage>
+          <pub-id pub-id-type="pmid">7191626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carter</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethanol inhibits hormone stimulated hepatocyte DNA synthesis</article-title>
+          <source>
+            <italic>Biochemical and Biophysical Research Communications</italic>
+          </source>
+          <year>1985</year>
+          <volume>128</volume>
+          <issue>2</issue>
+          <fpage>767</fpage>
+          <lpage>774</lpage>
+          <pub-id pub-id-type="pmid">3888219</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethanol impairs insulin receptor substrate-1 mediated signal transduction during rat liver regeneration</article-title>
+          <source>
+            <italic>Biochemical and Biophysical Research Communications</italic>
+          </source>
+          <year>1994</year>
+          <volume>199</volume>
+          <issue>1</issue>
+          <fpage>403</fpage>
+          <lpage>409</lpage>
+          <pub-id pub-id-type="pmid">7510107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Fusamoto</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kamada</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of ethanol on insulin receptor substrate-1-mediated signal transduction during rat liver regeneration</article-title>
+          <source>
+            <italic>Alcohol and Alcoholism</italic>
+          </source>
+          <year>1994</year>
+          <volume>29</volume>
+          <issue>1</issue>
+          <fpage>99</fpage>
+          <lpage>106</lpage>
+          <pub-id pub-id-type="pmid">9063828</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banerjee</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Mohr</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethanol inhibition of insulin signaling in hepatocellular carcinoma cells</article-title>
+          <source>
+            <italic>Alcoholismml: Clinical and Experimental Research</italic>
+          </source>
+          <year>1998</year>
+          <volume>22</volume>
+          <issue>9</issue>
+          <fpage>2093</fpage>
+          <lpage>2101</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mohr</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethanol inhibits hepatocyte proliferation in insulin receptor substrate 1 transgenic mice</article-title>
+          <source>
+            <italic>Gastroenterology</italic>
+          </source>
+          <year>1998</year>
+          <volume>115</volume>
+          <issue>6</issue>
+          <fpage>1558</fpage>
+          <lpage>1565</lpage>
+          <pub-id pub-id-type="pmid">9834285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Yanoff</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphatidylcholine hydrolysis and DNA synthesis in cultured retinal capillary pericytes</article-title>
+          <source>
+            <italic>Microvascular Research</italic>
+          </source>
+          <year>1995</year>
+          <volume>49</volume>
+          <issue>3</issue>
+          <fpage>350</fpage>
+          <lpage>363</lpage>
+          <pub-id pub-id-type="pmid">7643754</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fritsche</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Häring</surname>
+              <given-names>H-U</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>How insulin receptor substrate proteins regulate the metabolic capacity of the liver—implications for health and disease</article-title>
+          <source>
+            <italic>Current Medicinal Chemistry</italic>
+          </source>
+          <year>2008</year>
+          <volume>15</volume>
+          <issue>13</issue>
+          <fpage>1316</fpage>
+          <lpage>1329</lpage>
+          <pub-id pub-id-type="pmid">18537611</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Yeon</surname>
+              <given-names>J-E</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Insulin resistance in experimental alcohol-induced liver disease</article-title>
+          <source>
+            <italic>Journal of Gastroenterology and Hepatology</italic>
+          </source>
+          <year>2008</year>
+          <volume>23</volume>
+          <issue>8</issue>
+          <fpage>e477</fpage>
+          <lpage>e486</lpage>
+          <pub-id pub-id-type="pmid">18505416</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Patel</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>D’Arville</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Iwahashi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>FR</given-names>
+            </name>
+          </person-group>
+          <article-title>Impairment of hepatic insulin receptors during chronic ethanol administration</article-title>
+          <source>
+            <italic>American Journal of Physiology</italic>
+          </source>
+          <year>1991</year>
+          <volume>261</volume>
+          <issue>2</issue>
+          <fpage>G199</fpage>
+          <lpage>G205</lpage>
+          <pub-id pub-id-type="pmid">1678584</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yeon</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Califano</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>Potential role of PTEN phosphatase in ethanol-impaired survival signaling in the liver</article-title>
+          <source>
+            <italic>Hepatology</italic>
+          </source>
+          <year>2003</year>
+          <volume>38</volume>
+          <issue>3</issue>
+          <fpage>703</fpage>
+          <lpage>714</lpage>
+          <pub-id pub-id-type="pmid">12939597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Acute ethanol exposure inhibits insulin signaling in the liver</article-title>
+          <source>
+            <italic>Hepatology</italic>
+          </source>
+          <year>2007</year>
+          <volume>46</volume>
+          <issue>6</issue>
+          <fpage>1791</fpage>
+          <lpage>1800</lpage>
+          <pub-id pub-id-type="pmid">18027876</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McVicker</surname>
+              <given-names>BL</given-names>
+            </name>
+            <name>
+              <surname>Tuma</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Kubik</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Tuma</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Casey</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethanol-induced apoptosis in polarized hepatic cells possibly through regulation of the Fas pathway</article-title>
+          <source>
+            <italic>Alcoholismml: Clinical and Experimental Research</italic>
+          </source>
+          <year>2006</year>
+          <volume>30</volume>
+          <issue>11</issue>
+          <fpage>1906</fpage>
+          <lpage>1915</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carmiel-Haggai</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cederbaum</surname>
+              <given-names>AI</given-names>
+            </name>
+            <name>
+              <surname>Nieto</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Binge ethanol exposure increases liver injury in obese rats</article-title>
+          <source>
+            <italic>Gastroenterology</italic>
+          </source>
+          <year>2003</year>
+          <volume>125</volume>
+          <issue>6</issue>
+          <fpage>1818</fpage>
+          <lpage>1833</lpage>
+          <pub-id pub-id-type="pmid">14724834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cohen</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>Insulin and insulin-like growth factor resistance with neurodegeneration in an adult chronic ethanol exposure model</article-title>
+          <source>
+            <italic>Alcoholismml: Clinical and Experimental Research</italic>
+          </source>
+          <year>2007</year>
+          <volume>31</volume>
+          <issue>9</issue>
+          <fpage>1558</fpage>
+          <lpage>1573</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>XJ</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethanol inhibits insulin expression and actions in the developing brain</article-title>
+          <source>
+            <italic>Cellular and Molecular Life Sciences</italic>
+          </source>
+          <year>2005</year>
+          <volume>62</volume>
+          <issue>10</issue>
+          <fpage>1131</fpage>
+          <lpage>1145</lpage>
+          <pub-id pub-id-type="pmid">15870954</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soscia</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>XJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Chronic gestational exposure to ethanol causes insulin and IGF resistance and impairs acetylcholine homeostasis in the brain</article-title>
+          <source>
+            <italic>Cellular and Molecular Life Sciences</italic>
+          </source>
+          <year>2006</year>
+          <volume>63</volume>
+          <issue>17</issue>
+          <fpage>2039</fpage>
+          <lpage>2056</lpage>
+          <pub-id pub-id-type="pmid">16909201</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yeon</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ethanol impairs insulin-stimulated neuronal survival in the developing brain: role of pten phosphatase</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>2003</year>
+          <volume>278</volume>
+          <issue>29</issue>
+          <fpage>26929</fpage>
+          <lpage>26937</lpage>
+          <pub-id pub-id-type="pmid">12700235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Longato</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PPARdelta agonist attenuates alcohol-induced hepatic insulin resistance and improves liver injury and repair</article-title>
+          <source>
+            <italic>Journal of Hepatology</italic>
+          </source>
+          <year>2009</year>
+          <volume>50</volume>
+          <issue>6</issue>
+          <fpage>1192</fpage>
+          <lpage>1201</lpage>
+          <pub-id pub-id-type="pmid">19398227</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frankfurt</surname>
+              <given-names>OS</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunoassay for single-stranded DNA in apoptotic cells</article-title>
+          <source>
+            <italic>Methods in Molecular Biology</italic>
+          </source>
+          <year>2004</year>
+          <volume>282</volume>
+          <fpage>85</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="pmid">15105558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lyn-Cook</surname>
+              <given-names>LE</given-names>
+            </name>
+            <name>
+              <surname>Lawton</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Hepatic ceramide mediates brain insulin resistance and neurodegeneration in obesity with type 2 diabetes mellitus and Non-alcoholoic steatohepatitis</article-title>
+          <comment><italic>Journal of Alzheimer's Disease</italic>. In press</comment>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fowler</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Greenspan</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of Nile red, a fluorescent hydrophobic probe, for the detection of neutral lipid deposits in tissue sections: Comparison with oil red O</article-title>
+          <source>
+            <italic>Journal of Histochemistry and Cytochemistry</italic>
+          </source>
+          <year>1985</year>
+          <volume>33</volume>
+          <issue>8</issue>
+          <fpage>833</fpage>
+          <lpage>836</lpage>
+          <pub-id pub-id-type="pmid">4020099</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greenspan</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Fowler</surname>
+              <given-names>SD</given-names>
+            </name>
+          </person-group>
+          <article-title>Spectrofluorometric studies of the lipid probe, nile red</article-title>
+          <source>
+            <italic>Journal of Lipid Research</italic>
+          </source>
+          <year>1985</year>
+          <volume>26</volume>
+          <issue>7</issue>
+          <fpage>781</fpage>
+          <lpage>789</lpage>
+          <pub-id pub-id-type="pmid">4031658</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McMillian</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Grant</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nile red binding to HepG2 cells: an improved assay for in vitro studies of hepatosteatosis</article-title>
+          <source>
+            <italic>In Vitro and Molecular Toxicology</italic>
+          </source>
+          <year>2001</year>
+          <volume>14</volume>
+          <issue>3</issue>
+          <fpage>177</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="pmid">11846991</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lester-Coll</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Rivera</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Soscia</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Doiron</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>Intracerebral streptozotocin model of type 3 diabetes: relevance to sporadic Alzheimer’s disease</article-title>
+          <source>
+            <italic>Journal of Alzheimer’s Disease</italic>
+          </source>
+          <year>2006</year>
+          <volume>9</volume>
+          <issue>1</issue>
+          <fpage>13</fpage>
+          <lpage>33</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skern</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Frost</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Nilsen</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Relative transcript quantification by quantitative PCR: roughly right or precisely wrong?</article-title>
+          <source>
+            <italic>BMC Molecular Biology</italic>
+          </source>
+          <year>2005</year>
+          <volume>6, article no. 10</volume>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dussault</surname>
+              <given-names>A-A</given-names>
+            </name>
+            <name>
+              <surname>Pouliot</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid and simple comparison of messenger RNA levels using real-time PCR</article-title>
+          <source>
+            <italic>Biological Procedures Online</italic>
+          </source>
+          <year>2006</year>
+          <volume>8</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="pmid">16446781</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moroz</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Longato</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>Limited Alzheimer-type neurodegeneration in experimental obesity and type 2 diabetes mellitus</article-title>
+          <source>
+            <italic>Journal of Alzheimer’s Disease</italic>
+          </source>
+          <year>2008</year>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>29</fpage>
+          <lpage>44</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Alwis</surname>
+              <given-names>NMW</given-names>
+            </name>
+            <name>
+              <surname>Day</surname>
+              <given-names>CP</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetics of alcoholic liver disease and nonalcoholic fatty liver disease</article-title>
+          <source>
+            <italic>Seminars in Liver Disease</italic>
+          </source>
+          <year>2007</year>
+          <volume>27</volume>
+          <issue>1</issue>
+          <fpage>44</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="pmid">17295176</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lalor</surname>
+              <given-names>PF</given-names>
+            </name>
+            <name>
+              <surname>Faint</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Aarbodem</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Hubscher</surname>
+              <given-names>SG</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>DH</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of cytokines and chemokines in the development of steatohepatitis</article-title>
+          <source>
+            <italic>Seminars in Liver Disease</italic>
+          </source>
+          <year>2007</year>
+          <volume>27</volume>
+          <issue>2</issue>
+          <fpage>173</fpage>
+          <lpage>193</lpage>
+          <pub-id pub-id-type="pmid">17520517</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zakhari</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Overview: how is alcohol metabolized by the body?</article-title>
+          <source>
+            <italic>Alcohol Research and Health</italic>
+          </source>
+          <year>2006</year>
+          <volume>29</volume>
+          <issue>4</issue>
+          <fpage>245</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="pmid">17718403</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cederbaum</surname>
+              <given-names>AI</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Mari</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>CYP2E1-dependent toxicity and oxidative stress in HepG2 cells</article-title>
+          <source>
+            <italic>Free Radical Biology and Medicine</italic>
+          </source>
+          <year>2001</year>
+          <volume>31</volume>
+          <issue>12</issue>
+          <fpage>1539</fpage>
+          <lpage>1543</lpage>
+          <pub-id pub-id-type="pmid">11744327</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Cederbaum</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Glutathione depletion in CYP2E1-expressing liver cells induces toxicity due to the activation of p38 mitogen-activated protein kinase and reduction of nuclear factor-<italic>κ</italic>B DNA binding activity</article-title>
+          <source>
+            <italic>Molecular Pharmacology</italic>
+          </source>
+          <year>2004</year>
+          <volume>66</volume>
+          <issue>3</issue>
+          <fpage>749</fpage>
+          <lpage>760</lpage>
+          <pub-id pub-id-type="pmid">15322268</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moriya</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yokoyama</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hirose</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ishii</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlation between insulin resistance and <italic>γ</italic>-glutamyl transpeptidase sensitivity in light drinkers</article-title>
+          <source>
+            <italic>Alcoholismml: Clinical and Experimental Research</italic>
+          </source>
+          <year>2003</year>
+          <volume>27</volume>
+          <issue>8</issue>
+          <fpage>52S</fpage>
+          <lpage>57S</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tomita</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Azuma</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kitamura</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Pioglitazone prevents alcohol-induced fatty liver in rats through up-regulation of c-Met</article-title>
+          <source>
+            <italic>Gastroenterology</italic>
+          </source>
+          <year>2004</year>
+          <volume>126</volume>
+          <issue>3</issue>
+          <fpage>873</fpage>
+          <lpage>885</lpage>
+          <pub-id pub-id-type="pmid">14988841</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>LP</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>YY</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of chronic ethanol intake insulin sensitivity and IR, IRS-1, IRS-2 mRNA expression of liver in male rats</article-title>
+          <source>
+            <italic>Wei Sheng Yan Jiu</italic>
+          </source>
+          <year>2006</year>
+          <volume>35</volume>
+          <fpage>294</fpage>
+          <lpage>296</lpage>
+          <pub-id pub-id-type="pmid">16921752</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Chaudhry</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Peroxisome proliferator-activated receptor agonist treatment of alcohol-induced hepatic insulin resistance</article-title>
+          <comment><italic>Journal of Hepatology</italic>. In press</comment>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karaa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kamoun</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Clemens</surname>
+              <given-names>MG</given-names>
+            </name>
+          </person-group>
+          <article-title>Chronic ethanol sensitizes the liver to endotoxin via effects on endothelial nitric oxide synthase regulation</article-title>
+          <source>
+            <italic>Shock</italic>
+          </source>
+          <year>2005</year>
+          <volume>24</volume>
+          <issue>5</issue>
+          <fpage>447</fpage>
+          <lpage>454</lpage>
+          <pub-id pub-id-type="pmid">16247331</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murohisa</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kawasaki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of platelet-activating factor in hepatic apoptosis and necrosis in chronic ethanol-fed rats given endotoxin</article-title>
+          <source>
+            <italic>Liver</italic>
+          </source>
+          <year>2002</year>
+          <volume>22</volume>
+          <issue>5</issue>
+          <fpage>394</fpage>
+          <lpage>403</lpage>
+          <pub-id pub-id-type="pmid">12390475</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Zhuge</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Cederbaum</surname>
+              <given-names>AI</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytochrome P450 2E1 contributes to ethanol-induced fatty liver in mice</article-title>
+          <source>
+            <italic>Hepatology</italic>
+          </source>
+          <year>2008</year>
+          <volume>47</volume>
+          <issue>5</issue>
+          <fpage>1483</fpage>
+          <lpage>1494</lpage>
+          <pub-id pub-id-type="pmid">18393316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ronis</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Korourian</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Blackburn</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Badeaux</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Badger</surname>
+              <given-names>TM</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of ethanol metabolism in development of alcoholic steatohepatitis in the rat</article-title>
+          <source>
+            <italic>Alcohol</italic>
+          </source>
+          <year>2010</year>
+          <volume>44</volume>
+          <issue>2</issue>
+          <fpage>157</fpage>
+          <lpage>169</lpage>
+          <pub-id pub-id-type="pmid">20116195</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ciuclan</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Ehnert</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ilkavets</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TGF-<italic>β</italic> enhances alcohol dependent hepatocyte damage via down-regulation of alcohol dehydrogenase I</article-title>
+          <source>
+            <italic>Journal of Hepatology</italic>
+          </source>
+          <year>2010</year>
+          <volume>52</volume>
+          <issue>3</issue>
+          <fpage>407</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="pmid">20129692</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alexander-Bridges</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Dugast</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Ercolani</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>XF</given-names>
+            </name>
+            <name>
+              <surname>Giere</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Nasrin</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple insulin-responsive elements regulate transcription of the GAPDH gene</article-title>
+          <source>
+            <italic>Advances in Enzyme Regulation</italic>
+          </source>
+          <year>1992</year>
+          <volume>32</volume>
+          <fpage>149</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="pmid">1386708</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de la Monte</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Wands</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Review of insulin and insulin-like growth factor expression, signaling, and malfunction in the central nervous systemml: relevance to Alzheimer’s disease</article-title>
+          <source>
+            <italic>Journal of Alzheimer’s Disease</italic>
+          </source>
+          <year>2005</year>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>45</fpage>
+          <lpage>61</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friedman</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of hepatic fibrogenesis</article-title>
+          <source>
+            <italic>Gastroenterology</italic>
+          </source>
+          <year>2008</year>
+          <volume>134</volume>
+          <issue>6</issue>
+          <fpage>1655</fpage>
+          <lpage>1669</lpage>
+          <pub-id pub-id-type="pmid">18471545</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friedman</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Hepatic stellate cells: protean, multifunctional, and enigmatic cells of the liver</article-title>
+          <source>
+            <italic>Physiological Reviews</italic>
+          </source>
+          <year>2008</year>
+          <volume>88</volume>
+          <issue>1</issue>
+          <fpage>125</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="pmid">18195085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morini</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Carotti</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Carpino</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>GFAP expression in the liver as an early marker of stellate cells activation</article-title>
+          <source>
+            <italic>Italian Journal of Anatomy and Embryology</italic>
+          </source>
+          <year>2005</year>
+          <volume>110</volume>
+          <issue>4</issue>
+          <fpage>193</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="pmid">16536051</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yerian</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Identifying activated hepatic stellate cells in chronic and posttransplant recurrent hepatitis C</article-title>
+          <source>
+            <italic>Liver Transplantation</italic>
+          </source>
+          <year>2008</year>
+          <volume>14</volume>
+          <issue>6</issue>
+          <fpage>756</fpage>
+          <lpage>758</lpage>
+          <pub-id pub-id-type="pmid">18508367</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diehl</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Obesity and alcoholic liver disease</article-title>
+          <source>
+            <italic>Alcohol</italic>
+          </source>
+          <year>2004</year>
+          <volume>34</volume>
+          <issue>1</issue>
+          <fpage>81</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="pmid">15670669</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urtasun</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>de la Rosa</surname>
+              <given-names>LC</given-names>
+            </name>
+            <name>
+              <surname>Nieto</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidative and nitrosative stress and fibrogenic response</article-title>
+          <source>
+            <italic>Clinics in Liver Disease</italic>
+          </source>
+          <year>2008</year>
+          <volume>12</volume>
+          <issue>4</issue>
+          <fpage>769</fpage>
+          <lpage>790</lpage>
+          <pub-id pub-id-type="pmid">18984466</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friedman</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Stellate cell activation in alcoholic fibrosis—an overview</article-title>
+          <source>
+            <italic>Alcoholismml: Clinical and Experimental Research</italic>
+          </source>
+          <year>1999</year>
+          <volume>23</volume>
+          <issue>5</issue>
+          <fpage>904</fpage>
+          <lpage>910</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="fig1" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>
+<italic>Rat strain differences in effects of chronic alcohol feeding on weight gain, liver injury, and steatosis</italic>: Fisher 344 (FS), Long Evans (LE), and Sprague Dawley (SD) rats were fed with isocaloric liquid diets containing 0% or 37% ethanol (caloric content) for 8 weeks. (a) Weekly changes in body weight are depicted graphically. (b) Blood alcohol concentrations and (c) serum ALT levels were measured at the time of sacrifice. (d) Nile Red fluorescence (neutral lipids), (e) triglycerides, and (f) cholesterol levels were measured in liver tissue, and results were normalized to sample weight or protein content. Graphs depict the mean ± S.E.M. Intergroup comparisons were made using ANOVA with the post hoc Bonferroni multiple comparisons test. Significant <italic>P</italic>-values are indicated within the panels. In addition, *<italic>P</italic> &lt; .05 relative to FS control; ***<italic>P</italic> &lt; .001 relative to FS control; <italic>ζ</italic>
+<italic>ζ</italic>
+<italic>ζ</italic>
+<italic>P</italic> &lt; .001 relative to FS control and ethanol-fed rats.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.001"/>
+    </fig>
+    <fig id="fig2" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>
+<italic>Rat strain differences in susceptibility to alcohol-induced steatohepatitis</italic>: histological sections of liver were stained with (a)–(l) H&amp;E. Photomicrographs depict livers from (a, c, e, g, i, k) control or (b, d, f, h, j, l) ethanol-exposed (a)–(d) FS, (e)–(h) LE, or (i)–(l) SD rats. Note more prominent microsteatosis (vacuoles) and apoptosis (arrows) in ethanol-fed LE and SD compared with FS rats, and in ethanol-fed relative to control rats. Also, note microsteatosis in LE control livers (g). Original magnifications, Panels ((a), (b), (e), (f), (i), (j)): 80x, Panels ((c), (d), (g), (h), (k), (l)): 400x, Insets:650x.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.002"/>
+    </fig>
+    <fig id="fig3" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>
+<italic>Rat strain differences in susceptibility to alcohol-induced hepatic fibrosis</italic>: histological sections of liver were stained with Sirius red to detect collagen. Photomicrographs depict livers from (a, c, e) control or (b, d, f) ethanol-exposed (a), (b) FS, (c), (d) LE, or (e), (f) SD rats. Note more prominent peri-hepatocyte Sirius red-positive collagen fibrils in ethanol-exposed livers and more extensive labeling in LE compared with FS and SD ethanol-fed rats. Original magnification: 650x.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.003"/>
+    </fig>
+    <fig id="fig4" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p>
+<italic>Effects of strain and ethanol exposure on proinflammatory cytokine gene expression and DNA damage in liver</italic>: qRT-PCR was used to measure (a) TNF-<italic>α</italic>, (b) IL-6, and (c) IL-1<italic>β</italic> expression, with results normalized to 18S rRNA. (d) Histological sections of liver were immunostained to detect single-stranded (SS) DNA as an index of nuclear DNA damage. Graphs depict the mean ± S.E.M. percentages of labeled hepatocyte nuclei (SS DNA Index). Intergroup comparisons were made using ANOVA with the post hoc Bonferroni multiple comparisons test of significance. Significant <italic>P</italic>-values are indicated within the panels. In addition, *<italic>P</italic> &lt; .05 and ***<italic>P</italic> &lt; .001 relative to FS Control; <italic>ζ</italic>
+<italic>ζ</italic>
+<italic>P</italic> &lt; .01 and <italic>ζ</italic>
+<italic>ζ</italic>
+<italic>ζ</italic>
+<italic>P</italic> &lt; .001 relative to FS control and ethanol fed rats; <italic>ψ</italic>
+<italic>ψ</italic>
+<italic>ψ</italic>
+<italic>P</italic> &lt; .001 relative to FS ethanol-fed rats.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.004"/>
+    </fig>
+    <fig id="fig5" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <p>
+<italic>Effects of strain and ethanol Exposure on alcohol metabolizing gene expression in liver</italic>: qRT-PCR assays were used to measure (a), (b) alcohol dehydrogenases (ADH) 1 and 7, (c)–(e) aldehyde dehydrogenases (ALDH) 1-3, (f) Catalase, and (g) CYP2E1 gene expression. Graphs depict the mean ± S.E.M. levels of gene expression normalized to 18S rRNA. Intergroup comparisons were made using ANOVA with the post hoc Bonferroni multiple comparisons test of significance. Significant <italic>P</italic>-values are indicated within the panels. In addition, *<italic>P</italic> &lt; .05 and ***<italic>P</italic> &lt; .001 relative to FS Control; <italic>ζ</italic>
+<italic>P</italic> &lt; .05, <italic>ζ</italic>
+<italic>ζ</italic>
+<italic>P</italic> &lt; .01 relative to FS control and ethanol fed rats; <italic>ψ</italic>
+<italic>ψ</italic>
+<italic>P</italic> &lt; .01 and <italic>ψ</italic>
+<italic>ψ</italic>
+<italic>ψ</italic>
+<italic>P</italic> &lt; .001 relative to FS ethanol-fed rats.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.005"/>
+    </fig>
+    <fig id="fig6" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <p>
+<italic>Effects of strain chronic ethanol exposure on insulin, IGF-1, and IGF-2 receptor binding</italic>: competitive saturation binding assays were used to measure specific insulin, IGF-1, and IGF-2 receptor binding with [<sup>125</sup>I] labeled insulin, IGF-I, or IGF-2 in the presence or absence of cold ligand. Radiolabeled bound ligand was harvested onto GF/C filter plates and measured in a TopCount. Specific binding curves (mean ± S.D.) are depicted for (a)–(f) insulin, (g)–(l) IGF-I, or (m)–(r) IGF-2 receptors in FS (a, g, m), LE (b, h, n), and SD (c, i, o) controls or FS (d, j, p), LE (e, k, q), and SD (f, l, r) ethanol-exposed livers. Statistics are shown in <xref ref-type="table" rid="tab3">Table 3</xref>.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.006"/>
+    </fig>
+    <fig id="fig7" position="float">
+      <label>Figure 7</label>
+      <caption>
+        <p>
+<italic>Effects of strain and ethanol exposure on hepatic gene expression</italic>: qRT-PCR assays were used to measure (a) albumin, (b) asialobiliary salt transporter (ABST), (c) Kupffer cell receptor gene, (d) glial fibrillary acidic protein (GFAP), (e) desmin, (f) <italic>α</italic>-smooth muscle actin (<italic>α</italic>-SMA), and (g) collagen, with levels normalized to 18S rRNA. Graphs depict the mean ± S.E.M. levels of gene expression. Intergroup comparisons were made using ANOVA with the post hoc Bonferroni multiple comparisons test of significance. Significant <italic>P</italic>-values are indicated within the panels. In addition, <italic>ζ</italic>
+<italic>P</italic> &lt; .05, <italic>ζ</italic>
+<italic>ζ</italic>
+<italic>P</italic> &lt; .01 relative to FS control and ethanol fed rats.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.007"/>
+    </fig>
+    <fig id="fig8" position="float">
+      <label>Figure 8</label>
+      <caption>
+        <p>
+<italic>Effects of strain and ethanol exposure on hepatic expression of glyceraldehyde-3-phosphate dehydrogenase, an insulin-responsive protein</italic>: (a) GAPDH and (b) <italic>β</italic>-actin were measured in liver by ELISA. Graphs depict mean ± S.E.M of results. Intergroup comparisons were made using ANOVA with the post hoc Bonferroni multiple comparisons test of significance. Significant <italic>P</italic>-values are indicated within the panels. In addition, ***<italic>P</italic> &lt; .001 relative to FS Control and <italic>ζ</italic>
+<italic>ζ</italic>
+<italic>ζ</italic>
+<italic>P</italic> &lt; .001 relative to FS control and ethanol-fed rats.</p>
+      </caption>
+      <graphic xlink:href="GRP2010-312790.008"/>
+    </fig>
+    <table-wrap id="tab1" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p>Primer pairs for quantitative RT-PCR assays.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th align="left" rowspan="1" colspan="1">Primer</th>
+            <th align="center" rowspan="1" colspan="1">
+</th>
+            <th align="center" rowspan="1" colspan="1">Sequence (5′ → 3′)</th>
+            <th align="center" rowspan="1" colspan="1">Position</th>
+            <th align="center" rowspan="1" colspan="1">Size (bp)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Desmin</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">ACCTGCGAGATTGATGCTCT</td>
+            <td align="center" rowspan="1" colspan="1">1069</td>
+            <td align="center" rowspan="1" colspan="1">206</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Desmin</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">ACATCCAAGGCCATCTTCAC</td>
+            <td align="center" rowspan="1" colspan="1">1274</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">COL1a2</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">ACCTCAGGGTGTTCAAGGTG</td>
+            <td align="center" rowspan="1" colspan="1">1632</td>
+            <td align="center" rowspan="1" colspan="1">222</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">COL1a2</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">CGGATTCCAATAGGACCAGA</td>
+            <td align="center" rowspan="1" colspan="1">1844</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>α</italic>-SMA</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">TGTGCTGGACTCTGGAGATG</td>
+            <td align="center" rowspan="1" colspan="1">516</td>
+            <td align="center" rowspan="1" colspan="1">148</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>α</italic>-SMA</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">GAAGGAATAGCCACGCTCAG</td>
+            <td align="center" rowspan="1" colspan="1">663</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ASBT</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">GCATTGGCATTTCTCTGGTT</td>
+            <td align="center" rowspan="1" colspan="1">598</td>
+            <td align="center" rowspan="1" colspan="1">181</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ASBT</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">GGTTCAATGATCCAGGCACT</td>
+            <td align="center" rowspan="1" colspan="1">778</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">GFAP</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">GGTGGAGAGGGACAATCTCA</td>
+            <td align="center" rowspan="1" colspan="1">433</td>
+            <td align="center" rowspan="1" colspan="1">215</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">GFAP</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">CTCGAACTTCCTCCTCATGG</td>
+            <td align="center" rowspan="1" colspan="1">647</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALB</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">CTTCAAAGCCTGGGCAGTAG</td>
+            <td align="center" rowspan="1" colspan="1">702</td>
+            <td align="center" rowspan="1" colspan="1">188</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALB</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">TGGAGATAGTGGCCTGGTTC</td>
+            <td align="center" rowspan="1" colspan="1">889</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">KCR</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">TCACAAATGCTGTGGACCAT</td>
+            <td align="center" rowspan="1" colspan="1">1427</td>
+            <td align="center" rowspan="1" colspan="1">161</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">KCR</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">GTCTTCACGCTCTCCGTTTC</td>
+            <td align="center" rowspan="1" colspan="1">1587</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ADH-1</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">TGCTCCGTGCTGGAAAGAGTATCC</td>
+            <td align="center" rowspan="1" colspan="1">1138</td>
+            <td align="center" rowspan="1" colspan="1">117</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ADH-1</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">TAAGGTTGTGATGTGGCTGGCG</td>
+            <td align="center" rowspan="1" colspan="1">1254</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ADH-7</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">CAATGCTGCTTTTCACTGGA</td>
+            <td align="center" rowspan="1" colspan="1">971</td>
+            <td align="center" rowspan="1" colspan="1">234</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ADH-7</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">AGAACACCCAGCTCTCTGGA</td>
+            <td align="center" rowspan="1" colspan="1">1204</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALDH-1</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">ATCTGCCATGTGGAAGAAGG</td>
+            <td align="center" rowspan="1" colspan="1">173</td>
+            <td align="center" rowspan="1" colspan="1">216</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALDH-1</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">CAAGTACGCATTGGCAAAGA</td>
+            <td align="center" rowspan="1" colspan="1">388</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALDH-2</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">GACCTGGACAAGGCCAATTA</td>
+            <td align="center" rowspan="1" colspan="1">1391</td>
+            <td align="center" rowspan="1" colspan="1">193</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALDH-2</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">TCTTCTGTGGCACTTTGACG</td>
+            <td align="center" rowspan="1" colspan="1">1583</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALDH-3</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">CTGATTGCTGAGGTTCCTGTTAGG</td>
+            <td align="center" rowspan="1" colspan="1">1914</td>
+            <td align="center" rowspan="1" colspan="1">119</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">ALDH-3</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">GGATGTTTAGACTGAGAGCCGACTC</td>
+            <td align="center" rowspan="1" colspan="1">2032</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Catalase</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">ATACGAAGGTGTTGAATGAGGAGG</td>
+            <td align="center" rowspan="1" colspan="1">1369</td>
+            <td align="center" rowspan="1" colspan="1">63</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Catalase</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">TCAGGTGGTTGGCAATGTTCTC</td>
+            <td align="center" rowspan="1" colspan="1">1431</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">CYP2E1</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">GTGTTCACACTGCACCTTGG</td>
+            <td align="center" rowspan="1" colspan="1">211</td>
+            <td align="center" rowspan="1" colspan="1">69</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">CYP2E1</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">CACCTCCTTGACAGCCTTGT</td>
+            <td align="center" rowspan="1" colspan="1">279</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">GAPDH</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">AGT GGG CAT CAA TGG ATT TGG</td>
+            <td align="center" rowspan="1" colspan="1">306</td>
+            <td align="center" rowspan="1" colspan="1">241</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">GAPDH</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">GGG GAT TTC CTT AGG TTC TTT GC</td>
+            <td align="center" rowspan="1" colspan="1">546</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">IL-1<italic>β</italic>
+</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">CAG CAG CAT CTC GAC AAG AG</td>
+            <td align="center" rowspan="1" colspan="1">233</td>
+            <td align="center" rowspan="1" colspan="1">60</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">IL-1<italic>β</italic>
+</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">CTT CTC CAC AGC CAC AAT GA</td>
+            <td align="center" rowspan="1" colspan="1">292</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">TNF-<italic>α</italic>
+</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">ATG TGG AAC TGG CAG AGG AG</td>
+            <td align="center" rowspan="1" colspan="1">26</td>
+            <td align="center" rowspan="1" colspan="1">84</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">TNF-<italic>α</italic>
+</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">AGA AGA GGC TGA GGC ACA GA</td>
+            <td align="center" rowspan="1" colspan="1">109</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">IL-6</td>
+            <td align="center" rowspan="1" colspan="1">For</td>
+            <td align="center" rowspan="1" colspan="1">ATG TTG TTG ACA GCC ACT GC</td>
+            <td align="center" rowspan="1" colspan="1">116</td>
+            <td align="center" rowspan="1" colspan="1">51</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">IL-6</td>
+            <td align="center" rowspan="1" colspan="1">Rev</td>
+            <td align="center" rowspan="1" colspan="1">GTC TCC TCTCCG GAC TTG TG</td>
+            <td align="center" rowspan="1" colspan="1">166</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>qPCR: quantitative polymerase chain reaction; ASBT: apical sodium dependent bile acid transporter; KCR: Kupffer cell glycoprotein receptor; GFAP: glial fibrillary acidic protein; COL1a2: pro-alpha-2(I) collagen; ALB: albumin; <italic>α</italic>-SMA: alpha smooth muscle actin; ADH: alcohol dehydrogenase; ALDH: aldehyde dehydrogenase; CYP2E1: cytochrome P450 2E1; GAPDH: glyceraldehyde-3-phosphaye dehydrogenase; IL: interleukin 1; TNF: tumor necrosis factor.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="tab2" position="float">
+      <label>Table 2</label>
+      <caption>
+        <p>Weight gain after 8 weeks on isocaloric liquid diets*.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th align="left" rowspan="1" colspan="1">
+</th>
+            <th align="center" rowspan="1" colspan="1">FS Control</th>
+            <th align="center" rowspan="1" colspan="1">FS Ethanol</th>
+            <th align="center" rowspan="1" colspan="1">LE Control</th>
+            <th align="center" rowspan="1" colspan="1">LE Ethanol</th>
+            <th align="center" rowspan="1" colspan="1">SD Control</th>
+            <th align="center" rowspan="1" colspan="1">SD Ethanol</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"># Rats/Group</td>
+            <td align="center" rowspan="1" colspan="1">12</td>
+            <td align="center" rowspan="1" colspan="1">14</td>
+            <td align="center" rowspan="1" colspan="1">12</td>
+            <td align="center" rowspan="1" colspan="1">13</td>
+            <td align="center" rowspan="1" colspan="1">12</td>
+            <td align="center" rowspan="1" colspan="1">13</td>
+          </tr>
+          <tr>
+            <td align="center" colspan="7" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Wt Gain (gm)</td>
+            <td align="center" rowspan="1" colspan="1">82.68</td>
+            <td align="center" rowspan="1" colspan="1">55.49<sup>c,d</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">75.05 <sup>e</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">64.18 <sup>b</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">104.4</td>
+            <td align="center" rowspan="1" colspan="1">90.88</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">± S.E.M.</td>
+            <td align="center" rowspan="1" colspan="1">5.35</td>
+            <td align="center" rowspan="1" colspan="1">3.83</td>
+            <td align="center" rowspan="1" colspan="1">6.49</td>
+            <td align="center" rowspan="1" colspan="1">6.92</td>
+            <td align="center" rowspan="1" colspan="1">7.93</td>
+            <td align="center" rowspan="1" colspan="1">6.86</td>
+          </tr>
+          <tr>
+            <td align="center" colspan="7" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">% Wt Gain</td>
+            <td align="center" rowspan="1" colspan="1">30.63</td>
+            <td align="center" rowspan="1" colspan="1">21.16 <sup>a,b</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">21.04 <sup>a,b</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">19.59 <sup>a,b</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">34.75</td>
+            <td align="center" rowspan="1" colspan="1">30.02</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">S.E.M.</td>
+            <td align="center" rowspan="1" colspan="1">1.98</td>
+            <td align="center" rowspan="1" colspan="1">1.42</td>
+            <td align="center" rowspan="1" colspan="1">1.77</td>
+            <td align="center" rowspan="1" colspan="1">2.32</td>
+            <td align="center" rowspan="1" colspan="1">2.73</td>
+            <td align="center" rowspan="1" colspan="1">2.34</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>*Adult Fisher (FS), Long Evans (LE), and Sprague-Dawley (SD) rats were pair-fed with isocaloric control or ethanol-containing liquid diets for 8 weeks, and were weighed weekly (See <xref ref-type="sec" rid="sec2">Section 2</xref>). Net mean body weight (grams) and mean percentage body weight gained over the 8 week period were calculated. Intergroup comparisons were made using two-way ANOVA and Tukey post hoc tests of significance. <sup>a</sup>significantly lower than FS Control (<italic>P</italic> &lt; .05); <sup>b</sup>significantly lower than SD Control (<italic>P</italic> &lt; .001) and SD Ethanol (<italic>P</italic> &lt; .05); <sup>c</sup>significantly lower than FS Control (<italic>P</italic> &lt; .05); <sup>d</sup>significantly lower than SD Control (<italic>P</italic> &lt; .001) and SD Ethanol (<italic>P</italic> &lt; .01); and <sup>e</sup>significantly lower than SD Control (<italic>P</italic> &lt; .05).</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="tab3" position="float">
+      <label>Table 3</label>
+      <caption>
+        <p>Insulin and insulin like growth factor receptor saturation binding assay results for liver.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th align="left" rowspan="1" colspan="1">Receptor</th>
+            <th align="center" rowspan="1" colspan="1">FS-Control</th>
+            <th align="center" rowspan="1" colspan="1">FS-Ethanol</th>
+            <th align="center" rowspan="1" colspan="1">LE-Control</th>
+            <th align="center" rowspan="1" colspan="1">LE-Ethanol</th>
+            <th align="center" rowspan="1" colspan="1">SD-Control</th>
+            <th align="center" rowspan="1" colspan="1">SD-Ethanol</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>Insulin</italic>
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Bmax</td>
+            <td align="center" rowspan="1" colspan="1">46.61 ± 27.43</td>
+            <td align="center" rowspan="1" colspan="1">99.85 ± 60.68</td>
+            <td align="center" rowspan="1" colspan="1">43.41 ± 24.54</td>
+            <td align="center" rowspan="1" colspan="1">16.9 ± 2.98**</td>
+            <td align="center" rowspan="1" colspan="1">29.24 ± 14.42</td>
+            <td align="center" rowspan="1" colspan="1">18.94 ± 2.18***</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Kd</td>
+            <td align="center" rowspan="1" colspan="1">380.7 ± 262.6</td>
+            <td align="center" rowspan="1" colspan="1">1028 ± 666.8</td>
+            <td align="center" rowspan="1" colspan="1">830.9 ± 508.7</td>
+            <td align="center" rowspan="1" colspan="1">228.3 ± 51.03***</td>
+            <td align="center" rowspan="1" colspan="1">716.6 ± 387.1</td>
+            <td align="center" rowspan="1" colspan="1">260.2 ± 37.18***</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>R</italic>
+<sup>2</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">0.8888</td>
+            <td align="center" rowspan="1" colspan="1">0.9799</td>
+            <td align="center" rowspan="1" colspan="1">0.9743</td>
+            <td align="center" rowspan="1" colspan="1">0.972</td>
+            <td align="center" rowspan="1" colspan="1">0.9726</td>
+            <td align="center" rowspan="1" colspan="1">0.9907</td>
+          </tr>
+          <tr>
+            <td align="center" colspan="7" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>IGF-1</italic>
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Bmax</td>
+            <td align="center" rowspan="1" colspan="1">3.35 ± 0.33</td>
+            <td align="center" rowspan="1" colspan="1">2.13 ± 0.24</td>
+            <td align="center" rowspan="1" colspan="1">5.11 ± 0.83**</td>
+            <td align="center" rowspan="1" colspan="1">5.42 ± 1.15***</td>
+            <td align="center" rowspan="1" colspan="1">5.13 ± 1.77***</td>
+            <td align="center" rowspan="1" colspan="1">5.02 ± 1.34***</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Kd</td>
+            <td align="center" rowspan="1" colspan="1">29.45 ± 6.89</td>
+            <td align="center" rowspan="1" colspan="1">9.46 ± 4.20**</td>
+            <td align="center" rowspan="1" colspan="1">57.34 ± 17.23</td>
+            <td align="center" rowspan="1" colspan="1">88.34 ± 30.31</td>
+            <td align="center" rowspan="1" colspan="1">114 ± 58.96</td>
+            <td align="center" rowspan="1" colspan="1">89.7 ± 38.36</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>R</italic>
+<sup>2</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">0.8684</td>
+            <td align="center" rowspan="1" colspan="1">0.5333</td>
+            <td align="center" rowspan="1" colspan="1">0.8156</td>
+            <td align="center" rowspan="1" colspan="1">0.8313</td>
+            <td align="center" rowspan="1" colspan="1">0.6977</td>
+            <td align="center" rowspan="1" colspan="1">0.735</td>
+          </tr>
+          <tr>
+            <td align="center" colspan="7" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>IGF-2</italic>
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+            <td align="center" rowspan="1" colspan="1">
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Bmax</td>
+            <td align="center" rowspan="1" colspan="1">45.00 ± 4.40</td>
+            <td align="center" rowspan="1" colspan="1">46.36 ± 5.04</td>
+            <td align="center" rowspan="1" colspan="1">12.13 ± 1.41***</td>
+            <td align="center" rowspan="1" colspan="1">38.59 ± 5.19</td>
+            <td align="center" rowspan="1" colspan="1">29.46 ± 2.15*</td>
+            <td align="center" rowspan="1" colspan="1">41.29 ± 3.17</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Kd</td>
+            <td align="center" rowspan="1" colspan="1">30.28 ± 5.99</td>
+            <td align="center" rowspan="1" colspan="1">24.86 ± 5.87</td>
+            <td align="center" rowspan="1" colspan="1">18.74 ± 5.28***</td>
+            <td align="center" rowspan="1" colspan="1">25.51 ± 7.38</td>
+            <td align="center" rowspan="1" colspan="1">15.95 ± 3.01***</td>
+            <td align="center" rowspan="1" colspan="1">22.43 ± 3.88</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">
+<italic>R</italic>
+<sup>2</sup>
+</td>
+            <td align="center" rowspan="1" colspan="1">0.9099</td>
+            <td align="center" rowspan="1" colspan="1">0.8685</td>
+            <td align="center" rowspan="1" colspan="1">0.8028</td>
+            <td align="center" rowspan="1" colspan="1">0.8131</td>
+            <td align="center" rowspan="1" colspan="1">0.9026</td>
+            <td align="center" rowspan="1" colspan="1">0.9197</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>Saturation binding assays were performed with liver tissue homogenates from Fisher 344 (FS), Sprague Dawley (SD), or Long Evans (LE) rats maintained on liquid diets containing 0% (control) or 37% ethanol (caloric content) for 8 weeks. The BMAX (top-level binding), Kd (affinity), and <italic>R</italic>
+<sup>2</sup> (correlation coefficient) were calculated using Prism 5 software. Intergroup comparisons of the one-site specific binding curves were made using extra sum of squares <italic>F</italic>-tests. For all groups, the df = 38.  *<italic>P</italic> = .0008; **<italic>P</italic> = .0002;  ***<italic>P</italic> &lt; .0001 relative to corresponding FS control or ethanol-exposed group.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
