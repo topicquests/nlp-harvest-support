@@ -5,9 +5,9 @@
  */
 package org.topicquests.asr.nlp.api;
 
-import java.util.List;
 
 import com.google.gson.JsonObject;
+import com.google.gson.JsonArray;
 
 /**
  * @author jackpark
@@ -67,7 +67,7 @@ public interface IAuthor {
 	String getAuthorFullName();
 	
 	void addAuthorFirstName(String firstName);
-	List<String> listAuthorFirstNames();
+	JsonArray listAuthorFirstNames();
 	
 	/**
 	 * Can be full or initals or <code>null</code>
@@ -114,7 +114,7 @@ public interface IAuthor {
 	String getAuthorEmail();
 	
 	void addAffiliationName(String name);
-	List<String> listAffiliationNames();
+	JsonArray listAffiliationNames();
 	
 	void setAffiliationLocator(String locator);
 	String getAffiliationLocator();

@@ -8,28 +8,34 @@ package org.topicquests.asr.nlp.doc;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Iterator;
 
 import org.topicquests.asr.nlp.api.IAuthor;
 
 import com.google.gson.JsonObject;
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 
 /**
  * @author jackpark
  *
  */
 public class AuthorPojo implements IAuthor {
-
+	private JsonObject data;
+	private Gson gson = new Gson();
 	/**
 	 * 
 	 */
 	public AuthorPojo() {
+		data = new JsonObject();
 	}
 
 	/**
 	 * @param map
 	 */
-	public AuthorPojo(JSONObject map) {
-		super(map);
+	public AuthorPojo(JsonObject map) {
+		data = map;
 	}
 
 	/* (non-Javadoc)
@@ -37,7 +43,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorTitle(String title) {
-		put(IAuthor.TITLE_FIELD, title);
+		data.addProperty(IAuthor.TITLE_FIELD, title);
 	}
 
 	/* (non-Javadoc)
@@ -45,7 +51,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorTitle() {
-		return getAsString(IAuthor.TITLE_FIELD);
+		return data.get(IAuthor.TITLE_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -53,7 +59,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorFullName(String fullName) {
-		put(IAuthor.FULL_NAME_FIELD, fullName);
+		data.addProperty(IAuthor.FULL_NAME_FIELD, fullName);
 	}
 
 	/* (non-Javadoc)
@@ -61,12 +67,12 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorFullName() {
-		String result = getAsString(IAuthor.FULL_NAME_FIELD);
+		String result = data.get(IAuthor.FULL_NAME_FIELD).getAsString();
 		if (result == null) {
 			String firstName = null;
-			List<String> l = listAuthorFirstNames();
+			JsonArray l = listAuthorFirstNames();
 			if (l != null && !l.isEmpty())
-				firstName = l.get(0);
+				firstName = l.get(0).getAsString();
 			if (firstName == null)
 				firstName = getInitials();
 			if (firstName == null)
@@ -81,20 +87,29 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void addAuthorFirstName(String firstName) {
-		List<String> l = listAuthorFirstNames();
+		JsonArray l = listAuthorFirstNames();
 		if (l == null)
-			l = new ArrayList<String>();
-		if (!l.contains(firstName))
+			l = new JsonArray();
+		if (!contains(l, firstName))
 			l.add(firstName);
-		put(IAuthor.FIRST_NAME_FIELD, l);
+		data.add(IAuthor.FIRST_NAME_FIELD, l);
 	}
 
+	boolean contains(JsonArray l, String s) {
+		boolean result = false;
+		Iterator<JsonElement> itr = l.iterator();
+		while (itr.hasNext()) {
+			if (itr.next().getAsString().equals(s))
+				return true;
+		}
+		return result;
+	}
 	/* (non-Javadoc)
 	 * @see org.topicquests.os.asr.api.IAuthor#getAuthorFirstName()
 	 */
 	@Override
-	public List<String> listAuthorFirstNames() {
-		return (List<String>)get(IAuthor.FIRST_NAME_FIELD);
+	public JsonArray listAuthorFirstNames() {
+		return data.get(IAuthor.FIRST_NAME_FIELD).getAsJsonArray();
 	}
 
 	/* (non-Javadoc)
@@ -102,7 +117,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorMiddleName(String middleName) {
-		put(IAuthor.MIDDLE_NAME_FIELD, middleName);
+		data.addProperty(IAuthor.MIDDLE_NAME_FIELD, middleName);
 	}
 
 	/* (non-Javadoc)
@@ -110,7 +125,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorMiddleName() {
-		return getAsString(IAuthor.MIDDLE_NAME_FIELD);
+		return data.get(IAuthor.MIDDLE_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -118,7 +133,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorLastName(String lastName) {
-		put(IAuthor.LAST_NAME_FIELD, lastName);
+		data.addProperty(IAuthor.LAST_NAME_FIELD, lastName);
 	}
 
 	/* (non-Javadoc)
@@ -126,7 +141,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorLastName() {
-		return getAsString(IAuthor.LAST_NAME_FIELD);
+		return data.get(IAuthor.LAST_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -134,7 +149,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorSuffix(String t) {
-		put(IAuthor.SUFFIX, t);
+		data.addProperty(IAuthor.SUFFIX, t);
 	}
 
 	/* (non-Javadoc)
@@ -142,7 +157,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorSuffix() {
-		return getAsString(IAuthor.SUFFIX);
+		return data.get(IAuthor.SUFFIX).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -150,7 +165,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorDegree(String deg) {
-		put(IAuthor.DEGREE_FIELD, deg);
+		data.addProperty(IAuthor.DEGREE_FIELD, deg);
 	}
 
 	/* (non-Javadoc)
@@ -158,7 +173,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorDegree() {
-		return getAsString(IAuthor.DEGREE_FIELD);
+		return data.get(IAuthor.DEGREE_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -166,7 +181,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorInitials(String initials) {
-		put(IAuthor.INITIALS_FIELD, initials);
+		data.addProperty(IAuthor.INITIALS_FIELD, initials);
 	}
 
 	/* (non-Javadoc)
@@ -174,7 +189,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getInitials() {
-		return getAsString(IAuthor.INITIALS_FIELD);
+		return data.get(IAuthor.INITIALS_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -182,7 +197,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setAuthorNickName(String name) {
-		put(IAuthor.NICK_NAME_FIELD, name);
+		data.addProperty(IAuthor.NICK_NAME_FIELD, name);
 	}
 
 	/* (non-Javadoc)
@@ -190,7 +205,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorNickName() {
-		return getAsString(IAuthor.NICK_NAME_FIELD);
+		return data.get(IAuthor.NICK_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -198,7 +213,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setDocumentId(String id) {
-		put(IAuthor.DOC_ID_FIELD, id);
+		data.addProperty(IAuthor.DOC_ID_FIELD, id);
 	}
 
 	/* (non-Javadoc)
@@ -206,7 +221,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getDocumentId(String id) {
-		return getAsString(IAuthor.DOC_ID_FIELD);
+		return data.get(IAuthor.DOC_ID_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -214,7 +229,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setDocumentTitle(String title) {
-		put(IAuthor.DOC_TITLE_FIELD, title);
+		data.addProperty(IAuthor.DOC_TITLE_FIELD, title);
 	}
 
 	/* (non-Javadoc)
@@ -222,7 +237,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getDocumentTitle() {
-		return getAsString(IAuthor.DOC_TITLE_FIELD);
+		return data.get(IAuthor.DOC_TITLE_FIELD).getAsString();
 	}
 
 
@@ -231,7 +246,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setPublisherName(String name) {
-		put(IAuthor.PUBLISHER_NAME_FIELD, name);
+		data.addProperty(IAuthor.PUBLISHER_NAME_FIELD, name);
 	}
 
 	/* (non-Javadoc)
@@ -239,7 +254,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublisherName() {
-		return getAsString(IAuthor.PUBLISHER_NAME_FIELD);
+		return data.get(IAuthor.PUBLISHER_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -247,7 +262,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setPublisherLocator(String locator) {
-		put(IAuthor.PUBLISHER_LOCATOR_FIELD, locator);
+		data.addProperty(IAuthor.PUBLISHER_LOCATOR_FIELD, locator);
 	}
 
 	/* (non-Javadoc)
@@ -255,7 +270,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublisherLocator() {
-		return getAsString(IAuthor.PUBLISHER_LOCATOR_FIELD);
+		return data.get(IAuthor.PUBLISHER_LOCATOR_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -263,7 +278,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setPublicationName(String name) {
-		put(IAuthor.PUBLICATION_NAME_FIELD, name);
+		data.addProperty(IAuthor.PUBLICATION_NAME_FIELD, name);
 	}
 
 	/* (non-Javadoc)
@@ -271,7 +286,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublicationName() {
-		return getAsString(IAuthor.PUBLICATION_NAME_FIELD);
+		return data.get(IAuthor.PUBLICATION_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -279,7 +294,7 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public void setPublicationLocator(String locator) {
-		put(IAuthor.PUBLICATION_LOCATOR, locator);
+		data.addProperty(IAuthor.PUBLICATION_LOCATOR, locator);
 	}
 
 	/* (non-Javadoc)
@@ -287,64 +302,69 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublicationLocator() {
-		return getAsString(IAuthor.PUBLICATION_LOCATOR);
+		return data.get(IAuthor.PUBLICATION_LOCATOR).getAsString();
 	}
 
 
 	@Override
 	public void setAffiliationLocator(String locator) {
-		put(IAuthor.AFFILIATION_LOCATOR, locator);
+		data.addProperty(IAuthor.AFFILIATION_LOCATOR, locator);
 	}
 
 	@Override
 	public String getAffiliationLocator() {
-		return getAsString(IAuthor.AFFILIATION_LOCATOR);
+		return data.get(IAuthor.AFFILIATION_LOCATOR).getAsString();
 	}
 
 	@Override
 	public void setAuthorLocator(String locator) {
-		put(IAuthor.AUTHOR_LOCATOR, locator);
+		data.addProperty(IAuthor.AUTHOR_LOCATOR, locator);
 	}
 
 	@Override
 	public String getAuthorLocator() {
-		return getAsString(IAuthor.AUTHOR_LOCATOR);
+		return data.get(IAuthor.AUTHOR_LOCATOR).getAsString();
 	}
 
 	@Override
 	public void setId(String id) {
-		put(IAuthor.ID, id);
+		data.addProperty(IAuthor.ID, id);
 	}
 
 	@Override
 	public String getId() {
-		return getAsString(IAuthor.ID);
+		return data.get(IAuthor.ID).getAsString();
 	}
 
 	@Override
 	public void addAffiliationName(String name) {
-		List<String>l = listAffiliationNames();
+		JsonArray l = listAffiliationNames();
 		if (l == null)
-			l = new ArrayList<String>();
-		if (!l.contains(name))
+			l = new JsonArray();
+		if (contains(l, name))
 			l.add(name);
-		put(IAuthor.AFFILIATION_NAME_FIELD, l);
+		data.add(IAuthor.AFFILIATION_NAME_FIELD, l);
 		
 	}
 
 	@Override
-	public List<String> listAffiliationNames() {
-		return (List<String>)get(IAuthor.AFFILIATION_NAME_FIELD);
+	public JsonArray listAffiliationNames() {
+		return data.get(IAuthor.AFFILIATION_NAME_FIELD).getAsJsonArray();
 	}
 
 	@Override
 	public void setAuthorEmail(String email) {
-		put(IAuthor.EMAIL_FIELD, email);
+		data.addProperty(IAuthor.EMAIL_FIELD, email);
 	}
 
 	@Override
 	public String getAuthorEmail() {
-		return getAsString(IAuthor.EMAIL_FIELD);
+		return data.get(IAuthor.EMAIL_FIELD).getAsString();
+	}
+
+	@Override
+	public JsonObject getData() {
+		return data;
 	}
 	
 }
