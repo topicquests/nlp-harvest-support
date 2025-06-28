@@ -11,6 +11,7 @@ import org.topicquests.asr.nlp.api.ITQCoreOntology;
 //import org.topicquests.hyperbrane.api.IHarvestingOntology;
 
 import com.google.gson.JsonObject;
+import com.google.gson.JsonArray;
 
 
 /**
@@ -39,9 +40,9 @@ public class JSONDocumentObject {
 		_SUBSTANCE_LIST		= "substList",
 		_TFIDF_MAP			= "tfidfMap";
 	
-	private JSONObject data;
+	private JsonObject data;
 	
-	public JSONDocumentObject(JSONObject jo) {
+	public JSONDocumentObject(JsonObject jo) {
 		data = jo;
 	}
 	/**
@@ -51,20 +52,20 @@ public class JSONDocumentObject {
 	public JSONDocumentObject(String userId) throws Exception {
 		if (userId == null)
 			throw new Exception("JSONDocumentObject missing userId");
-		data = new JSONObject();
-		data.put(ITQCoreOntology.CREATOR_ID_PROPERTY, userId);
+		data = new JsonObject();
+		data.addProperty(ITQCoreOntology.CREATOR_ID_PROPERTY, userId);
 	}
 	
 	public String getCreatorId() {
-		return data.getAsString(ITQCoreOntology.CREATOR_ID_PROPERTY);
+		return data.get(ITQCoreOntology.CREATOR_ID_PROPERTY).getAsString();
 	}
 	/**
 	 * For pubmed docs
 	 * @param pmid
 	 */
 	public void setPMID(String pmid) {
-		data.put(_PMID, pmid);
-		setLocator(_PUBMED_PREFIX+pmid);
+		data.addProperty(_PMID, pmid);
+		// TODO setLocator(_PUBMED_PREFIX+pmid);
 	}
 	
 	/**
@@ -73,40 +74,40 @@ public class JSONDocumentObject {
 	 */
 	public String getPMID() {
 		
-		return data.getAsString(_PMID);
+		return data.get(_PMID).getAsString();
 	}
 	
 	public void setPMCID(String pmid) {
-		data.put(_PMCID, pmid);
+		data.addProperty(_PMCID, pmid);
 	}
 	
 	public String getPMCID() {
-		return data.getAsString(_PMCID);
+		return data.get(_PMCID).getAsString();
 	}
 	/**
 	 * Set the document's topic <em>locator</em>
 	 * @param locator
 	 */
 	public void setLocator(String locator) {
-		data.put(ITQCoreOntology.LOCATOR_PROPERTY, locator);
+		data.addProperty(ITQCoreOntology.LOCATOR_PROPERTY, locator);
 	}
 	/**
 	 * Return the document's topic <em>locator</em>
 	 * @return can return <code>null</code>
 	 */
 	public String getLocator() {
-		String result = data.getAsString(ITQCoreOntology.LOCATOR_PROPERTY);
+		String result = data.get(ITQCoreOntology.LOCATOR_PROPERTY).getAsString();
 		if (result == null)
-			result = data.getAsString("locator"); // old version
+			result = data.get("locator").getAsString(); // old version
 		return result;
 	}
 	
 	public void setPublicationISOAbbreviation(String a) {
-		data.put(_ISO_ABBREV, a);
+		data.addProperty(_ISO_ABBREV, a);
 	}
 	
 	public String getPublicationISOAbbreviation() {
-		return data.getAsString(_ISO_ABBREV);
+		return data.get(_ISO_ABBREV).getAsString();
 	}
 	
 	public void setCopyright(String copyright) {
