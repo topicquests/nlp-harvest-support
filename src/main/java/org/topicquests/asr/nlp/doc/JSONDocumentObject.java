@@ -7,11 +7,14 @@ package org.topicquests.asr.nlp.doc;
 import java.util.*;
 
 import org.topicquests.asr.nlp.api.ITQCoreOntology;
+import org.topicquests.asr.nlp.api.IAuthor;
+import org.topicquests.asr.nlp.api.IPublication;
 
 //import org.topicquests.hyperbrane.api.IHarvestingOntology;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 
 
 /**
@@ -111,24 +114,35 @@ public class JSONDocumentObject {
 	}
 	
 	public void setCopyright(String copyright) {
-		data.put(_COPYRIGHT, copyright);
+		data.addProperty(_COPYRIGHT, copyright);
 	}
 	
 	public String getCopyright() {
-		return data.getAsString(_COPYRIGHT);
+		return data.get(_COPYRIGHT).getAsString();
 	}
-	public void setTagList(List<String> tags) {
-		data.put(_TAG_LIST, tags);
+	public void setTagList(JsonArray tags) {
+		data.add(_TAG_LIST, tags);
 	}
 	public void addTag(String t) {
-		List<String>l = (List<String>)data.get(_TAG_LIST);
+		JsonArray l = data.get(_TAG_LIST).getAsJsonArray();
 		if (l == null)
-			l = new ArrayList<String>();
-		if (!l.contains(t)) {
+			l = new JsonArray();
+		if (!contains(l, t)) {
 			l.add(t);
-			data.put(_TAG_LIST,l);
 		}
+		data.add(_TAG_LIST,l);
 	}
+	
+	boolean contains(JsonArray l, String s) {
+		boolean result = false;
+		Iterator<JsonElement> itr = l.iterator();
+		while (itr.hasNext()) {
+			if (itr.next().getAsString().equals(s))
+				return true;
+		}
+		return result;
+	}
+
 /*
 	public void addKeyword(String t) {
 		List<String>l = (List<String>)data.get(_KEYWORD_LIST);
@@ -145,13 +159,13 @@ public class JSONDocumentObject {
 */
 	public void addSubstance(String t) {
 		
-		List<String>l = (List<String>)data.get(_SUBSTANCE_LIST);
+		JsonArray l = data.get(_SUBSTANCE_LIST).getAsJsonArray();
 		if (l == null)
-			l = new ArrayList<String>();
-		if (!l.contains(t)) {
+			l = new JsonArray();
+		if (!contains(l, t)) {
 			l.add(t);
-			data.put(_SUBSTANCE_LIST,l);
 		}
+		data.add(_SUBSTANCE_LIST,l);
 	}
 	public List<String> listSubstances() {
 		return (List<String>)data.get(_SUBSTANCE_LIST);
@@ -169,7 +183,7 @@ public class JSONDocumentObject {
 	 * @return
 	 */
 	public String getUserId() {
-		return data.getAsString(ITQCoreOntology.CREATOR_ID_PROPERTY);
+		return data.get(ITQCoreOntology.CREATOR_ID_PROPERTY).getAsString();
 	}
 	
 	/**
@@ -177,11 +191,11 @@ public class JSONDocumentObject {
 	 * @param title
 	 */
 	public void setClusterTitle(String title) {
-		data.put(_CLUSTER_TITLE, title);
+		data.addProperty(_CLUSTER_TITLE, title);
 	}
 	
 	public String getClusterTitle() {
-		return data.getAsString(_CLUSTER_TITLE);
+		return data.get(_CLUSTER_TITLE).getAsString();
 	}
 	
 	/**
@@ -218,20 +232,20 @@ public class JSONDocumentObject {
 	 * @param language defaults to "en"
 	 */
 	public void setContent(String content, String language) {
-		data.put(_CONTENT, content);
+		data.addProperty(_CONTENT, content);
 		if (language != null)
-			data.put(_LANGUAGE, language);
+			data.addProperty(_LANGUAGE, language);
 		else
-			data.put(_LANGUAGE, "en");
+			data.addProperty(_LANGUAGE, "en");
 
 	}
 	
 	public void setTitle(String title) {
-		data.put(_TITLE, title);
+		data.addProperty(_TITLE, title);
 	}
 	
 	public String getTitle() {
-		return data.getAsString(_TITLE);
+		return data.get(_TITLE).getAsString();
 	}
 	/**
 	 * Text of a document's abstract
@@ -246,22 +260,22 @@ public class JSONDocumentObject {
 	 * @param a
 	 */
 	public void addDocAbstract(String a) {
-		List<String> ab = this.listAbstract();
+		JsonArray ab = this.listAbstract();
 		if (ab == null)
-			ab = new ArrayList<String>();
+			ab = new JsonArray();
 		ab.add(a);
-		data.put(_ABSTRACT, ab);
+		data.add(_ABSTRACT, ab);
 	}
 
-	public List<String> listAbstract() {
-		return (List<String>)data.get(_ABSTRACT);
+	public JsonArray listAbstract() {
+		return data.get(_ABSTRACT).getAsJsonArray();
 	}
 	/*public String getAbstract() {
 		return data.getAsString(_ABSTRACT);
 	}*/
 	
 	public String getLanguage() {
-		return data.getAsString(_LANGUAGE);
+		return data.get(_LANGUAGE).getAsString();
 	}
 	
 	public void setLanguage(String lang) {
@@ -269,13 +283,13 @@ public class JSONDocumentObject {
 		//heuristic punt
 		if (x.equals("eng"))
 			x = "en";
-		data.put(_LANGUAGE, x);
+		data.addProperty(_LANGUAGE, x);
 	}
-	public void setTFIDFData(SortedMap<Double,String>d) {
-		data.put(_TFIDF_MAP, d);
-	}
+//	public void setTFIDFData(SortedMap<Double,String>d) {
+//		data.put(_TFIDF_MAP, d);
+//	}
 	
-	public SortedMap<Double,String> getTFIDFData(Comparator c) {
+/*	public SortedMap<Double,String> getTFIDFData(Comparator c) {
 		JSONObject jo = (JSONObject)data.get(_TFIDF_MAP);
 		if (jo == null)
 			return null;
@@ -288,24 +302,25 @@ public class JSONDocumentObject {
 		}
 		return result;
 	}
+*/
 	/**
 	 * Return the content
 	 * @return
 	 */
 	public String getContent() {
-		return data.getAsString(_CONTENT);
+		return data.get(_CONTENT).getAsString();
 	}
 	
 	public void setURL(String url) {
-		data.put(_URL, url);
+		data.addProperty(_URL, url);
 	}
 	
 	/**
 	 * Return url or empty string
-	 * @return
+	 * @return does not return {@code null}
 	 */
 	public String getURL() {
-		String result = data.getAsString(_URL);
+		String result = data.get(_URL).getAsString();
 		if (result == null)
 			result = "";
 		return result;
@@ -344,7 +359,7 @@ public class JSONDocumentObject {
 	}
 	
 	public void setPublication(IPublication p) {
-		data.put(_PUBLICATION, p);
+		data.add(_PUBLICATION, p.getData());
 	}
 	
 	public IPublication getPublication() {
@@ -352,7 +367,7 @@ public class JSONDocumentObject {
 	}
 
 	public String toJSONString() {
-		return data.toJSONString();
+		return data.getAsString();
 	}
 	
 	/**
@@ -361,18 +376,18 @@ public class JSONDocumentObject {
 	 * @param value
 	 */
 	public void addCitation(String type, String value) {
-		JSONObject jo = new JSONObject();
-		jo.put("type", type);
-		jo.put("value", value);
-		List<JSONObject>l = (List<JSONObject>)data.get(_CITATIONS);
+		JsonObject jo = new JsonObject();
+		jo.addProperty("type", type);
+		jo.addProperty("value", value);
+		JsonArray l = data.get(_CITATIONS).getAsJsonArray();
 		if (l == null)
-			l = new ArrayList<JSONObject>();
+			l = new JsonArray();
 		l.add(jo);
-		data.put(_CITATIONS,l);
+		data.add(_CITATIONS,l);
 	}
 	
-	public List<JSONObject> listCitations() {
-		return (List<JSONObject>)data.get(_CITATIONS);
+	public JsonArray listCitations() {
+		return data.get(_CITATIONS).getAsJsonArray();
 	}
 	
 	/**
@@ -440,26 +455,26 @@ public class JSONDocumentObject {
 		
 	}
 	public void addAuthor(IAuthor author) {
-		List<IAuthor>a = this.listAuthors();
+		JsonArray a = this.listAuthors();
 		if (a == null)
-			a = new ArrayList<IAuthor>();
-		a.add(author);
+			a = new JsonArray();
+		a.add(author.getData());
 		this.setAuthorList(a);
 	}
 
-	public void setAuthorList(List<IAuthor>authors) {
-		data.put(_AUTHORS, authors);
+	public void setAuthorList(JsonArray authors) {
+		data.add(_AUTHORS, authors);
 	}
 	/**
 	 * List authors
 	 * @return can return <code>null</code>
 	 */
-	public List<IAuthor> listAuthors() {
-		return (List<IAuthor>)data.get(_AUTHORS);
+	public JsonArray listAuthors() {
+		return data.get(_AUTHORS).getAsJsonArray();
 	}	
 
 	@Override
 	public String toString() {
-		return data.toJSONString();
+		return data.getAsString();
 	}
 }
