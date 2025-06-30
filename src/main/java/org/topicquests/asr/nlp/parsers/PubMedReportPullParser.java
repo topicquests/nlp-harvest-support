@@ -11,7 +11,13 @@ import java.util.Map;
 
 import org.topicquests.asr.nlp.Environment;
 import org.topicquests.asr.nlp.api.IResult;
+import org.topicquests.asr.nlp.api.IPublication;
+import org.topicquests.asr.nlp.api.IAuthor;
+import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.doc.JSONDocumentObject;
+import org.topicquests.asr.nlp.doc.PublicationPojo;
+import org.topicquests.asr.nlp.doc.AuthorPojo;
+import org.topicquests.asr.nlp.doc.GrantPojo;
 import org.topicquests.asr.nlp.uitil.ResultPojo;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -117,7 +123,7 @@ public class PubMedReportPullParser {
 	         boolean isAuthor = false;
 	         boolean isRefType = false;
 	         boolean isGrant = true;
-	         HashMap<String,String> props;
+	         Map<String,String> props;
 	         int eventType = xpp.getEventType();
 	         boolean isStop = false;
 	         while (!(isStop || eventType == XmlPullParser.END_DOCUMENT)) {
