@@ -5,8 +5,6 @@ package org.topicquests.asr.nlp;
 
 import java.util.Map;
 
-import org.topicquests.asr.nlp.api.IProcessModel;
-import org.topicquests.asr.nlp.model.ProcessModel;
 import org.topicquests.asr.nlp.parsers.PMCPullParser;
 import org.topicquests.asr.nlp.parsers.PubMedReportPullParser;
 import org.topicquests.asr.nlp.config.ConfigPullParser;
@@ -17,7 +15,6 @@ import org.topicquests.asr.nlp.config.ConfigPullParser;
 public class Environment {
 	private PubMedReportPullParser pubmedPP;
 	private PMCPullParser pmcPP;
-	private IProcessModel model;
 	private Map<String,Object>properties;
 	private final String configPath = "config/props.xml";
 	/**
@@ -31,7 +28,6 @@ public class Environment {
 
 		pubmedPP = new PubMedReportPullParser(this);
 		pmcPP = new PMCPullParser(this);
-		model = new ProcessModel(this);
 	}
 	
 	public PubMedReportPullParser getPubMedParser() {
@@ -42,9 +38,6 @@ public class Environment {
 		return pmcPP;
 	}
 	
-	public IProcessModel getModel() {
-		return model;
-	}
 	
 	public Map<String, Object> getProperties() {
 		return properties;
