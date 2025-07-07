@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.topicquests.asr.nlp;
+package org.topicquests.asr.nlp.test;
 
 /**
  * 

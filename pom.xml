@@ -27,49 +27,13 @@
 
  
   <dependencies>
-	<dependency>
-        <groupId>edu.stanford.nlp</groupId>
-        <artifactId>stanford-corenlp</artifactId>
-        <version>${stanford.core.nlp.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>edu.stanford.nlp</groupId>
-        <artifactId>stanford-corenlp</artifactId>
-        <version>${stanford.core.nlp.models.version}</version>
-        <classifier>models</classifier>
-    </dependency>
-    <dependency>
-        <groupId>edu.stanford.nlp</groupId>
-        <artifactId>stanford-parser</artifactId>
-        <version>${stanford.nlp.parser.version}</version>
-    </dependency>
-	<dependency>
-	    <groupId>com.google.guava</groupId>
-	    <artifactId>guava</artifactId>
-	    <version>18.0</version>
-	</dependency>
-    <dependency>
-        <groupId>org.ogce</groupId>
-        <artifactId>xpp3</artifactId>
-        <version>1.1.6</version>
-    </dependency>
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.9.0</version>
-		</dependency>
-        <dependency>
-        	<groupId>net.minidev</groupId>
-        	<artifactId>json-smart</artifactId>
-        	<version>2.4.1</version>
-        </dependency>
-		<dependency>
-		    <groupId>redis.clients</groupId>
-		    <artifactId>jedis</artifactId>
-		    <version>8.0.2</version>
-		</dependency>
 
-     
+
+        <dependency>
+        	<groupId>org.topicquests</groupId>
+        	<artifactId>nlp-common</artifactId>
+        	<version>0.1.0-SNAPSHOT</version>
+        </dependency>
   </dependencies>
 
   <build>
