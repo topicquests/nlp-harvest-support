@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<properties>
+
+	<parameter name="RedisBase" value="tq2.topicquests.net" /> <!-- CHANGEME -->
+	<!-- Out to tqos-ingester -->
+	<parameter name="REDIS_TOPIC" value="Stats" /> 
+	
+</properties>
