@@ -10,15 +10,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.topicquests.asr.nlp.Environment;
-import org.topicquests.asr.nlp.api.IResult;
 import org.topicquests.asr.nlp.api.IPublication;
 import org.topicquests.asr.nlp.api.IAuthor;
 import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.doc.JSONDocumentObject;
 import org.topicquests.asr.nlp.doc.PublicationPojo;
+import org.topicquests.support.ResultPojo;
+import org.topicquests.support.api.IResult;
 import org.topicquests.asr.nlp.doc.AuthorPojo;
 import org.topicquests.asr.nlp.doc.GrantPojo;
-import org.topicquests.asr.nlp.uitil.ResultPojo;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 

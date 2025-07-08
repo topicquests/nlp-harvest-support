@@ -18,7 +18,7 @@ public class Environment {
 	private Map<String,Object>properties;
 	private final String configPath = "config/props.xml";
 	/**
-	 * 
+	 * @author jackpark
 	 */
 	public Environment() {
 		//TODO logging setup
