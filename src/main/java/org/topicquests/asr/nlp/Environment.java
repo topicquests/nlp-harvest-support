@@ -7,12 +7,13 @@ import java.util.Map;
 
 import org.topicquests.asr.nlp.parsers.PMCPullParser;
 import org.topicquests.asr.nlp.parsers.PubMedReportPullParser;
+import org.topicquests.support.api.IEnvironment;
 import org.topicquests.asr.nlp.config.ConfigPullParser;
 
 /**
  * 
  */
-public class Environment {
+public abstract class Environment implements IEnvironment {
 	private PubMedReportPullParser pubmedPP;
 	private PMCPullParser pmcPP;
 	private Map<String,Object>properties;
@@ -66,4 +67,7 @@ public class Environment {
 		System.out.println("Log: +msg"); //TODO
 
 	}
+
+	@Override
+	public abstract void shutDown();
 }
