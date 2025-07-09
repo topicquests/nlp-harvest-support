@@ -6,6 +6,8 @@ package org.topicquests.asr.nlp.parsers;
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Collection;
+import java.util.Iterator;
 
 import org.topicquests.asr.nlp.Environment;
 import org.topicquests.asr.nlp.api.IPublication;
@@ -64,8 +66,13 @@ public class PMCPullParser {
 	         String pmcID = null, pmid=null, publisherId = null, doi= null;
 	         String foo = null;
 	         boolean isPMC = false, isPMID = false, isPubId = false, isDOI = false;
-	         
-	         
+	         String title = null;
+	         boolean isAuthor = false;
+	         String surName = null, givenName = null, email = null, affilId = null;
+	         IAuthor thisAuthor = null;
+	         Map<String, IAuthor> myAuthors=null;  // key is affiliation ID
+	         int authorCount = 0; // we must count contribs to know when to null out myAuthors
+	        		 
 	         String label = null;
 	         String category = null;
 	         String refType = null;
@@ -76,10 +83,9 @@ public class PMCPullParser {
 	         String articleIdType = null;
 	         boolean isJournal = false;
 	         boolean isValid = false;
-	         boolean isAuthor = false;
 	         boolean isRefType = false;
 	         boolean isGrant = true;
-	         Map<String,String> props;
+	         Map<String,String> props = null;
 	         int eventType = xpp.getEventType();
 	         boolean isStop = false;
 	         while (!(isStop || eventType == XmlPullParser.END_DOCUMENT)) {
@@ -112,6 +118,18 @@ public class PMCPullParser {
 	                	else foo = (String)props.get("pub-id-type");
 		                	if (foo.equals("doi"))
 		                		isDOI = true;
+	                } else if (temp.equalsIgnoreCase("contrib")) {
+	                	foo = (String)props.get("contrib-type=");
+	                	if ("author".equals(foo)) {
+	                		authorCount++;
+	                		isAuthor = true;
+	                	} else {
+	                		environment.logError("PMCBadContribType: "+foo, null);
+	                	}
+	                } else if (temp.equalsIgnoreCase("xref")) {
+                		affilId = (String)props.get("rid");// TODO other xrefs???
+	                } else if (temp.equalsIgnoreCase("aff")) {
+                		affilId = (String)props.get("id");// TODO other xrefs???
 	                }
 
 	                
@@ -183,9 +201,46 @@ public class PMCPullParser {
 	                	// they come from "text" and must be added to theDoc
 	                	// then set all values to null and booleans to false
 	                	// TODO
+	                } else if (temp.equalsIgnoreCase("article-title")) {
+	                	title = text;
+	                	theDocument.setTitle(title);
+	                	title = null;
+	                } else if (temp.equalsIgnoreCase("contrib")) {
+	                	if (isAuthor) {
+	                		if (myAuthors == null)
+	                			myAuthors = new HashMap<String, IAuthor>();
+	                		
+	                		thisAuthor = new AuthorPojo();
+	                		thisAuthor.setAuthorLastName(surName);
+	                		thisAuthor.addAuthorFirstName(givenName);
+	                		thisAuthor.setAuthorEmail(email);
+	                		myAuthors.put(affilId, thisAuthor);
+	                		thisAuthor = null;
+	                		affilId = null;
+	                		isAuthor = false;
+	                		surName = null;
+	                		givenName = null;
+	                		email = null;
+	                	}
+	                } else if (temp.equalsIgnoreCase("surname")) {
+	                	surName = text;
+	                } else if (temp.equalsIgnoreCase("given-names")) {
+	                	givenName = text;
+	                } else if (temp.equalsIgnoreCase("email")) {
+	                	email = text;
+	                } else if (temp.equalsIgnoreCase("aff")) {
+	                	authorCount--;
+	                	thisAuthor = myAuthors.get(affilId);
+	                	thisAuthor.setAffiliationLocator(text);
+	                	if (authorCount == 0) {
+	                		//TODO add authors to thvDoc
+	                		Collection<IAuthor> auths = myAuthors.values();
+	                		Iterator<IAuthor> itr = auths.iterator();
+	                		while (itr.hasNext())
+	                			theDocument.addAuthor(itr.next());
+	                		myAuthors = null;
+	                	}
 	                }
-
-	                
 	                
 	                
 	                
@@ -194,7 +249,7 @@ public class PMCPullParser {
 	                else if (temp.equalsIgnoreCase("ArticleTitle")) {
 	                	theDocument.setTitle(text);
 	                } else if(temp.equalsIgnoreCase("AbstractText")) {
-	                	String foo = cleanText(text);
+	                	foo = cleanText(text);
 	                	if (label == null)
 	                		theDocument.addDocAbstract(foo); 
 	                	else 
