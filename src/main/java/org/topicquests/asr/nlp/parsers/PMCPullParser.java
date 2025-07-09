@@ -60,6 +60,12 @@ public class PMCPullParser {
 	         JSONDocumentObject theDocument = null;
 	         String temp = null;
 	         String text = null;
+	         String articleType = null;
+	         String pmcID = null, pmid=null, publisherId = null, doi= null;
+	         String foo = null;
+	         boolean isPMC = false, isPMID = false, isPubId = false, isDOI = false;
+	         
+	         
 	         String label = null;
 	         String category = null;
 	         String refType = null;
@@ -89,7 +95,29 @@ public class PMCPullParser {
 	                System.out.println("PM Start tag "+temp);
 	                props = getAttributes(xpp);
 	                articleIdType = props.get("IdType");
-	                if (temp.equalsIgnoreCase("Journal")) {
+	                if (temp.equalsIgnoreCase("article")) {
+	                	articleType = (String)props.get("article-type");
+	                	theDocument = new JSONDocumentObject("SystemUser");
+	                	result.setResultObject(theDocument);
+	                	environment.logDebug("PMRPP.start");
+	                } else if (temp.equalsIgnoreCase("article-id")) {
+	                	// this repeats 4 times -pmcid, pmid, publisherid, doi
+	                	foo = (String)props.get("pub-id-type");
+	                	if (foo.equals("pmc"))
+	                		isPMC = true;
+	                	else if (foo.equals("pmid"))
+		                		isPMID = true;
+	                	else if (foo.equals("publisher-id"))
+		                		isPubId = true;
+	                	else foo = (String)props.get("pub-id-type");
+		                	if (foo.equals("doi"))
+		                		isDOI = true;
+	                }
+
+	                
+	                
+	                
+	                else if (temp.equalsIgnoreCase("Journal")) {
 	                	isJournal = true;
 		  
 	                } else if (temp.equalsIgnoreCase("Author")) {
@@ -147,7 +175,23 @@ public class PMCPullParser {
 	                
 	            } else if(eventType == XmlPullParser.END_TAG) {
 	                System.out.println("PM End tag "+temp+" // "+text);
-	                if (temp.equalsIgnoreCase("ArticleTitle")) {
+	                
+	                if (temp.equalsIgnoreCase("article")) {
+	                	//TODO
+	                } else if (temp.equalsIgnoreCase("article-id")) {
+	                	//we have 4 types of ID values
+	                	// they come from "text" and must be added to theDoc
+	                	// then set all values to null and booleans to false
+	                	// TODO
+	                }
+
+	                
+	                
+	                
+	                
+	                
+	                
+	                else if (temp.equalsIgnoreCase("ArticleTitle")) {
 	                	theDocument.setTitle(text);
 	                } else if(temp.equalsIgnoreCase("AbstractText")) {
 	                	String foo = cleanText(text);
