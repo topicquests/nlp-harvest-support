@@ -7,6 +7,7 @@ package org.topicquests.asr.nlp.doc;
 import java.util.*;
 
 import org.topicquests.asr.nlp.api.ITQCoreOntology;
+import org.topicquests.asr.nlp.api.IAbstract;
 import org.topicquests.asr.nlp.api.IAuthor;
 import org.topicquests.asr.nlp.api.IPublication;
 
@@ -259,11 +260,11 @@ public class JSONDocumentObject {
 	 * Some documents have just one abstract paragraph, others several.
 	 * @param a
 	 */
-	public void addDocAbstract(String a) {
+	public void addDocAbstract(IAbstract a) {
 		JsonArray ab = this.listAbstract();
 		if (ab == null)
 			ab = new JsonArray();
-		ab.add(a);
+		ab.add(a.getData());
 		data.add(_ABSTRACT, ab);
 	}
 

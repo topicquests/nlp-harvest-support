@@ -11,16 +11,20 @@ import java.util.Iterator;
 
 import org.topicquests.asr.nlp.Environment;
 import org.topicquests.asr.nlp.api.IPublication;
+import org.topicquests.asr.nlp.api.IAbstract;
 import org.topicquests.asr.nlp.api.IAuthor;
 import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.doc.JSONDocumentObject;
 import org.topicquests.asr.nlp.doc.PublicationPojo;
 import org.topicquests.support.ResultPojo;
 import org.topicquests.support.api.IResult;
+import org.topicquests.asr.nlp.doc.AbstractPojo;
 import org.topicquests.asr.nlp.doc.AuthorPojo;
 import org.topicquests.asr.nlp.doc.GrantPojo;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
+
+import com.google.gson.JsonObject;
 
 /**
  * @author jackpark
@@ -67,9 +71,12 @@ public class PMCPullParser {
 	         String foo = null;
 	         boolean isPMC = false, isPMID = false, isPubId = false, isDOI = false;
 	         String title = null;
-	         boolean isAuthor = false;
+	         boolean isAuthor = false, isSection = false;
 	         String surName = null, givenName = null, email = null, affilId = null;
 	         IAuthor thisAuthor = null;
+	         IPublication thisPub = null;
+	         IAbstract thisAbs = null;
+	         String absTitle = null, absText = null;
 	         Map<String, IAuthor> myAuthors=null;  // key is affiliation ID
 	         int authorCount = 0; // we must count contribs to know when to null out myAuthors
 	        		 
@@ -130,6 +137,10 @@ public class PMCPullParser {
                 		affilId = (String)props.get("rid");// TODO other xrefs???
 	                } else if (temp.equalsIgnoreCase("aff")) {
                 		affilId = (String)props.get("id");// TODO other xrefs???
+	                } else if (temp.equalsIgnoreCase("abstract")) {
+	                	thisAbs = new AbstractPojo();
+	                } else if (temp.equalsIgnoreCase("sec")) {
+	                	isSection = true;
 	                }
 
 	                
@@ -240,6 +251,21 @@ public class PMCPullParser {
 	                			theDocument.addAuthor(itr.next());
 	                		myAuthors = null;
 	                	}
+	                } else if (temp.equalsIgnoreCase("abstract")) {
+	                	theDocument.addDocAbstract(thisAbs);
+	                	thisAbs = null;
+	                } else if (temp.equalsIgnoreCase("sec")) {
+	                	JsonObject jo = new JsonObject();
+	                	thisAbs.addSection(absTitle, absText, "en");
+	                	isSection = false;
+	                } else if (temp.equalsIgnoreCase("title")) {
+	                	if (isSection)
+	                		absTitle = text;
+	                } else if (temp.equalsIgnoreCase("p")) {
+	                	if (isSection)
+	                		absText = text;
+	                	else  //TODO a guess
+	                		thisAbs.addParagraph(text, "en");
 	                }
 	                
 	                
@@ -250,10 +276,10 @@ public class PMCPullParser {
 	                	theDocument.setTitle(text);
 	                } else if(temp.equalsIgnoreCase("AbstractText")) {
 	                	foo = cleanText(text);
-	                	if (label == null)
-	                		theDocument.addDocAbstract(foo); 
-	                	else 
-	                		theDocument.addDocAbstract(label+". "+foo);
+	            //    	if (label == null)
+	            //    		theDocument.addDocAbstract(foo); 
+	            //    	else 
+	            //    		theDocument.addDocAbstract(label+". "+foo);
 	                } else if (temp.equalsIgnoreCase("Language")) {
 	                	theDocument.setLanguage(text);
 	                } else if (temp.equalsIgnoreCase("MedlineDate")) {

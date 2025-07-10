@@ -11,8 +11,8 @@ import com.google.gson.JsonObject;
 /**
  * 
  */
-public class AibstractPojo implements IAbstract {
-	private final String
+public class AbstractPojo implements IAbstract {
+	public static final String
 		PARAGRAPHS		= "paras",
 		SECTIONS		= "sects",
 		TITLE			= "titl",
@@ -23,10 +23,10 @@ public class AibstractPojo implements IAbstract {
 	/**
 	 * 
 	 */
-	public AibstractPojo() {
+	public AbstractPojo() {
 		data = new JsonObject();
 	}
-	public AibstractPojo(JsonObject data) {
+	public AbstractPojo(JsonObject data) {
 		this.data = data;
 	}
 	
