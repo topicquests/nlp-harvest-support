@@ -28,7 +28,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
  * @author park
  *
  */
-public class PubMedReportPullParser {
+public class PubMedPullParser {
 	private Environment environment;
 	
 //	private CarrotClusterImporterEnvironment environment;
@@ -37,7 +37,7 @@ public class PubMedReportPullParser {
 	/**
 	 * 
 	 */
-	public PubMedReportPullParser(Environment env) {
+	public PubMedPullParser(Environment env) {
 		environment = env;
 	}
 	
@@ -47,7 +47,7 @@ public class PubMedReportPullParser {
 	 * @return
 	 */
 	public IResult parseXML(String xml) {
-//		environment.logDebug("PubMedReportPullParser- "+foo.length());
+//		environment.logDebug("PubMedPullParser- "+foo.length());
 		IResult result = new ResultPojo();
 		//NOW, parse it
 		try {
@@ -59,7 +59,7 @@ public class PubMedReportPullParser {
 			e.printStackTrace();
 			result.addErrorString(e.getMessage());
 		}
-//		environment.logDebug("PubMedReportPullParser+ "+result.hasError()+" "+result.getResultObject());
+//		environment.logDebug("PubMedPullParser+ "+result.hasError()+" "+result.getResultObject());
 		return result;
 	}
 

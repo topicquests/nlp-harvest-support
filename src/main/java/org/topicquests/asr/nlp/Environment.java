@@ -6,7 +6,7 @@ package org.topicquests.asr.nlp;
 import java.util.Map;
 
 import org.topicquests.asr.nlp.parsers.PMCPullParser;
-import org.topicquests.asr.nlp.parsers.PubMedReportPullParser;
+import org.topicquests.asr.nlp.parsers.PubMedPullParser;
 import org.topicquests.support.api.IEnvironment;
 import org.topicquests.asr.nlp.config.ConfigPullParser;
 
@@ -14,7 +14,7 @@ import org.topicquests.asr.nlp.config.ConfigPullParser;
  * 
  */
 public abstract class Environment implements IEnvironment {
-	private PubMedReportPullParser pubmedPP;
+	private PubMedPullParser pubmedPP;
 	private PMCPullParser pmcPP;
 	private Map<String,Object>properties;
 	private final String configPath = "config/props.xml";
@@ -27,11 +27,11 @@ public abstract class Environment implements IEnvironment {
 		ConfigPullParser p = new ConfigPullParser(configPath);
 		properties = p.getProperties();
 
-		pubmedPP = new PubMedReportPullParser(this);
+		pubmedPP = new PubMedPullParser(this);
 		pmcPP = new PMCPullParser(this);
 	}
 	
-	public PubMedReportPullParser getPubMedParser() {
+	public PubMedPullParser getPubMedParser() {
 		return pubmedPP;
 	}
 
