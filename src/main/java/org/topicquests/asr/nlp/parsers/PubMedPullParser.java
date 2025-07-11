@@ -110,6 +110,8 @@ public class PubMedPullParser {
 	         
 	        //the working document
 	         JSONDocumentObject theDocument = null;
+         	theDocument = new JSONDocumentObject("SystemUser");
+         	result.setResultObject(theDocument.getData());
 	         String temp = null;
 	         String text = null;
 	         String label = null;
@@ -191,8 +193,6 @@ public class PubMedPullParser {
 	                	refType = (String)props.get("RefType");
 	                	isRefType = true;
 	                } else if (temp.equalsIgnoreCase("PubmedArticle")) {
-	                	theDocument = new JSONDocumentObject("SystemUser");
-	                	result.setResultObject(theDocument);
 	                	environment.logDebug("PMRPP.start");
 	                } else if (temp.equalsIgnoreCase("PubmedArticleSet")) {
 	                	if (theDocument == null)

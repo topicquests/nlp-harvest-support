@@ -490,4 +490,8 @@ public class JSONDocumentObject {
 	public String toString() {
 		return data.getAsString();
 	}
+	
+	public JsonObject getData() {
+		return data;
+	}
 }
