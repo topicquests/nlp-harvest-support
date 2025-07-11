@@ -11,12 +11,14 @@ import java.util.Map;
 
 import org.topicquests.asr.nlp.Environment;
 import org.topicquests.asr.nlp.api.IPublication;
+import org.topicquests.asr.nlp.api.IAbstract;
 import org.topicquests.asr.nlp.api.IAuthor;
 import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.doc.JSONDocumentObject;
 import org.topicquests.asr.nlp.doc.PublicationPojo;
 import org.topicquests.support.ResultPojo;
 import org.topicquests.support.api.IResult;
+import org.topicquests.asr.nlp.doc.AbstractPojo;
 import org.topicquests.asr.nlp.doc.AuthorPojo;
 import org.topicquests.asr.nlp.doc.GrantPojo;
 import org.xmlpull.v1.XmlPullParser;
@@ -123,7 +125,9 @@ public class PubMedReportPullParser {
 	         boolean isAuthor = false;
 	         boolean isRefType = false;
 	         boolean isGrant = true;
-	         Map<String,String> props;
+	         int absCount = 0;
+	         IAbstract thisAbstract = null;
+	         Map<String,String> props=null;
 	         int eventType = xpp.getEventType();
 	         boolean isStop = false;
 	         while (!(isStop || eventType == XmlPullParser.END_DOCUMENT)) {
@@ -138,6 +142,8 @@ public class PubMedReportPullParser {
 	            } else if(eventType == XmlPullParser.START_TAG) {
 	                System.out.println("PM Start tag "+temp);
 	                props = getAttributes(xpp);
+                	label = (String)props.get("label");
+
 	                articleIdType = props.get("IdType");
 	                if (temp.equalsIgnoreCase("Journal")) {
 	                	isJournal = true;
@@ -168,6 +174,9 @@ public class PubMedReportPullParser {
 	                	}
 	                } else if (temp.equalsIgnoreCase("Grant")) {
 	                	isGrant = true;
+	                } else if (temp.equalsIgnoreCase("Abstract")) {
+	                	absCount = 0;
+	                	thisAbstract = new AbstractPojo();
 	                } else if(temp.equalsIgnoreCase("AbstractText")) {
 	                	// <AbstractText Label="BACKGROUND AND OBJECTIVES" NlmCategory="OBJECTIVE">
 	                	label = (String)props.get("Label");
@@ -199,12 +208,15 @@ public class PubMedReportPullParser {
 	                System.out.println("PM End tag "+temp+" // "+text);
 	                if (temp.equalsIgnoreCase("ArticleTitle")) {
 	                	theDocument.setTitle(text);
-	                } else if(temp.equalsIgnoreCase("AbstractText")) {
+	                } else if(temp.equalsIgnoreCase("AbstractText")) { ////
 	                	String foo = cleanText(text);
 	                	if (label == null)
-	                		theDocument.addDocAbstract(foo); 
+	                		thisAbstract.addParagraph(foo, "en");
 	                	else 
-	                		theDocument.addDocAbstract(label+". "+foo);
+	                		thisAbstract.addSection(label, foo, "en");
+	                } else if (temp.equalsIgnoreCase("Abstract")) {
+	                	theDocument.addDocAbstract(thisAbstract);
+	                	thisAbstract = new AbstractPojo();
 	                } else if (temp.equalsIgnoreCase("Language")) {
 	                	theDocument.setLanguage(text);
 	                } else if (temp.equalsIgnoreCase("MedlineDate")) {
