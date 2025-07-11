@@ -1,0 +1,1057 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">33305456</PMID>
+            <DateCompleted>
+                <Year>2021</Year>
+                <Month>02</Month>
+                <Day>16</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2024</Year>
+                <Month>03</Month>
+                <Day>30</Day>
+            </DateRevised>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Electronic">1521-2254</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>23</Volume>
+                        <Issue>2</Issue>
+                        <PubDate>
+                            <Year>2021</Year>
+                            <Month>Feb</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>The journal of gene medicine</Title>
+                    <ISOAbbreviation>J Gene Med</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>COVID-19: Virology, biology and novel laboratory diagnosis.</ArticleTitle>
+                <Pagination>
+                    <StartPage>e3303</StartPage>
+                    <MedlinePgn>e3303</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="pii" ValidYN="Y">e3303</ELocationID>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1002/jgm.3303</ELocationID>
+                <Abstract>
+                    <AbstractText Label="BACKGROUND">At the end of December 2019, a novel coronavirus tentatively named SARS-CoV-2 in Wuhan, a central city in China, was announced by the World Health Organization. SARS-CoV-2 is an RNA virus that has become a major public health concern after the outbreak of the Middle East Respiratory Syndrome-CoV (MERS-CoV) and Severe Acute Respiratory Syndrome-CoV (SARS-CoV) in 2002 and 2012, respectively. As of 29 October 2020, the total number of COVID-19 cases had reached over 44 million worldwide, with more than 1.17 million confirmed deaths.</AbstractText>
+                    <AbstractText Label="DISCUSSION">SARS-CoV-2 infected patients usually present with severe viral pneumonia. Similar to SARS-CoV, the virus enters respiratory tract cells via the angiotensin-converting enzyme receptor 2. The structural proteins play an essential role in budding the virus particles released from different host cells. To date, an approved vaccine or treatment option of a preventive character to avoid severe courses of COVID-19 is still not available.</AbstractText>
+                    <AbstractText Label="CONCLUSIONS">In the present study, we provide a brief review of the general biological features of CoVs and explain the pathogenesis, clinical symptoms and diagnostic approaches regarding monitoring future infectivity and prevent emerging COVID-19 infections.</AbstractText>
+                    <CopyrightInformation>&#xa9; 2020 John Wiley &amp; Sons, Ltd.</CopyrightInformation>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Mohamadian</LastName>
+                        <ForeName>Malihe</ForeName>
+                        <Initials>M</Initials>
+                        <Identifier Source="ORCID">0000-0001-6255-5376</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Molecular Medicine, Birjand University of Medical Sciences, Birjand, Iran.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Cellular and Molecular Research Center, Birjand University of Medical Sciences, Birjand, Iran.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Chiti</LastName>
+                        <ForeName>Hossein</ForeName>
+                        <Initials>H</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Zanjan Metabolic Diseases Research Center, Zanjan University of Medical Sciences, Zanjan, Iran.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Shoghli</LastName>
+                        <ForeName>Alireza</ForeName>
+                        <Initials>A</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Social Determinants of Health Research Center, Zanjan University of Medical Sciences, Zanjan, Iran.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Biglari</LastName>
+                        <ForeName>Sajjad</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>School of Medicine, Zanjan University of Medical Sciences, Zanjan, Iran.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Parsamanesh</LastName>
+                        <ForeName>Negin</ForeName>
+                        <Initials>N</Initials>
+                        <Identifier Source="ORCID">0000-0002-1925-9165</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Zanjan Metabolic Diseases Research Center, Zanjan University of Medical Sciences, Zanjan, Iran.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Esmaeilzadeh</LastName>
+                        <ForeName>Abdolreza</ForeName>
+                        <Initials>A</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Immunology, Zanjan University of Medical Science, Zanjan, Iran.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Cancer Gene Therapy Research Center, Zanjan University of Medical Science, Zanjan, Iran.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D016454">Review</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2021</Year>
+                    <Month>01</Month>
+                    <Day>06</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>England</Country>
+                <MedlineTA>J Gene Med</MedlineTA>
+                <NlmUniqueID>9815764</NlmUniqueID>
+                <ISSNLinking>1099-498X</ISSNLinking>
+            </MedlineJournalInfo>
+            <SupplMeshList>
+                <SupplMeshName Type="Protocol" UI="C000705129">LAMP assay</SupplMeshName>
+            </SupplMeshList>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000086382" MajorTopicYN="N">COVID-19</DescriptorName>
+                    <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                    <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+                    <QualifierName UI="Q000517" MajorTopicYN="N">prevention &amp; control</QualifierName>
+                    <QualifierName UI="Q000821" MajorTopicYN="N">virology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000087123" MajorTopicYN="N">COVID-19 Nucleic Acid Testing</DescriptorName>
+                    <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D064113" MajorTopicYN="N">CRISPR-Cas Systems</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D059014" MajorTopicYN="N">High-Throughput Nucleotide Sequencing</DescriptorName>
+                    <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D046228" MajorTopicYN="N">Microarray Analysis</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D025202" MajorTopicYN="N">Molecular Diagnostic Techniques</DescriptorName>
+                    <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D021141" MajorTopicYN="N">Nucleic Acid Amplification Techniques</DescriptorName>
+                    <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D060888" MajorTopicYN="N">Real-Time Polymerase Chain Reaction</DescriptorName>
+                    <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000086402" MajorTopicYN="N">SARS-CoV-2</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                    <QualifierName UI="Q000472" MajorTopicYN="Y">pathogenicity</QualifierName>
+                </MeshHeading>
+            </MeshHeadingList>
+            <KeywordList Owner="NOTNLM">
+                <Keyword MajorTopicYN="N">coronavirus</Keyword>
+                <Keyword MajorTopicYN="N">diagnostic methods</Keyword>
+                <Keyword MajorTopicYN="N">genome structure</Keyword>
+                <Keyword MajorTopicYN="N">pathogenesis</Keyword>
+            </KeywordList>
+            <CoiStatement>The authors declare that they have no conflicts of interest.</CoiStatement>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="received">
+                    <Year>2020</Year>
+                    <Month>9</Month>
+                    <Day>21</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="revised">
+                    <Year>2020</Year>
+                    <Month>11</Month>
+                    <Day>15</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="accepted">
+                    <Year>2020</Year>
+                    <Month>12</Month>
+                    <Day>4</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2020</Year>
+                    <Month>12</Month>
+                    <Day>12</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2021</Year>
+                    <Month>2</Month>
+                    <Day>17</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2020</Year>
+                    <Month>12</Month>
+                    <Day>11</Day>
+                    <Hour>6</Hour>
+                    <Minute>9</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pmc-release">
+                    <Year>2021</Year>
+                    <Month>2</Month>
+                    <Day>15</Day>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">33305456</ArticleId>
+                <ArticleId IdType="pmc">PMC7883242</ArticleId>
+                <ArticleId IdType="doi">10.1002/jgm.3303</ArticleId>
+            </ArticleIdList>
+            <ReferenceList>
+                <Reference>
+                    <Citation>Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan. China Lancet. 2020;395:497&#x2010;506.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7159299</ArticleId>
+                        <ArticleId IdType="pubmed">31986264</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Rodr&#xed;guez&#x2010;Morales AJ, MacGregor K, Kanagarajah S, Patel D, Schlagenhauf P. Going global&#x2013;travel and the 2019 novel coronavirus. Travel Med Infect Dis. 2020;33:1&#x2010;5.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7128681</ArticleId>
+                        <ArticleId IdType="pubmed">32044389</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Ksiazek TG, Erdman D, Goldsmith CS, et al. A novel coronavirus associated with severe acute respiratory syndrome. New England J Med. 2003;348:1953&#x2010;1966.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12690092</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>de Groot RJ, Baker SC, Baric RS, et al. Commentary: Middle East respiratory syndrome coronavirus (MERS&#x2010;CoV): announcement of the coronavirus study group. J Virol. 2013;87:7790&#x2010;7792.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3700179</ArticleId>
+                        <ArticleId IdType="pubmed">23678167</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Drosten C, G&#xfc;nther S, Preiser W, et al. Identification of a novel coronavirus in patients with severe acute respiratory syndrome. New England J Med. 2003;348:1967&#x2010;1976.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12690091</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Zhu N, Zhang D, Wang W. et al. A novel coronavirus from patients with pneumonia in China, 2019. New England J Med. 2019;2020.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7092803</ArticleId>
+                        <ArticleId IdType="pubmed">31978945</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Asghari A, Naseri M, Safari H, Saboory E, Parsamanesh N. The novel insight of SARS&#x2010;CoV&#x2010;2 molecular biology and pathogenesis and therapeutic options. DNA Cell Biol. 2020;39:1741&#x2010;1753.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32716648</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Petrosillo N, Viceconte G, Ergonul O, Ippolito G, Petersen E. COVID&#x2010;19, SARS and MERS: are they closely related? Clin Microbiol Infect. 2020;26:729&#x2010;734.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7176926</ArticleId>
+                        <ArticleId IdType="pubmed">32234451</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>
+WHO site
+. https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Ashour HM, Elkhatib WF, Rahman M, Elshabrawy HA. Insights into the recent 2019 novel coronavirus (SARS&#x2010;CoV&#x2010;2) in light of past human coronavirus outbreaks. Pathogens. 2020;9:1&#x2010;5.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7157630</ArticleId>
+                        <ArticleId IdType="pubmed">32143502</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Peeri NC, Shrestha N, Rahman MS, et al. The SARS, MERS and novel coronavirus (COVID&#x2010;19) epidemics, the newest and biggest global health threats: what lessons have we learned? Int J Epidemiol. 2020;49:717&#x2010;726.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7197734</ArticleId>
+                        <ArticleId IdType="pubmed">32086938</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Tahmasebi S, Khosh E, Esmaeilzadeh A. The outlook for diagnostic purposes of the 2019&#x2010;novel coronavirus disease. J Cell Physiol. 2020;235:9211&#x2010;9229.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7283732</ArticleId>
+                        <ArticleId IdType="pubmed">32452050</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Paraskevis D, Kostaki EG, Magiorkinis G, Panayiotakopoulos G, Sourvinos G, Tsiodras S. Full&#x2010;genome evolutionary analysis of the novel corona virus (2019&#x2010;nCoV) rejects the hypothesis of emergence as a result of a recent recombination event. Infection, genetics and. Evolution. 2020;79:104212.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7106301</ArticleId>
+                        <ArticleId IdType="pubmed">32004758</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Fahmi M, Kubota Y, Ito M. Nonstructural proteins NS7b and NS8 are likely to be phylogenetically associated with evolution of 2019&#x2010;nCoV. Infect Genet Evol. 2020;104272.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7106073</ArticleId>
+                        <ArticleId IdType="pubmed">32142938</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Phan MVT, Ngo Tri T, Hong Anh P, Baker S, Kellam P, Cotten M. Identification and characterization of Coronaviridae genomes from Vietnamese bats and rats based on conserved protein domains. Virus Evol. 2018;4(2):vey035.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6295324</ArticleId>
+                        <ArticleId IdType="pubmed">30568804</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Abduljali J, Abduljali B. Epidemiology, genome and clinical features of the pandemic SARS&#x2010;CoV&#x2010;2: a recent view. New Micr New Infect. 2020;35:100672.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7171182</ArticleId>
+                        <ArticleId IdType="pubmed">32322400</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Parsamanesh N, Pezeshgi A, Hemmati M, Jameshorani M, Saboory E. Neurological manifestations of coronavirus infections: role of angiotensin&#x2010;converting enzyme 2 in COVID&#x2010;19. Int J Neurosci. 2020.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">33175635</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Naqvi AAT, Fatima K, Mohammad T, et al. Insights into SARS&#x2010;CoV&#x2010;2 genome, structure, evolution, pathogenesis and therapies: structural genomics approach. Biochim Biophys Acta Mol Basis Dis. 2020;1866(10):165878.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7293463</ArticleId>
+                        <ArticleId IdType="pubmed">32544429</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Krichel B, Falke S, Hilgenfeld R, Redecke L, Uetrecht C. Processing of the SARS&#x2010;CoV pp1a/ab nsp7&#x2010;10 region. Biochem J. 2020;477:1009&#x2010;1019.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7078746</ArticleId>
+                        <ArticleId IdType="pubmed">32083638</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Khailany RA, Safdar M, Ozaslan M. Genomic characterization of a novel SARS&#x2010;CoV&#x2010;2. Gene Rep. 2020;19:100682.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7161481</ArticleId>
+                        <ArticleId IdType="pubmed">32300673</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Mu J, Xu J, Zhang L, et al. SARS&#x2010;CoV&#x2010;2&#x2010;encoded nucleocapsid protein acts as a viral suppressor of RNA interference in cells. Sci China Life Sci. 2020;63:1&#x2010;4.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7154568</ArticleId>
+                        <ArticleId IdType="pubmed">32291557</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Astuti I. Ysrafil. Severe acute respiratory syndrome coronavirus 2 (SARS&#x2010;CoV&#x2010;2): an overview of viral structure and host response. Diab Metab Syndr. 2020;14:407&#x2010;412.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7165108</ArticleId>
+                        <ArticleId IdType="pubmed">32335367</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Voss D, Pfefferle S, Drosten C, et al. Studies on membrane topology. N&#x2010;Glycosylation and Functionality of SARS&#x2010;CoV Membrane Protein Virology Journal. 2009;6:79&#x2010;92.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2705359</ArticleId>
+                        <ArticleId IdType="pubmed">19534833</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Zhou P, Yang X, Wang X, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020;579:270&#x2010;273.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7095418</ArticleId>
+                        <ArticleId IdType="pubmed">32015507</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Kang S, Yang M, Hong Z, et al. Crystal structure of SARS&#x2010;CoV&#x2010;2 nucleocapsid protein RNA binding domain reveals potential unique drug targeting sites. Acta Pharm Sin B. 2020;10:1228&#x2010;1238.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7194921</ArticleId>
+                        <ArticleId IdType="pubmed">32363136</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Wan Y, Graham R, Baric R, Li F. An analysis based on decade&#x2010;long structural studies of SARS 3, JVI accepted manuscript posted online 29 January 2020. J Virol. 2020;94(7):e00127&#x2010;20.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7081895</ArticleId>
+                        <ArticleId IdType="pubmed">31996437</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chu DK, Hui KP, Perera RA, et al. MERS coronaviruses from camels in Africa exhibit region&#x2010;dependent genetic diversity. Proc Natl Acad Sci. 2018;115:3144&#x2010;3149.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5866576</ArticleId>
+                        <ArticleId IdType="pubmed">29507189</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lau SK, Li KS, Tsang AK, et al. Genetic characterization of Betacoronavirus lineage C viruses in bats reveals marked sequence divergence in the spike protein of pipistrellus bat coronavirus HKU5 in Japanese pipistrelle: implications for the origin of the novel Middle East respiratory syndrome coronavirus. J Virol. 2013;87:8638&#x2010;8650.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3719811</ArticleId>
+                        <ArticleId IdType="pubmed">23720729</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lu R, Zhao X, Li J, et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet. 2020;395:565&#x2010;574.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7159086</ArticleId>
+                        <ArticleId IdType="pubmed">32007145</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lau SK, Zhang L, Luk HK, et al. Receptor usage of a novel bat lineage C betacoronavirus reveals evolution of Middle East respiratory syndrome&#x2010;related coronavirus spike proteins for human dipeptidyl peptidase 4 binding. J Infect Dis. 2018;218:197&#x2010;207.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7107427</ArticleId>
+                        <ArticleId IdType="pubmed">29346682</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Khan S, Siddique R, Shereen MA, et al. Emergence of a novel coronavirus, severe acute respiratory syndrome coronavirus 2: biology and therapeutic options. J Clin Microbiol. 2020;58(5):e00187&#x2010;20.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7180238</ArticleId>
+                        <ArticleId IdType="pubmed">32161092</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Devaux CA, Rolain JM, Raoult D. ACE2 receptor polymorphism: susceptibility to SARS&#x2010;CoV&#x2010;2, hypertension, multi&#x2010;organ failure, and COVID&#x2010;19 disease outcome. J Microbiol Immun Infect = Wei Mian Yu Gan Ran Za Zhi. 2020;53:425&#x2010;435.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7201239</ArticleId>
+                        <ArticleId IdType="pubmed">32414646</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Andersen KG, Rambaut A, Lipkin WI, Holmes EC, Garry RF. The proximal origin of SARS&#x2010;CoV&#x2010;2. Nat Med. 2020;26:450&#x2010;452.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7095063</ArticleId>
+                        <ArticleId IdType="pubmed">32284615</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Pillay TS. Gene of the month: the 2019&#x2010;nCoV/SARS&#x2010;CoV&#x2010;2 novel coronavirus spike protein. J Clin Pathol. 2020;73:366&#x2010;369.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32376714</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Malik YS, Kumar N, Sircar S, et al. Coronavirus disease pandemic (COVID&#x2010;19): challenges and a global perspective. Pathogens. 2020;9(7):519.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7400054</ArticleId>
+                        <ArticleId IdType="pubmed">32605194</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Zhou P, Yang X&#x2010;L, Wang X&#x2010;G, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020;579:270&#x2010;273.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7095418</ArticleId>
+                        <ArticleId IdType="pubmed">32015507</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Li Z, Yi Y, Luo X, et al. Development and clinical application of a rapid IgM&#x2010;IgG combined antibody test for SARS&#x2010;CoV&#x2010;2 infection diagnosis. J Med Virol. 2020;92(9):1518&#x2010;1524.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7228300</ArticleId>
+                        <ArticleId IdType="pubmed">32104917</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Voto C, Berkner P, Brenner C. Overview of the pathogenesis and treatment of SARS&#x2010;CoV&#x2010;2 for clinicians: a comprehensive literature review. Cureus. 2020;12(9):e10357.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7549853</ArticleId>
+                        <ArticleId IdType="pubmed">33062480</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Domingo P, Mur I, Pomar V, Corominas H, Casademont J, de Benito N. The four horsemen of a viral apocalypse: the pathogenesis of SARS&#x2010;CoV&#x2010;2 infection (COVID&#x2010;19). EBioMedicine. 2020;58:102887.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7387269</ArticleId>
+                        <ArticleId IdType="pubmed">32736307</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shang J, Wan Y, Luo C, et al. Cell entry mechanisms of SARS&#x2010;CoV&#x2010;2. Proc Natl Acad Sci. 2020;117:11727&#x2010;11734.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7260975</ArticleId>
+                        <ArticleId IdType="pubmed">32376634</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Totura AL, Baric RS. SARS coronavirus pathogenesis: host innate immune responses and viral antagonism of interferon. Curr Opin Virol. 2012;2:264&#x2010;275.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7102726</ArticleId>
+                        <ArticleId IdType="pubmed">22572391</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Grubaugh ND, Hanage WP, Rasmussen AL. Making sense of mutation: what D614 G means for the COVID&#x2010;19 pandemic remains unclear. Cell. 2020;182:794&#x2010;795.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7332445</ArticleId>
+                        <ArticleId IdType="pubmed">32697970</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Korber B, Fischer WM, Gnanakaran S, et al. Tracking changes in SARS&#x2010;CoV&#x2010;2 spike: evidence that D614 G increases infectivity of the COVID&#x2010;19 virus. Cell. 2020;182:812&#x2010;827.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7332439</ArticleId>
+                        <ArticleId IdType="pubmed">32697968</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Novel CPERE . The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID&#x2010;19) in China. Zhonghua Liu Xing Bing Xue Za Zhi = Zhonghua Liuxingbingxue Zazhi. 2020;41(2):145&#x2010;151.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32064853</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Leeflang MM, Rutjes AW, Reitsma JB, Hooft L, Bossuyt PM. Variation of a test's sensitivity and specificity with disease prevalence. Cmaj. 2013;185:E537&#x2010;E544.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3735771</ArticleId>
+                        <ArticleId IdType="pubmed">23798453</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shereen MA, Khan S, Kazmi A, Bashir N, Siddique R. COVID&#x2010;19 infection: origin, transmission, and characteristics of human coronaviruses. Journal of Advanced Research. 2020;24:91&#x2010;98.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7113610</ArticleId>
+                        <ArticleId IdType="pubmed">32257431</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lauer SA, Grantz KH, Bi Q, et al. The incubation period of coronavirus disease 2019 (COVID&#x2010;19) from publicly reported confirmed cases: estimation and application. Ann Intern Med. 2020;172:577&#x2010;582.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7081172</ArticleId>
+                        <ArticleId IdType="pubmed">32150748</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Adhikari SP, Meng S, Wu Y&#x2010;J, et al. Epidemiology, causes, clinical manifestation and diagnosis, prevention and control of coronavirus disease (COVID&#x2010;19) during the early outbreak period: a scoping review. Infect Dis Poverty. 2020;9:29.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7079521</ArticleId>
+                        <ArticleId IdType="pubmed">32183901</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>J&#x2010;J Z, Dong X, Cao YY, et al. Clinical characteristics of 140 patients infected with SARS&#x2010;CoV&#x2010;2 in Wuhan, China. Allergy. 2020;75:1730&#x2010;1741.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32077115</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Wang D, Hu B, Hu C, et al. Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus&#x2013;infected pneumonia in Wuhan. China Jama. 2020;323:1061&#x2010;1069.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7042881</ArticleId>
+                        <ArticleId IdType="pubmed">32031570</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Danzi GB, Loffi M, Galeazzi G, Gherbesi E. Acute pulmonary embolism and COVID&#x2010;19 pneumonia: a random association? Eur Heart J. 2020;41:1858&#x2010;1858.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7184406</ArticleId>
+                        <ArticleId IdType="pubmed">32227120</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Mao L, Jin H, Wang M, et al. Neurologic manifestations of hospitalized patients with coronavirus disease 2019 in Wuhan. China JAMA Neurol. 2020;77:683&#x2010;690.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7149362</ArticleId>
+                        <ArticleId IdType="pubmed">32275288</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Recalcati S. Cutaneous manifestations in COVID&#x2010;19: a first perspective. J Eur Acad Dermatol Venereol. 2020;34(5):e212&#x2010;e213.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32215952</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Salehi S, Abedi A, Balakrishnan S, Gholamrezanezhad A. Coronavirus disease 2019 (COVID&#x2010;19): a systematic review of imaging findings in 919 patients. Am J Roentgenol. 2020;215(1):87&#x2010;93.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32174129</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chen Z&#x2010;M, Fu J&#x2010;F, Shu Q, et al. Diagnosis and treatment recommendations for pediatric respiratory infection caused by the 2019 novel coronavirus. World J Pediatr. 2020;16:240&#x2010;246.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7091166</ArticleId>
+                        <ArticleId IdType="pubmed">32026148</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Loomba RS, Villarreal E, Flores S. Covid&#x2010;19 and Kawasaki syndrome: should we really be surprised? Cardiol Young. 2020;30(7):1059&#x2010;1060.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7322149</ArticleId>
+                        <ArticleId IdType="pubmed">32412400</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Bai Y, Yao L, Wei T, et al. Presumed asymptomatic carrier transmission of COVID&#x2010;19. JAMA. 2020;323:1406&#x2010;1407.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7042844</ArticleId>
+                        <ArticleId IdType="pubmed">32083643</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Roumen R, Van Meurs P, Kuypers H, Kraak W, Sauerwein R. Serum interleukin&#x2010;6 and C reactive protein responses in patients after laparoscopic or conventional cholecystectomy. The European journal of surgery=. Acta Chirurg. 1992;158:541&#x2010;544.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">1360826</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Bangash MN, Patel J, Parekh D. COVID&#x2010;19 and the liver: little cause for concern. Lancet Gastroenterol Hepatol. 2020;5:529&#x2010;530.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7270582</ArticleId>
+                        <ArticleId IdType="pubmed">32203680</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Zhou F, Yu T, Du R, et al. Clinical course and risk factors for mortality of adult inpatients with COVID&#x2010;19 in Wuhan, China: a retrospective cohort study. Lancet. 2020;395:1054&#x2010;1062.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7270627</ArticleId>
+                        <ArticleId IdType="pubmed">32171076</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Pormohammad A, Ghorbani S, Baradaran B, et al. Clinical Characteristics, laboratory findings, radiographic signs and outcomes of 52,251 patients with confirmed covid&#x2010;19 infection: a systematic review and meta&#x2010;analysis; 2020.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7361116</ArticleId>
+                        <ArticleId IdType="pubmed">32681968</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Han W, Quan B, Guo Y, et al. The course of clinical diagnosis and treatment of a case infected with coronavirus disease 2019. J Med Virol. 2020;92:461&#x2010;463.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7167012</ArticleId>
+                        <ArticleId IdType="pubmed">32073161</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Mahallawi WH, Khabour OF, Zhang Q, Makhdoum HM, Suliman BA. MERS&#x2010;CoV infection in humans is associated with a pro&#x2010;inflammatory Th1 and Th17 cytokine profile. Cytokine. 2018;104:8&#x2010;13.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7129230</ArticleId>
+                        <ArticleId IdType="pubmed">29414327</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hossein&#x2010;Khannazer N, Shokoohian B, Shpichka A, Aghdaei HA, Timashev P, Vosough M. Novel therapeutic approaches for treatment of COVID&#x2010;19. J Mol Med (Berl). 2020;98:789&#x2010;803.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7268974</ArticleId>
+                        <ArticleId IdType="pubmed">32494931</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Rothan HA, Byrareddy SN. The epidemiology and pathogenesis of coronavirus disease (COVID&#x2010;19) outbreakhe epidemiology and pathogenesis of coronavirus disease (COVID&#x2010;19) outbreak. J Autoimmun. 2020;109:102433.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7127067</ArticleId>
+                        <ArticleId IdType="pubmed">32113704</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Fang Y, Zhang H, Xie J, et al. Sensitivity of chest CT for COVID&#x2010;19: comparison to RT&#x2010;PCR. Radiology. 2020;296(2):200432.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7233365</ArticleId>
+                        <ArticleId IdType="pubmed">32073353</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Vyakaranam AR, Crona J, Norl&#xe9;n O, Hellman P, Sundin A. 11C&#x2010;hydroxy&#x2010;ephedrine&#x2010;PET/CT in the diagnosis of Pheochromocytoma and Paraganglioma. Cancer. 2019;11:847.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6627429</ArticleId>
+                        <ArticleId IdType="pubmed">31248124</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Corman VM, Landt O, Kaiser M, et al. Detection of 2019 novel coronavirus (2019&#x2010;nCoV) by real&#x2010;time RT&#x2010;PCR. Eurosurveillance. 2020;25(3):2000045.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6988269</ArticleId>
+                        <ArticleId IdType="pubmed">31992387</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Pan F, Ye T, Sun P, et al. Time course of lung changes on chest CT during recovery from 2019 novel coronavirus (COVID&#x2010;19) pneumonia. Radiology. 2020;295:715&#x2010;721.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7233367</ArticleId>
+                        <ArticleId IdType="pubmed">32053470</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Ai T, Yang Z, Hou H, et al. Correlation of chest CT and RT&#x2010;PCR testing in coronavirus disease 2019 (COVID&#x2010;19) in China: a report of 1014 cases. Radiology. 2020;296:E32&#x2010;E40.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7233399</ArticleId>
+                        <ArticleId IdType="pubmed">32101510</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Li X, Zeng X, Liu B, Yu Y. COVID&#x2010;19 infection presenting with CT halo sign. Radiol: Cardioth Imag. 2020;2(1):e200026.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7194018</ArticleId>
+                        <ArticleId IdType="pubmed">33778543</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Xie X, Zhong Z, Zhao W, Zheng C, Wang F, Liu J. Chest CT for typical 2019&#x2010;nCoV pneumonia: relationship to negative RT&#x2010;PCR testing. Radiology. 2020;296:E41&#x2010;E45.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7233363</ArticleId>
+                        <ArticleId IdType="pubmed">32049601</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Caruana G, Croxatto A, Coste AT, et al. Diagnostic strategies for SARS&#x2010;CoV&#x2010;2 infection and interpretation of microbiological results. Clin Microbiol Infect. 2020;26:1178&#x2010;1182.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7315992</ArticleId>
+                        <ArticleId IdType="pubmed">32593741</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Wu F, Zhao S, Yu B, et al. A new coronavirus associated with human respiratory disease in China. Nature. 2020;579:265&#x2010;269.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7094943</ArticleId>
+                        <ArticleId IdType="pubmed">32015508</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chan JF&#x2010;W, Yip CC&#x2010;Y, To KK, et al. Improved molecular diagnosis of COVID&#x2010;19 by the novel, highly sensitive and specific COVID&#x2010;19&#x2010;RdRp/Hel real&#x2010;time reverse transcription&#x2010;polymerase chain reaction assay validated in vitro and with clinical specimens. J Clin Microbiol. 2020;58(5):e00310&#x2010;20.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7180250</ArticleId>
+                        <ArticleId IdType="pubmed">32132196</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Pe&#xf1;arrubia L, Ruiz M, Porco R, et al. Multiple assays in a real&#x2010;time RT&#x2010;PCR SARS&#x2010;CoV&#x2010;2 panel can mitigate the risk of loss of sensitivity by new genomic variants during the COVID&#x2010;19 outbreak. Int J Infect Dis. 2020;97:225&#x2010;229.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7289722</ArticleId>
+                        <ArticleId IdType="pubmed">32535302</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Oliveira BA, Oliveira LC, Sabino EC, Okay TS. SARS&#x2010;CoV&#x2010;2 and the COVID&#x2010;19 disease: a mini review on diagnostic methods. Rev Inst Med Trop Sao Paulo. 2020;62:e44.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7325591</ArticleId>
+                        <ArticleId IdType="pubmed">32609256</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Bernheim A, Mei X, Huang M, et al. Chest CT findings in coronavirus disease&#x2010;19 (COVID&#x2010;19): relationship to duration of infection. Radiology. 2020;119(5):1000&#x2010;1001.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7233369</ArticleId>
+                        <ArticleId IdType="pubmed">32077789</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Udugama B, Kadhiresan P, Kozlowski HN, et al. Diagnosing COVID&#x2010;19: the disease and tools for detection. ACS Nano. 2020;14:3822&#x2010;3835.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32223179</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shen M, Zhou Y, Ye J, et al. Recent advances and perspectives of nucleic acid detection for coronavirus. J Pharm Anal. 2020;10(2):97&#x2010;101.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7102540</ArticleId>
+                        <ArticleId IdType="pubmed">32292623</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Yang W, Dang X, Wang Q, et al. Rapid detection of SARS&#x2010;CoV&#x2010;2 using reverse transcription RT&#x2010;LAMP method. medRxiv. 2020.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Chen Q, Li J, Deng Z, Xiong W, Wang Q. Hu Y&#x2010;q. comprehensive detection and identification of seven animal coronaviruses and human respiratory coronavirus 229E with a microarray hybridization assay. Intervirology. 2010;53:95&#x2010;104.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7179550</ArticleId>
+                        <ArticleId IdType="pubmed">19955814</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shi R, Ma W, Wu Q, et al. Design and application of 60mer oligonucleotide microarray in SARS coronavirus detection. Chin Sci Bull. 2003;48:1165&#x2010;1169.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7089259</ArticleId>
+                        <ArticleId IdType="pubmed">32214700</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Xu Y, He B, Pan Y, et al. Systematic review and meta&#x2010;analysis on vitamin D receptor polymorphisms and cancer risk. Tumor Biology. 2014;35:4153&#x2010;4169.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">24408013</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>de Souza Luna LK, Heiser V, Regamey N, et al. Generic detection of coronaviruses and differentiation at the prototype strain level by reverse transcription&#x2010;PCR and nonfluorescent low&#x2010;density microarray. J Clin Microbiol. 2007;45:1049&#x2010;1052.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC1829107</ArticleId>
+                        <ArticleId IdType="pubmed">17229859</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hardick J, Metzgar D, Risen L, et al. Initial performance evaluation of a spotted array Mobile analysis platform (MAP) for the detection of influenza a/B, RSV, and MERS coronavirus. Diagn Microbiol Infect Dis. 2018;91:245&#x2010;247.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6013072</ArticleId>
+                        <ArticleId IdType="pubmed">29550057</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Jiang HW, Li Y, Zhang HN, et al. SARS&#x2010;CoV&#x2010;2 proteome microarray for global profiling of COVID&#x2010;19 specific IgG and IgM responses. Nat Commun. 2020;11:1&#x2010;11.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7360742</ArticleId>
+                        <ArticleId IdType="pubmed">32665645</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chan K&#x2010;H, Chan JF&#x2010;W, Tse H, et al. Cross&#x2010;reactive antibodies in convalescent SARS patients' sera against the emerging novel human coronavirus EMC (2012) by both immunofluorescent and neutralizing antibody tests. J Infect. 2013;67:130&#x2010;140.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7112694</ArticleId>
+                        <ArticleId IdType="pubmed">23583636</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hoey J. Updated SARS case definition using laboratory criteria. Cmaj. 2003;168:1566&#x2010;1567.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC156690</ArticleId>
+                        <ArticleId IdType="pubmed">12796338</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Roh C, Jo SK. Quantitative and sensitive detection of SARS coronavirus nucleocapsid protein using quantum dots&#x2010;conjugated RNA aptamer on chip. Journal of Chemical Technology &amp; Biotechnology. 2011;86:1475&#x2010;1479.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7167159</ArticleId>
+                        <ArticleId IdType="pubmed">32336860</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Valizadeh H, Abdolmohammadi&#x2010;Vahid S, Danshina S, et al. Nano&#x2010;curcumin therapy, a promising method in modulating inflammatory cytokines in COVID&#x2010;19 patients. Int Immunopharmacol. 2020;89(Part B):107088.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7574843</ArticleId>
+                        <ArticleId IdType="pubmed">33129099</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Guarner J. Three emerging coronaviruses in two decades: The story of SARS, MERS, and now COVID&#x2010;19. Am J Clin Pathol. 2020;153(4):420&#x2010;421.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7109697</ArticleId>
+                        <ArticleId IdType="pubmed">32053148</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hageman JR. The coronavirus disease 2019 (COVID&#x2010;19). Pediatr Ann. 2020;49:e99&#x2010;e100.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">32155273</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Ahmed SF, Quadeer AA, McKay MR. Preliminary identification of potential vaccine targets for the COVID&#x2010;19 coronavirus (SARS&#x2010;CoV&#x2010;2) based on SARS&#x2010;CoV immunological studies. Viruses. 2020;12:254.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7150947</ArticleId>
+                        <ArticleId IdType="pubmed">32106567</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Casadevall A, Pirofski L. The convalescent sera option for containing COVID&#x2010;19. J Clin Invest. 2020. 10.1172/JCI138003</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1172/JCI138003</ArticleId>
+                        <ArticleId IdType="pmc">PMC7108922</ArticleId>
+                        <ArticleId IdType="pubmed">32167489</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Abdolreza Esmaeilzadeh RE. Immunobiology and immunotherapy of COVID&#x2010;19: a clinically updated overview. J Cell Phys. 2020;1&#x2010;25.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7675260</ArticleId>
+                        <ArticleId IdType="pubmed">33022076</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Smithgall MC, Dowlatshahi M, Spitalnik SL, Hod EA, Rai AJ. Types of assays for SARS&#x2010;CoV&#x2010;2 testing: a review. Lab Med. 2020.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7454768</ArticleId>
+                        <ArticleId IdType="pubmed">32657343</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Guo L, Ren L, Yang S, et al. Profiling early humoral response to diagnose novel coronavirus disease (COVID&#x2010;19). Clin Infect Dis. 2020;71:778&#x2010;785.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7184472</ArticleId>
+                        <ArticleId IdType="pubmed">32198501</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Xiang J, Yan M, Li H, et al. Evaluation of enzyme&#x2010;linked immunoassay and colloidal gold&#x2010;Immunochromatographic assay kit for detection of novel coronavirus (SARS&#x2010;Cov&#x2010;2) causing an outbreak of pneumonia (COVID&#x2010;19). MedRxiv. 2020.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Chlamydas S, Papavassiliou AG, Piperi C. Epigenetic mechanisms regulating COVID&#x2010;19 infection. Epigenetics. 2020;30:1&#x2010;8.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7901548</ArticleId>
+                        <ArticleId IdType="pubmed">32686577</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Gootenberg JS, Abudayyeh OO, Lee JW, et al. Nucleic acid detection with CRISPR&#x2010;Cas13a/C2c2. Science. 2017;356:438&#x2010;442.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5526198</ArticleId>
+                        <ArticleId IdType="pubmed">28408723</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Wright AV, Nu&#xf1;ez JK, Doudna JA. Biology and applications of CRISPR systems: harnessing nature's toolbox for genome engineering. Cell. 2016;164:29&#x2010;44.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">26771484</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation> https://broad.io/sherlockprotocol</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Huang Z, Tian D, Liu Y, et al. Ultra&#x2010;sensitive and high&#x2010;throughput CRISPR&#x2010;powered COVID&#x2010;19 diagnosis. Biosens Bioelectron. 2020;164:112316.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7245202</ArticleId>
+                        <ArticleId IdType="pubmed">32553350</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Broughton JP, Deng X, Yu G, et al. CRISPR&#x2013;Cas12&#x2010;based detection of SARS&#x2010;CoV&#x2010;2. Nat Biotechnol. 2020;38:870&#x2010;874.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC9107629</ArticleId>
+                        <ArticleId IdType="pubmed">32300245</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Notomi T, Okayama H, Masubuchi H, et al. Loop&#x2010;mediated isothermal amplification of DNA. Nucleic Acids Res. 2000;28:e63&#x2010;e63, 663.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC102748</ArticleId>
+                        <ArticleId IdType="pubmed">10871386</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Enosawa M, Kageyama S, Sawai K, et al. Use of loop&#x2010;mediated isothermal amplification of the IS900 sequence for rapid detection of cultured Mycobacterium avium subsp. paratuberculosis. J Clin Microbiol. 2003;41:4359&#x2010;4365.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC193777</ArticleId>
+                        <ArticleId IdType="pubmed">12958269</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Poon LL, Leung CS, Tashiro M, et al. Rapid detection of the severe acute respiratory syndrome (SARS) coronavirus by a loop&#x2010;mediated isothermal amplification assay. Clin Chem. 2004;50:1050&#x2010;1052.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7108160</ArticleId>
+                        <ArticleId IdType="pubmed">15054079</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Pyrc K, Milewska A, Potempa J. Development of loop&#x2010;mediated isothermal amplification assay for detection of human coronavirus&#x2010;NL63. J Virol Methods. 2011;175:133&#x2010;136.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7112811</ArticleId>
+                        <ArticleId IdType="pubmed">21545810</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shirato K, Yano T, Senba S, et al. Detection of Middle East respiratory syndrome coronavirus using reverse transcription loop&#x2010;mediated isothermal amplification (RT&#x2010;LAMP). Virol J. 2014;11:139&#x2010;150.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC4132226</ArticleId>
+                        <ArticleId IdType="pubmed">25103205</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shirato K, Semba S, El&#x2010;Kafrawy SA, et al. Development of fluorescent reverse transcription loop&#x2010;mediated isothermal amplification (RT&#x2010;LAMP) using quenching probes for the detection of the Middle East respiratory syndrome coronavirus. J Virol Methods. 2018;258:41&#x2010;48.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7113683</ArticleId>
+                        <ArticleId IdType="pubmed">29763640</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Huang P, Wang H, Cao Z, et al. A rapid and specific assay for the detection of MERS&#x2010;CoV. Front Microbiol. 2018;9:1&#x2010;9.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5987675</ArticleId>
+                        <ArticleId IdType="pubmed">29896174</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Zhang Y, Odiwuor N, Xiong J, et al. Rapid molecular detection of SARS&#x2010;CoV&#x2010;2 (COVID&#x2010;19) virus RNA using colorimetric LAMP. MedRxiv. 2020.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Kashir J, Yaqinuddin A. Loop mediated isothermal amplification (LAMP) assays as a rapid diagnostic for COVID&#x2010;19. Med Hypotheses. 2020;141:109786.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7182526</ArticleId>
+                        <ArticleId IdType="pubmed">32361529</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Song J, Liu C, Mauk MG, et al. Two&#x2010;stage isothermal enzymatic amplification for concurrent multiplex molecular detection. Clin Chem. 2017;63:714&#x2010;722.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5913740</ArticleId>
+                        <ArticleId IdType="pubmed">28073898</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Mu D, Yan L, Tang H, Liao Y. A sensitive and accurate quantification method for the detection of hepatitis B virus covalently closed circular DNA by the application of a droplet digital polymerase chain reaction amplification system. Biotechnol Lett. 2015;37:2063&#x2010;2073.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">26187315</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Alteri C, Scutari R, Stingone C, et al. Quantification of HIV&#x2010;DNA and residual viremia in patients starting ART by droplet digital PCR: their dynamic decay and correlations with immunological parameters and virological success. J Clin Virol. 2019;117:61&#x2010;67.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">31229934</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Alteri C, Cento V, Antonello M, et al. Detection and quantification of SARS&#x2010;CoV&#x2010;2 by droplet digital PCR in real&#x2010;time PCR negative nasopharyngeal swabs from suspected COVID&#x2010;19 patients. PloS One. 2020;15(9):e0236311.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7478621</ArticleId>
+                        <ArticleId IdType="pubmed">32898153</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Border&#xed;a AV, Stapleford KA, Vignuzzi M. RNA virus population diversity: implications for inter&#x2010;species transmission. Curr Opin Virol. 2011;1:643&#x2010;648.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">22440922</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Or&#xed;lio AF, Lucinda N, Dusi AN, Nagata T, Inoue&#x2010;Nagata AK. Complete genome sequence of arracacha mottle virus. Arch Virol. 2013;158:291&#x2010;295.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">23001696</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Gaudin M, Desnues C. Hybrid capture&#x2010;based next generation sequencing and its application to human infectious diseases. Front Microbiol. 2018;9:2924.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6277869</ArticleId>
+                        <ArticleId IdType="pubmed">30542340</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chen G&#x2010;Q, Zhuang Q&#x2010;Y, Wang K&#x2010;C, et al. Identification and survey of a novel avian coronavirus in ducks. PLoS One. 2013;8(8):e72918.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3758261</ArticleId>
+                        <ArticleId IdType="pubmed">24023656</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Wang K&#x2010;C, Chen G&#x2010;Q, Jiang W&#x2010;M, et al. Complete genome sequence of a hemagglutination&#x2010;negative avian paramyxovirus type 4 isolated from China. Genome Announc. 2013;1:e00045&#x2010;e00013.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3622965</ArticleId>
+                        <ArticleId IdType="pubmed">23516188</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+            </ReferenceList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>
