@@ -10,6 +10,8 @@ import org.topicquests.asr.nlp.api.ITQCoreOntology;
 import org.topicquests.asr.nlp.api.IAbstract;
 import org.topicquests.asr.nlp.api.IAuthor;
 import org.topicquests.asr.nlp.api.IPublication;
+import org.topicquests.asr.nlp.doc.AuthorPojo;
+import org.topicquests.asr.nlp.doc.PublicationPojo;
 
 //import org.topicquests.hyperbrane.api.IHarvestingOntology;
 
@@ -343,6 +345,7 @@ public class JSONDocumentObject {
 			String volume, String number, String pages, String date, String year,
 			String publisherName, String publisherLocation,
 			String doi, String issn, String publicationType, String isoAbbreviation) {
+		
 		IPublication p = new PublicationPojo();
 		if (title != null && !title.equals(""))
 			p.setTitle(title);
