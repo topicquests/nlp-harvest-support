@@ -31,6 +31,7 @@ public class JSONDocumentObject {
 		_COPYRIGHT			= "cpyright",
 		_ABSTRACT			= "abstract", // now a list
 		_CONTENT			= "content",
+		_PARAGRAPHS			= "parags",
 		_LANGUAGE			= "language",
 		_URL				= "url",
 		_AUTHORS			= "authors",
@@ -231,16 +232,27 @@ public class JSONDocumentObject {
 	 * The full text to harvest
 	 * @param content
 	 * @param language defaults to "en"
-	 */
+	 * /
 	public void setContent(String content, String language) {
 		data.addProperty(_CONTENT, content);
 		if (language != null)
 			data.addProperty(_LANGUAGE, language);
 		else
 			data.addProperty(_LANGUAGE, "en");
-
+	}
+	*/
+	public void addParagraph(IAbstract para) {
+		JsonArray ja = listParagraphs();
+		if (ja == null) {
+			ja = new JsonArray();
+			data.add(_PARAGRAPHS, ja);
+		}
+		ja.add(para.getData());
 	}
 	
+	public JsonArray listParagraphs() {
+		return data.get(_PARAGRAPHS).getAsJsonArray();
+	}
 	public void setTitle(String title) {
 		data.addProperty(_TITLE, title);
 	}
@@ -257,7 +269,7 @@ public class JSONDocumentObject {
 	//}
 	
 	/**
-	 * Some documents have just one abstract paragraph, others several.
+	 * Some documents have just one abstract paragraph, others several. //TODO challenge this: only one with multiple paragraphs
 	 * @param a
 	 */
 	public void addDocAbstract(IAbstract a) {
@@ -307,7 +319,7 @@ public class JSONDocumentObject {
 	/**
 	 * Return the content
 	 * @return
-	 */
+	 * /
 	public String getContent() {
 		return data.get(_CONTENT).getAsString();
 	}

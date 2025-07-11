@@ -71,7 +71,7 @@ public class PMCPullParser {
 	         String foo = null;
 	         boolean isPMC = false, isPMID = false, isPubId = false, isDOI = false;
 	         String title = null;
-	         boolean isAuthor = false, isSection = false;
+	         boolean isAuthor = false, isSection = false, isAbstract = false;
 	         String surName = null, givenName = null, email = null, affilId = null;
 	         IAuthor thisAuthor = null;
 	         IPublication thisPub = null;
@@ -138,69 +138,15 @@ public class PMCPullParser {
 	                } else if (temp.equalsIgnoreCase("aff")) {
                 		affilId = (String)props.get("id");// TODO other xrefs???
 	                } else if (temp.equalsIgnoreCase("abstract")) {
+	                	isAbstract = true;
 	                	thisAbs = new AbstractPojo();
 	                } else if (temp.equalsIgnoreCase("sec")) {
 	                	isSection = true;
+	                } else if (temp.equalsIgnoreCase("body")) {
+	                	isAbstract = false;
+	                	thisAbs = new AbstractPojo();
 	                }
 
-	                
-	                
-	                
-	                else if (temp.equalsIgnoreCase("Journal")) {
-	                	isJournal = true;
-		  
-	                } else if (temp.equalsIgnoreCase("Author")) {
-	                	//inconsistencies: some <author> tags don't include ValidYN
-	                	//////////////////////////////////////////////////////
-	                	//<Author>
-	                    //<LastName>Kaufman</LastName>
-	                    //<ForeName>Adam C</ForeName>
-	                    //<Initials>AC</Initials>
-	                    //<AffiliationInfo>
-	                    //    <Affiliation>Department of Cellular Neuroscience, Neurodegeneration, and Repair, Yale University School of Medicine, New Haven, CT.</Affiliation>
-	                    //</AffiliationInfo>
-	                	//</Author>
-	                	//////////////////////////////////////////////////////
-	                
-	                	String aix = props.get("ValidYN");
-	                	if (aix == null) {
-	                		isValid = true;
-	                		isAuthor = true;
-	                	} else if (aix.equals("Y")) {
-	                		isValid = true;
-	                		isAuthor = true;
-	                	} else {
-	                		isValid = false;
-	                		isAuthor = false;
-	                	}
-	                } else if (temp.equalsIgnoreCase("Grant")) {
-	                	isGrant = true;
-	                } else if(temp.equalsIgnoreCase("AbstractText")) {
-	                	// <AbstractText Label="BACKGROUND AND OBJECTIVES" NlmCategory="OBJECTIVE">
-	                	label = (String)props.get("Label");
-	                	category = (String)props.get("NlmCategory");
-	                } else if(temp.equalsIgnoreCase("CommentsCorrections")) {
-	                	///////////////////////////////////
-	                	//<CommentsCorrections RefType="CommentOn">
-	                    //<RefSource>Blood. 2015 Jan 22;125(4):619-28</RefSource>
-	                    //<PMID Version="1">25416276</PMID>
-	                	//</CommentsCorrections>
-	                	///////////////////////////////////
-	                	refType = (String)props.get("RefType");
-	                	isRefType = true;
-	                } else if (temp.equalsIgnoreCase("PubmedArticle")) {
-	                	theDocument = new JSONDocumentObject("SystemUser");
-	                	result.setResultObject(theDocument);
-	                	environment.logDebug("PMRPP.start");
-	                } else if (temp.equalsIgnoreCase("PubmedArticleSet")) {
-	                	if (theDocument == null)
-	                		isStop = true;
-	                	//We must leave -- that's because the system builds
-	                	// empty files with <PubmedArticleSet> and nothing else
-	                	// if document is missing.
-	                }
-//DescriptorName  (mesh heading)
-//
 	                
 	            } else if(eventType == XmlPullParser.END_TAG) {
 	                System.out.println("PM End tag "+temp+" // "+text);
@@ -256,7 +202,14 @@ public class PMCPullParser {
 	                	thisAbs = null;
 	                } else if (temp.equalsIgnoreCase("sec")) {
 	                	JsonObject jo = new JsonObject();
-	                	thisAbs.addSection(absTitle, absText, "en");
+	                	if (isAbstract)
+	                		thisAbs.addSection(absTitle, absText, "en");
+	                	else {
+	                		thisAbs = new AbstractPojo();
+	                		thisAbs.addSection(absTitle, absText, "en");
+	                		theDocument.addParagraph(thisAbs);
+	                		thisAbs = null;
+	                	}
 	                	isSection = false;
 	                } else if (temp.equalsIgnoreCase("title")) {
 	                	if (isSection)
@@ -270,156 +223,7 @@ public class PMCPullParser {
 	                
 	                
 	                
-	                
-	                
-	                else if (temp.equalsIgnoreCase("ArticleTitle")) {
-	                	theDocument.setTitle(text);
-	                } else if(temp.equalsIgnoreCase("AbstractText")) {
-	                	foo = cleanText(text);
-	            //    	if (label == null)
-	            //    		theDocument.addDocAbstract(foo); 
-	            //    	else 
-	            //    		theDocument.addDocAbstract(label+". "+foo);
-	                } else if (temp.equalsIgnoreCase("Language")) {
-	                	theDocument.setLanguage(text);
-	                } else if (temp.equalsIgnoreCase("MedlineDate")) {
-	                	pubDate = text;
-	                } else if (temp.equalsIgnoreCase("Journal")) {
-	                	isJournal = false;
-	                	IPublication p = new PublicationPojo();
-	                	p.setPages(pages);
-	                	p.setMonth(pubMonth);
-	                	p.setISBN(pubISSN);
-	                	p.setPublicationYear(pubYear);
-	                	p.setPubicationVolume(pubVolume);
-	                	if (pubDate != null)
-	                		p.setPublicationDate(pubDate);
-	                	p.setPublicationName(pubName);
-	                	if (pubTitle != null)
-	                		p.setTitle(pubTitle);
-	                	p.setISOAbbreviation(pubIsoAbbrev);
-	                	theDocument.setPublication(p);
-	                	pages=null; pubMonth=null; pubYear=null;
-	                	pubVolume=null; pubName=null; pubTitle=null;
-	                	pubDate = null; pubIsoAbbrev = null;
-	                } else if (temp.equalsIgnoreCase("ISOAbbreviation")) {
-	                	if (isJournal)
-	                		pubIsoAbbrev = text;
 
-	                } else if (temp.equalsIgnoreCase("Title")) {
-	                	if (isJournal)
-	                		pubName = text;
-	                } else if (temp.equalsIgnoreCase("Volume")) {
-	                	if (isJournal)
-	                		pubVolume = text;
-	                } else if (temp.equalsIgnoreCase("MedlinePgn")) {
-	                	theDocument.getPublication().setPages(text);
-	                } else if (temp.equalsIgnoreCase("Year")) {
-	                	if (isJournal)
-	                		pubYear = text;
-	                } else if (temp.equalsIgnoreCase("PMID")) {
-	                	if (!isRefType) {
-	                		theDocument.setPMID(text);
-	                		//have we seen this before?
-	                		//if (pubMedEnvironment.pmidIsVisited(text)) {
-	                		//	result.setResultObjectA(PubMedEnvironment.PMID_IS_VISITED);
-	                		//	break;
-	                		//}
-	                		//we are seeing it now
-	                		//pubMedEnvironment.visitingPMID(text);
-	                		//theDocument = new JSONDocumentObject(IHarvestingOntology.CARROT2_AGENT_USER);
-	                		//theDocument.setPMID(text);
-	                		//theDocument.setPublicationType("JournalArticle"); //just in case it's not set later
-	                		//result.setResultObject(theDocument);
-	              //  		environment.logDebug("PMID "+text+" "+theDocument);
-	                	} //else if (refType.equals("Cites"))
-	                	//	theDocument.addCitation(text);
-		            } else if (temp.equalsIgnoreCase("ArticleId")) {
-		            	theDocument.addCitation(articleIdType, text); 
-
-	                } else if (temp.equalsIgnoreCase("Month")) {
-	                	if (isJournal)
-	                		pubMonth = text;
-	                } else if (temp.equalsIgnoreCase("Title")) {
-	                	if (isJournal)
-	                		pubTitle =text ;
-	                } else if (temp.equalsIgnoreCase("Author")) {
-	                	environment.logDebug("PMRPP.author "+isValid); //+"\n"+theDocument);
-	                	if (isValid) {
-	                		IAuthor a = new AuthorPojo();
-	                		a.setAuthorLastName(lastName);
-	                		if (firstName != null)
-	                			a.setAuthorNickName(firstName);
-	                		if (initials != null)
-	                			a.setAuthorInitials(initials);
-	                		if (affiliation != null)
-	                			a.addAffiliationName(trimAffiliation(affiliation));
-		                	environment.logDebug("PMRPP.author-1\n"+a);
-	                		theDocument.addAuthor(a);
-	                	}
-	                	lastName = null;
-	                	firstName = null;
-	                	initials = null;
-	                	affiliation = null;
-	                } else if (temp.equalsIgnoreCase("PublicationType")) {
-	                	String pt = theDocument.getPublication().getPublicationType();
-	                	if (pt == null)
-	                		pt = text;
-	                	else
-	                		pt += " | "+text;
-	                	theDocument.getPublication().setPublicationType(pt);
-	                } else if (temp.equalsIgnoreCase("NameOfSubstance")) {
-	                	theDocument.addTag(text);
-	                	theDocument.addSubstance(text);
-	                } else if (temp.equalsIgnoreCase("DescriptorName")) {
-	                	theDocument.addTag(text);
-	                } else if (temp.equalsIgnoreCase("QualifierName")) {
-	                	theDocument.addTag(text);
-	                } else if (temp.equalsIgnoreCase("Keyword")) {
-	                	environment.logDebug("PMRPP.addTag "+text);
-	                	theDocument.addTag(text);
-	                } else if(temp.equalsIgnoreCase("CommentsCorrections")) {
-	                	isRefType = false;
-	                } else if(temp.equalsIgnoreCase("LastName")) { //TODO
-	                	if (isAuthor)
-	                		lastName = text;
-	                } else if(temp.equalsIgnoreCase("ForeName")) { //TODO
-	                	if (isAuthor)
-	                		firstName = text;
-	                } else if (temp.equalsIgnoreCase("MedlineTA")) {
-	                	pubName = text;
-	                } else if (temp.equalsIgnoreCase("Country")) {
-	                	if (!isGrant)
-	                		pubLoc = text;
-	                	else
-	                		country = text;
-	                } else if (temp.equalsIgnoreCase("ISSN")) {
-	                	pubISSN = text;
-	                } else if (temp.equalsIgnoreCase("Affiliation")) {
-	                	affiliation = text;
-	                } else if (temp.equalsIgnoreCase("Initials")) {
-	                	initials = text;
-	                } else if (temp.equalsIgnoreCase("GrantID")) {
-	                	grantId = text;
-	                } else if (temp.equalsIgnoreCase("Agency")) {
-	                	agency = text;
-	                } else if (temp.equalsIgnoreCase("Grant")) {
-	                	///////////////////////////////////////////
-	                	//<Grant>
-	                    //<GrantID>R01 AG034924</GrantID>
-	                    //<Acronym>AG</Acronym>
-	                    //<Agency>NIA NIH HHS</Agency>
-	                    //<Country>United States</Country>
-	                	//</Grant>
-	                	//////////////////////////////////////////
-	                	/*theDocument.addGrant(grantId, agency, country);
-	                	grantId = null;
-	                	agency = null;
-	                	country = null;
-	                	isGrant = false;*/
-	                } else if (temp.equalsIgnoreCase("CopyrightInformation")) {
-	                	theDocument.setCopyright(text);
-	                }
 	            } else if(eventType == XmlPullParser.TEXT) {
 	                text = xpp.getText().trim();
 	             } else if(eventType == XmlPullParser.CDSECT) {
@@ -446,7 +250,7 @@ public class PMCPullParser {
 		int ttt = (int)'t';
 		int aaa = (int)'&';
 				
-		int c = 0, x,y,z;
+		int c = 0, x,y;
 		for (int i=0;i<len;i++) {
 			c = inString.charAt(i);
 			if (c == aaa) {
