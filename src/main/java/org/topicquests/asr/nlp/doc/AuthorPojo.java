@@ -67,8 +67,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorFullName() {
-		String result = data.get(IAuthor.FULL_NAME_FIELD).getAsString();
-		if (result == null) {
+		String result = null;
+		Object o = data.get(IAuthor.FULL_NAME_FIELD);
+		if (o == null) {
 			String firstName = null;
 			JsonArray l = listAuthorFirstNames();
 			if (l != null && !l.isEmpty())
@@ -78,6 +79,7 @@ public class AuthorPojo implements IAuthor {
 			if (firstName == null)
 				firstName = getAuthorNickName();
 			result = firstName+" "+getAuthorLastName();
+			data.addProperty(IAuthor.FULL_NAME_FIELD, result);
 		}
 		return result;
 	}
@@ -109,6 +111,12 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public JsonArray listAuthorFirstNames() {
+		Object o = data.get(IAuthor.FIRST_NAME_FIELD);
+		if (o == null) {
+			JsonArray ja = new JsonArray();
+			data.add(IAuthor.FIRST_NAME_FIELD, ja);
+			return ja;
+		}
 		return data.get(IAuthor.FIRST_NAME_FIELD).getAsJsonArray();
 	}
 
@@ -125,6 +133,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorMiddleName() {
+		Object o = data.get(IAuthor.MIDDLE_NAME_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.MIDDLE_NAME_FIELD).getAsString();
 	}
 

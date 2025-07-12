@@ -71,14 +71,15 @@ public class PMCPullParser {
 	         String foo = null;
 	         boolean isPMC = false, isPMID = false, isPubId = false, isDOI = false;
 	         String title = null;
-	         boolean isAuthor = false, isSection = false, isAbstract = false;
+	         boolean isAuthor = false, isSection = false, isAbstract = false, isBody = false;
 	         String surName = null, givenName = null, email = null, affilId = null;
 	         IAuthor thisAuthor = null;
 	         IPublication thisPub = null;
 	         IAbstract thisAbs = null;
 	         String absTitle = null, absText = null;
-	         Map<String, IAuthor> myAuthors=null;  // key is affiliation ID
-	         int authorCount = 0; // we must count contribs to know when to null out myAuthors
+	         Map<String, IAuthor> myAuthors= new HashMap<String, IAuthor>();  // key is affiliation ID
+	         //int authorCount = 0; // we must count contribs to know when to null out myAuthors
+	         JsonObject mySection = null;
 	        		 
 	         String label = null;
 	         String category = null;
@@ -111,7 +112,7 @@ public class PMCPullParser {
 	                if (temp.equalsIgnoreCase("article")) {
 	                	articleType = (String)props.get("article-type");
 	                	theDocument = new JSONDocumentObject("SystemUser");
-	                	result.setResultObject(theDocument);
+	                	result.setResultObject(theDocument.getData());
 	                	environment.logDebug("PMRPP.start");
 	                } else if (temp.equalsIgnoreCase("article-id")) {
 	                	// this repeats 4 times -pmcid, pmid, publisherid, doi
@@ -126,9 +127,8 @@ public class PMCPullParser {
 		                	if (foo.equals("doi"))
 		                		isDOI = true;
 	                } else if (temp.equalsIgnoreCase("contrib")) {
-	                	foo = (String)props.get("contrib-type=");
+	                	foo = (String)props.get("contrib-type");
 	                	if ("author".equals(foo)) {
-	                		authorCount++;
 	                		isAuthor = true;
 	                	} else {
 	                		environment.logError("PMCBadContribType: "+foo, null);
@@ -142,8 +142,11 @@ public class PMCPullParser {
 	                	thisAbs = new AbstractPojo();
 	                } else if (temp.equalsIgnoreCase("sec")) {
 	                	isSection = true;
+	                	if (isBody)
+	                		thisAbs = new AbstractPojo();
 	                } else if (temp.equalsIgnoreCase("body")) {
 	                	isAbstract = false;
+	                	isBody = true;
 	                	thisAbs = new AbstractPojo();
 	                }
 
@@ -163,6 +166,7 @@ public class PMCPullParser {
 	                	theDocument.setTitle(title);
 	                	title = null;
 	                } else if (temp.equalsIgnoreCase("contrib")) {
+	                	System.out.println("CONT- "+isAuthor);
 	                	if (isAuthor) {
 	                		if (myAuthors == null)
 	                			myAuthors = new HashMap<String, IAuthor>();
@@ -172,6 +176,7 @@ public class PMCPullParser {
 	                		thisAuthor.addAuthorFirstName(givenName);
 	                		thisAuthor.setAuthorEmail(email);
 	                		myAuthors.put(affilId, thisAuthor);
+	                		System.out.println("CONT+ "+thisAuthor);
 	                		thisAuthor = null;
 	                		affilId = null;
 	                		isAuthor = false;
@@ -186,39 +191,43 @@ public class PMCPullParser {
 	                } else if (temp.equalsIgnoreCase("email")) {
 	                	email = text;
 	                } else if (temp.equalsIgnoreCase("aff")) {
-	                	authorCount--;
+	                	System.out.println("MyAuths "+myAuthors);
 	                	thisAuthor = myAuthors.get(affilId);
-	                	thisAuthor.setAffiliationLocator(text);
-	                	if (authorCount == 0) {
-	                		//TODO add authors to thvDoc
-	                		Collection<IAuthor> auths = myAuthors.values();
-	                		Iterator<IAuthor> itr = auths.iterator();
-	                		while (itr.hasNext())
-	                			theDocument.addAuthor(itr.next());
-	                		myAuthors = null;
-	                	}
+	                	thisAuthor.addAffiliationName(text);
+	                } else if (temp.equalsIgnoreCase("ontrib-group")) {
+	                	System.out.println("MyAuths++ "+myAuthors);
+               		Collection<IAuthor> auths = myAuthors.values();
+                		Iterator<IAuthor> itr = auths.iterator();
+                		while (itr.hasNext())
+                			theDocument.addAuthor(itr.next());
+                		myAuthors = null;
 	                } else if (temp.equalsIgnoreCase("abstract")) {
 	                	theDocument.addDocAbstract(thisAbs);
 	                	thisAbs = null;
 	                } else if (temp.equalsIgnoreCase("sec")) {
-	                	JsonObject jo = new JsonObject();
 	                	if (isAbstract)
 	                		thisAbs.addSection(absTitle, absText, "en");
-	                	else {
-	                		thisAbs = new AbstractPojo();
-	                		thisAbs.addSection(absTitle, absText, "en");
+	                	else if (isBody){
+	                	//	thisAbs = new AbstractPojo();
+	                	//	thisAbs.addSection(absTitle, absText, "en");
 	                		theDocument.addParagraph(thisAbs);
-	                		thisAbs = null;
+	                	//	thisAbs = null;
 	                	}
 	                	isSection = false;
+	                	mySection = null;
+	                } else if (temp.equalsIgnoreCase("body")) {
+	                	isBody = false;
 	                } else if (temp.equalsIgnoreCase("title")) {
 	                	if (isSection)
 	                		absTitle = text;
 	                } else if (temp.equalsIgnoreCase("p")) {
-	                	if (isSection)
+	                	if (isAbstract)
 	                		absText = text;
-	                	else  //TODO a guess
-	                		thisAbs.addParagraph(text, "en");
+	                	else if (isBody)  
+	                		if (isSection && absTitle != null)
+	                			mySection = thisAbs.addSection(absTitle, text, "en");
+	                		else 
+	                			thisAbs.addSectionParagraph(mySection, text, "en");
 	                }
 	                
 	                

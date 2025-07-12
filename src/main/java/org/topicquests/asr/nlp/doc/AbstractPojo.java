@@ -31,16 +31,28 @@ public class AbstractPojo implements IAbstract {
 	}
 	
 	@Override
-	public void addSection(String title, String text, String language) {
+	public JsonObject addSection(String title, String text, String language) {
 		JsonArray ja = listSections();
 		JsonObject jo = new JsonObject();
 		jo.addProperty(TITLE, title);
-		jo.addProperty(TEXT, text);
-		jo.addProperty(LANG, language);
+		JsonArray jx = new JsonArray();
+		JsonObject jp = new JsonObject();
+		jp.addProperty(TEXT, text);
+		jp.addProperty(LANG, language);
+		jx.add(jp);
+		jo.add(PARAGRAPHS, jx);
 		ja.add(jo);
+		return jo;
 
 	}
-
+	@Override
+	public void addSectionParagraph(JsonObject sec, String text, String language) {
+		JsonArray paras = sec.get(PARAGRAPHS).getAsJsonArray();
+		JsonObject jp = new JsonObject();
+		jp.addProperty(TEXT, text);
+		jp.addProperty(LANG, language);
+		paras.add(jp);
+	}
 	@Override
 	public void addParagraph(String text, String language) {
 		System.out.println("AddPara-");
@@ -87,4 +99,5 @@ public class AbstractPojo implements IAbstract {
 		
 		return ja;
 	}
+
 }
