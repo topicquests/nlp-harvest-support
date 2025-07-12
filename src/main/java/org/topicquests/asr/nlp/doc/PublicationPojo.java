@@ -8,6 +8,7 @@ package org.topicquests.asr.nlp.doc;
 
 import java.util.Iterator;
 
+import org.topicquests.asr.nlp.api.IAuthor;
 import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.api.IPublication;
 
@@ -48,6 +49,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getTitle() {
+		Object o = data.get(IPublication.TITLE_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.TITLE_FIELD).getAsString();
 	}
 
@@ -64,6 +68,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationName() {
+		Object o = data.get(IPublication.PUBLICATION_NAME_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLICATION_NAME_FIELD).getAsString();
 	}
 
@@ -80,6 +87,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationDate() {
+		Object o = data.get(IPublication.PUBLICATION_DATE_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLICATION_DATE_FIELD).getAsString();
 	}
 
@@ -96,6 +106,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationYear() {
+		Object o = data.get(IPublication.PUBLICATION_YEAR_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLICATION_YEAR_FIELD).getAsString();
 	}
 
@@ -112,6 +125,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationVolume() {
+		Object o = data.get(IPublication.PUBLICATION_VOLUME_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLICATION_VOLUME_FIELD).getAsString();
 	}
 
@@ -128,6 +144,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublicationNumber() {
+		Object o = data.get(IPublication.PUBLICATION_NUMBER_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLICATION_NUMBER_FIELD).getAsString();
 	}
 
@@ -144,6 +163,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPages() {
+		Object o = data.get(IPublication.PAGES_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PAGES_FIELD).getAsString();
 	}
 
@@ -160,6 +182,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublisherName() {
+		Object o = data.get(IPublication.PUBLISHER_NAME_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLISHER_NAME_FIELD).getAsString();
 	}
 
@@ -176,6 +201,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getPublisherLocation() {
+		Object o = data.get(IPublication.PUBLISHER_LOCATION_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLISHER_LOCATION_FIELD).getAsString();
 	}
 
@@ -192,6 +220,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getDOI() {
+		Object o = data.get(IPublication.DOI_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.DOI_FIELD).getAsString();
 	}
 
@@ -208,6 +239,9 @@ public class PublicationPojo implements IPublication {
 	 */
 	@Override
 	public String getISSN() {
+		Object o = data.get(IPublication.ISSN_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.ISSN_FIELD).getAsString();
 	}
 
@@ -218,6 +252,9 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public String getPublicationType() {
+		Object o = data.get(IPublication.PUBLICATION_TYPE_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLICATION_TYPE_FIELD).getAsString();
 	}
 
@@ -228,6 +265,9 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public String getISOAbbreviation() {
+		Object o = data.get(IPublication.ISO_ABBREVIATION_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.ISO_ABBREVIATION_FIELD).getAsString();
 	}
 
@@ -248,6 +288,9 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public String getPublisherLocator() {
+		Object o = data.get(IPublication.PUBLISHER_LOCATOR_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLISHER_LOCATOR_FIELD).getAsString();
 	}
 
@@ -258,6 +301,9 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public String getISBN() {
+		Object o = data.get(IPublication.ISBN_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.ISBN_FIELD).getAsString();
 	}
 
@@ -268,6 +314,9 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public String getDocumentLocator() {
+		Object o = data.get(IPublication.DOCUMENT_LOCATOR);
+		if (o == null)
+			return null;
 		return data.get(IPublication.DOCUMENT_LOCATOR).getAsString();
 	}
 
@@ -275,8 +324,6 @@ public class PublicationPojo implements IPublication {
 	@Override
 	public void addGrant(IGrant g) {
 		JsonArray l = listGrants();
-		if (l == null)
-			l = new JsonArray();
 		if (!contains(l, g.getData().getAsString()))
 			l.add(g.getData());
 		data.add(IPublication.GRANT_LIST, l);
@@ -294,6 +341,13 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public JsonArray listGrants() {
+		Object o = data.get(IPublication.GRANT_LIST);
+		if (o == null) {
+			JsonArray ja = new JsonArray();
+			data.add(IPublication.GRANT_LIST, ja);
+			return ja;
+		}
+		
 		return data.get(IPublication.GRANT_LIST).getAsJsonArray();
 	}
 
@@ -304,6 +358,9 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public String getCopyright() {
+		Object o = data.get(IPublication.COPYRIGHT_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.COPYRIGHT_FIELD).getAsString();
 	}
 
@@ -314,6 +371,9 @@ public class PublicationPojo implements IPublication {
 
 	@Override
 	public String getMonth() {
+		Object o = data.get(IPublication.PUBLICATION_MONTH_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IPublication.PUBLICATION_MONTH_FIELD).getAsString();
 	}
 

@@ -13,14 +13,14 @@ import org.topicquests.asr.nlp.Environment;
 import org.topicquests.asr.nlp.api.IPublication;
 import org.topicquests.asr.nlp.api.IAbstract;
 import org.topicquests.asr.nlp.api.IAuthor;
-import org.topicquests.asr.nlp.api.IGrant;
+//import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.doc.JSONDocumentObject;
 import org.topicquests.asr.nlp.doc.PublicationPojo;
 import org.topicquests.support.ResultPojo;
 import org.topicquests.support.api.IResult;
 import org.topicquests.asr.nlp.doc.AbstractPojo;
 import org.topicquests.asr.nlp.doc.AuthorPojo;
-import org.topicquests.asr.nlp.doc.GrantPojo;
+//import org.topicquests.asr.nlp.doc.GrantPojo;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
@@ -194,29 +194,31 @@ public class PubMedPullParser {
 	                	isRefType = true;
 	                } else if (temp.equalsIgnoreCase("PubmedArticle")) {
 	                	environment.logDebug("PMRPP.start");
-	                } else if (temp.equalsIgnoreCase("PubmedArticleSet")) {
-	                	if (theDocument == null)
-	                		isStop = true;
+//	                } else if (temp.equalsIgnoreCase("PubmedArticleSet")) {
+//	                	if (theDocument == null)
+//	                		isStop = true;
 	                	//We must leave -- that's because the system builds
 	                	// empty files with <PubmedArticleSet> and nothing else
 	                	// if document is missing.
 	                }
-//DescriptorName  (mesh heading)
-//
 	                
 	            } else if(eventType == XmlPullParser.END_TAG) {
 	                System.out.println("PM End tag "+temp+" // "+text);
 	                if (temp.equalsIgnoreCase("ArticleTitle")) {
 	                	theDocument.setTitle(text);
 	                } else if(temp.equalsIgnoreCase("AbstractText")) { ////
-	                	String foo = cleanText(text);
+	                	System.out.println("LBL: "+label);
+	                	String foo = text;  //cleanText(text);
+	                	System.out.println("ABSD "+thisAbstract.getData());
 	                	if (label == null)
 	                		thisAbstract.addParagraph(foo, "en");
 	                	else 
 	                		thisAbstract.addSection(label, foo, "en");
+	                	label = null;
+	                	System.out.println("ABSD2 "+thisAbstract.getData());
 	                } else if (temp.equalsIgnoreCase("Abstract")) {
 	                	theDocument.addDocAbstract(thisAbstract);
-	                	thisAbstract = new AbstractPojo();
+	                	thisAbstract = null;
 	                } else if (temp.equalsIgnoreCase("Language")) {
 	                	theDocument.setLanguage(text);
 	                } else if (temp.equalsIgnoreCase("MedlineDate")) {
@@ -356,6 +358,8 @@ public class PubMedPullParser {
 	                	isGrant = false;*/
 	                } else if (temp.equalsIgnoreCase("CopyrightInformation")) {
 	                	theDocument.setCopyright(text);
+	                } else if (temp.equalsIgnoreCase("PubmedArticle")) {
+	                	isStop=true;
 	                }
 	            } else if(eventType == XmlPullParser.TEXT) {
 	                text = xpp.getText().trim();

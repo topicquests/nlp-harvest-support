@@ -141,7 +141,11 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorLastName() {
-		return data.get(IAuthor.LAST_NAME_FIELD).getAsString();
+		Object o = data.get(IAuthor.LAST_NAME_FIELD);
+		if (o == null)
+			return null;
+		else
+			return data.get(IAuthor.LAST_NAME_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -157,7 +161,11 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorSuffix() {
-		return data.get(IAuthor.SUFFIX).getAsString();
+		Object o = data.get(IAuthor.SUFFIX);
+		if (o == null)
+			return null;
+		else
+			return data.get(IAuthor.SUFFIX).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -173,7 +181,11 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorDegree() {
-		return data.get(IAuthor.DEGREE_FIELD).getAsString();
+		Object o = data.get(IAuthor.DEGREE_FIELD);
+		if (o == null)
+			return null;
+		else
+			return data.get(IAuthor.DEGREE_FIELD).getAsString();
 	}
 
 	/* (non-Javadoc)
@@ -189,6 +201,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getInitials() {
+		Object o = data.get(IAuthor.INITIALS_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.INITIALS_FIELD).getAsString();
 	}
 
@@ -205,6 +220,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getAuthorNickName() {
+		Object o = data.get(IAuthor.NICK_NAME_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.NICK_NAME_FIELD).getAsString();
 	}
 
@@ -221,6 +239,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getDocumentId(String id) {
+		Object o = data.get(IAuthor.DOC_ID_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.DOC_ID_FIELD).getAsString();
 	}
 
@@ -237,6 +258,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getDocumentTitle() {
+		Object o = data.get(IAuthor.DOC_TITLE_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.DOC_TITLE_FIELD).getAsString();
 	}
 
@@ -254,6 +278,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublisherName() {
+		Object o = data.get(IAuthor.PUBLISHER_NAME_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.PUBLISHER_NAME_FIELD).getAsString();
 	}
 
@@ -270,6 +297,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublisherLocator() {
+		Object o = data.get(IAuthor.PUBLISHER_LOCATOR_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.PUBLISHER_LOCATOR_FIELD).getAsString();
 	}
 
@@ -286,6 +316,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublicationName() {
+		Object o = data.get(IAuthor.PUBLICATION_NAME_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.PUBLICATION_NAME_FIELD).getAsString();
 	}
 
@@ -302,6 +335,9 @@ public class AuthorPojo implements IAuthor {
 	 */
 	@Override
 	public String getPublicationLocator() {
+		Object o = data.get(IAuthor.PUBLICATION_LOCATOR);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.PUBLICATION_LOCATOR).getAsString();
 	}
 
@@ -313,6 +349,9 @@ public class AuthorPojo implements IAuthor {
 
 	@Override
 	public String getAffiliationLocator() {
+		Object o = data.get(IAuthor.AFFILIATION_LOCATOR);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.AFFILIATION_LOCATOR).getAsString();
 	}
 
@@ -323,6 +362,9 @@ public class AuthorPojo implements IAuthor {
 
 	@Override
 	public String getAuthorLocator() {
+		Object o = data.get(IAuthor.AUTHOR_LOCATOR);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.AUTHOR_LOCATOR).getAsString();
 	}
 
@@ -333,22 +375,28 @@ public class AuthorPojo implements IAuthor {
 
 	@Override
 	public String getId() {
+		Object o = data.get(IAuthor.ID);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.ID).getAsString();
 	}
 
 	@Override
 	public void addAffiliationName(String name) {
 		JsonArray l = listAffiliationNames();
-		if (l == null)
-			l = new JsonArray();
 		if (!contains(l, name))
-			l.add(name);
-		data.add(IAuthor.AFFILIATION_NAME_FIELD, l);
-		
+			l.add(name);		
 	}
 
 	@Override
 	public JsonArray listAffiliationNames() {
+		Object o = data.get(IAuthor.AFFILIATION_NAME_FIELD);
+		
+		if (o == null) {
+			JsonArray ja = new JsonArray();
+			data.add(IAuthor.AFFILIATION_NAME_FIELD, ja);
+			return ja;
+		}
 		return data.get(IAuthor.AFFILIATION_NAME_FIELD).getAsJsonArray();
 	}
 
@@ -359,6 +407,9 @@ public class AuthorPojo implements IAuthor {
 
 	@Override
 	public String getAuthorEmail() {
+		Object o = data.get(IAuthor.EMAIL_FIELD);
+		if (o == null)
+			return null;
 		return data.get(IAuthor.EMAIL_FIELD).getAsString();
 	}
 

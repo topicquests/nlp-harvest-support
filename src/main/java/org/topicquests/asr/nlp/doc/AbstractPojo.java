@@ -43,11 +43,13 @@ public class AbstractPojo implements IAbstract {
 
 	@Override
 	public void addParagraph(String text, String language) {
+		System.out.println("AddPara-");
 		JsonArray ja = listParagraphs();
 		JsonObject jo = new JsonObject();
 		jo.addProperty(TEXT, text);
 		jo.addProperty(LANG, language);
 		ja.add(jo);
+		System.out.println("AddPara+");
 	}
 
 	@Override
@@ -59,12 +61,14 @@ public class AbstractPojo implements IAbstract {
 	 * 
 	 * @return does not return ){@code null}
 	 */
-	JsonArray listParagraphs() {
-		JsonArray ja = data.get(SECTIONS).getAsJsonArray();
-		if (ja == null) {
+	JsonArray listSections() {
+		Object o = data.get(SECTIONS);
+		JsonArray ja;
+		if (o == null) {
 			ja = new JsonArray();
 			data.add(SECTIONS, ja);
-		}
+		} else
+			ja = data.get(SECTIONS).getAsJsonArray();
 		return ja;
 	}
 	
@@ -72,12 +76,15 @@ public class AbstractPojo implements IAbstract {
 	 * 
 	 * @return does not return ){@code null}
 	 */
-	JsonArray listSections() {
-		JsonArray ja = data.get(PARAGRAPHS).getAsJsonArray();
-		if (ja == null) {
+	JsonArray listParagraphs() {
+		Object o = data.get(PARAGRAPHS);
+		JsonArray ja;
+		if (o == null) {
 			ja = new JsonArray();
 			data.add(PARAGRAPHS, ja);
-		}
+		} else
+			ja = data.get(PARAGRAPHS).getAsJsonArray();
+		
 		return ja;
 	}
 }
