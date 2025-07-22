@@ -220,7 +220,7 @@ public class PMCPullParser {
 	                	else if (isBody){
 	                	//	thisAbs = new AbstractPojo();
 	                	//	thisAbs.addSection(absTitle, absText, "en");
-	                		theDocument.addParagraph(thisAbs);
+	                		theDocument.addSection(thisAbs);
 	                		thisAbs = null;
 	                	}
 	                	isSection = false;
@@ -238,8 +238,14 @@ public class PMCPullParser {
 	                		if (isSection && absTitle != null) {
 	                			mySection = thisAbs.addSection(absTitle, text, "en");
 	                			absTitle = null;
-	                		} else 
+	                		} else if (isSection)
 	                			thisAbs.addSectionParagraph(mySection, text, "en");
+	                		else if (isBody) {
+	                			thisAbs = new AbstractPojo();
+	                			thisAbs.addParagraph(text, "en");
+	                			theDocument.addParagraph(thisAbs);
+	                			thisAbs = null;
+	                		}
 	                }
 	                text = null;
 	                
