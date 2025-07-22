@@ -47,6 +47,7 @@ public class AbstractPojo implements IAbstract {
 	}
 	@Override
 	public void addSectionParagraph(JsonObject sec, String text, String language) {
+		System.out.println("ADDsecPARA "+text);
 		JsonArray paras = sec.get(PARAGRAPHS).getAsJsonArray();
 		JsonObject jp = new JsonObject();
 		jp.addProperty(TEXT, text);

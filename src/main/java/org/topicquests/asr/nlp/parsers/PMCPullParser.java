@@ -16,6 +16,7 @@ import org.topicquests.asr.nlp.api.IAuthor;
 import org.topicquests.asr.nlp.api.IGrant;
 import org.topicquests.asr.nlp.doc.JSONDocumentObject;
 import org.topicquests.asr.nlp.doc.PublicationPojo;
+import org.topicquests.asr.nlp.util.TextFileHandler;
 import org.topicquests.support.ResultPojo;
 import org.topicquests.support.api.IResult;
 import org.topicquests.asr.nlp.doc.AbstractPojo;
@@ -41,8 +42,9 @@ public class PMCPullParser {
 
 	public IResult parseXML(String xml) {
 		IResult result = new ResultPojo();
+		String temp = clipXrefs(xml);
 		try {
-			InputStream ins = new ByteArrayInputStream(xml.getBytes());
+			InputStream ins = new ByteArrayInputStream(temp.getBytes());
 			BufferedInputStream bis = new BufferedInputStream(ins);
 			
 			parse(bis, result);
@@ -88,7 +90,7 @@ public class PMCPullParser {
 	         String grantId=null, agency=null, country = null;
 	         String pages=null, pubVolume=null, pubYear=null, pubMonth=null, pubTitle=null;
 	         String pubName=null, pubLoc=null, pubDate=null, pubISSN=null, pubIsoAbbrev=null;
-	         String articleIdType = null;
+	         String articleIdType = null, myDOI = null;
 	         boolean isJournal = false;
 	         boolean isValid = false;
 	         boolean isRefType = false;
@@ -158,6 +160,12 @@ public class PMCPullParser {
 	                	//TODO
 	                } else if (temp.equalsIgnoreCase("article-id")) {
 	                	//we have 4 types of ID values
+	                	if (isPMC)
+	                		theDocument.setPMCID(text);
+	                	else if (isPMID)
+	                		theDocument.setPMID(text);
+	                	else if (isDOI)
+	                		myDOI = text;
 	                	// they come from "text" and must be added to theDoc
 	                	// then set all values to null and booleans to false
 	                	// TODO
@@ -165,6 +173,8 @@ public class PMCPullParser {
 	                	title = text;
 	                	theDocument.setTitle(title);
 	                	title = null;
+	                } else if (temp.equalsIgnoreCase("article-meta")) {
+	                	
 	                } else if (temp.equalsIgnoreCase("contrib")) {
 	                	System.out.println("CONT- "+isAuthor);
 	                	if (isAuthor) {
@@ -211,25 +221,27 @@ public class PMCPullParser {
 	                	//	thisAbs = new AbstractPojo();
 	                	//	thisAbs.addSection(absTitle, absText, "en");
 	                		theDocument.addParagraph(thisAbs);
-	                	//	thisAbs = null;
+	                		thisAbs = null;
 	                	}
 	                	isSection = false;
 	                	mySection = null;
+	                	absText = null;
 	                } else if (temp.equalsIgnoreCase("body")) {
 	                	isBody = false;
 	                } else if (temp.equalsIgnoreCase("title")) {
-	                	if (isSection)
+	                	//if (isSection)
 	                		absTitle = text;
 	                } else if (temp.equalsIgnoreCase("p")) {
 	                	if (isAbstract)
 	                		absText = text;
 	                	else if (isBody)  
-	                		if (isSection && absTitle != null)
+	                		if (isSection && absTitle != null) {
 	                			mySection = thisAbs.addSection(absTitle, text, "en");
-	                		else 
+	                			absTitle = null;
+	                		} else 
 	                			thisAbs.addSectionParagraph(mySection, text, "en");
 	                }
-	                
+	                text = null;
 	                
 	                
 
@@ -282,6 +294,39 @@ public class PMCPullParser {
 		return buf.toString();
 	}
 	
+	String clipXrefs(String s) {
+		String temp = "";
+		StringBuilder buf = new StringBuilder();
+		int strt = 0;
+		int where = s.indexOf("[");
+		int where2 = 0;
+		System.out.println("CLX-1 "+where);
+		if (where == 0)
+			buf.append(s);
+		else {
+			while (where > 0) {
+				System.out.println("CLX-a ");
+				buf.append(s.substring(strt, where));
+				//temp = temp+temp.substring(where);
+				where2 = s.indexOf("]", where);
+				System.out.println("CLX-2 "+where2);
+				if (where2 > 0)
+					strt = where2+1;
+				where = s.indexOf("[", strt);
+				System.out.println("CLX-1 "+where);
+			}
+			TextFileHandler h = new TextFileHandler();
+			h.writeFile("data/tst.xml", buf.toString());
+		}
+		return buf.toString().trim();
+	}
+	
+	//////////////////
+	// TODO
+	// Must remove <xref> and <table> sections before parsing
+	// I know of no other way to deal with them inside <p> sections
+	// because the parser is thrown off capturing text.
+	/////////////////
 	/**
 	 * </p>@see http://www.ncbi.nlm.nih.gov/pubmed/23329350 for
 	 * an abstract that has wild characters '0''9'</p>
@@ -296,6 +341,7 @@ public class PMCPullParser {
 	 * @param inString
 	 * @return
 	 * Note: grand possiblility of outOfBounds errors here
+	 * look for [<xref ref...]
 	 */
 	String cleanText(String inString) {
 		int lparen = (int)'(';

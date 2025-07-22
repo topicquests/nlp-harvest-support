@@ -32,6 +32,7 @@ public class JSONDocumentObject {
 		_ABSTRACT			= "abstract", // now a list
 		_CONTENT			= "content",
 		_PARAGRAPHS			= "parags",
+		_SECTIONS			= "sections",
 		_LANGUAGE			= "language",
 		_URL				= "url",
 		_AUTHORS			= "authors",
@@ -274,7 +275,12 @@ public class JSONDocumentObject {
 		JsonArray ja = listParagraphs();
 		ja.add(para.getData());
 	}
-	
+
+	public void addSection(IAbstract sec) {
+		JsonArray ja = listSections();
+		ja.add(sec.getData());
+	}
+
 	public JsonArray listParagraphs() {
 		Object o = data.get(_PARAGRAPHS);
 		if (o == null) {
@@ -284,6 +290,17 @@ public class JSONDocumentObject {
 		}
 		return data.get(_PARAGRAPHS).getAsJsonArray();
 	}
+	
+	public JsonArray listSections() {
+		Object o = data.get(_SECTIONS);
+		if (o == null) {
+			JsonArray ja = new JsonArray();
+			data.add(_SECTIONS, ja);
+			return ja;
+		}
+		return data.get(_SECTIONS).getAsJsonArray();
+	}
+
 	public void setTitle(String title) {
 		data.addProperty(_TITLE, title);
 	}
