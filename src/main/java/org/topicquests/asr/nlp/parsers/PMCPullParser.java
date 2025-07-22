@@ -234,13 +234,13 @@ public class PMCPullParser {
 	                } else if (temp.equalsIgnoreCase("p")) {
 	                	if (isAbstract)
 	                		absText = text;
-	                	else if (isBody)  
+	                	else if (isBody && text != null)  
 	                		if (isSection && absTitle != null) {
 	                			mySection = thisAbs.addSection(absTitle, text, "en");
 	                			absTitle = null;
 	                		} else if (isSection)
 	                			thisAbs.addSectionParagraph(mySection, text, "en");
-	                		else if (isBody) {
+	                		else {
 	                			thisAbs = new AbstractPojo();
 	                			thisAbs.addParagraph(text, "en");
 	                			theDocument.addParagraph(thisAbs);
@@ -301,10 +301,14 @@ public class PMCPullParser {
 	}
 	
 	String clipXrefs(String s) {
+		String foo = s.replaceAll("<italic>", "");
+		foo = foo.replaceAll("</italic>", "");
+		foo = foo.replaceAll("<sub>", "");
+		foo = foo.replaceAll("</sub>", "");
 		String temp = "";
 		StringBuilder buf = new StringBuilder();
 		int strt = 0;
-		int where = s.indexOf("[");
+		int where = foo.indexOf("<xref");
 		int where2 = 0;
 		System.out.println("CLX-1 "+where);
 		if (where == 0)
@@ -314,11 +318,11 @@ public class PMCPullParser {
 				System.out.println("CLX-a ");
 				buf.append(s.substring(strt, where));
 				//temp = temp+temp.substring(where);
-				where2 = s.indexOf("]", where);
+				where2 = foo.indexOf("</xref>", where);
 				System.out.println("CLX-2 "+where2);
 				if (where2 > 0)
-					strt = where2+1;
-				where = s.indexOf("[", strt);
+					strt = where2+6;
+				where = foo.indexOf("<xref", strt);
 				System.out.println("CLX-1 "+where);
 			}
 			TextFileHandler h = new TextFileHandler();
