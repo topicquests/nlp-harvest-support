@@ -390,7 +390,7 @@ public class JSONDocumentObject {
 	 * @return does not return {@code null}
 	 */
 	public String getURL() {
-		Object o = data.get(IAuthor.EMAIL_FIELD);
+		Object o = data.get(_URL);
 		if (o == null)
 			return "";
 		return data.get(_URL).getAsString();
