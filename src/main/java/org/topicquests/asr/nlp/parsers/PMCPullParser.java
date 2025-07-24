@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.List;
+import java.util.ArrayList;
 
 import org.topicquests.asr.nlp.Environment;
 import org.topicquests.asr.nlp.api.IPublication;
@@ -144,12 +146,12 @@ public class PMCPullParser {
 	                	thisAbs = new AbstractPojo();
 	                } else if (temp.equalsIgnoreCase("sec")) {
 	                	isSection = true;
-	                	if (isBody)
-	                		thisAbs = new AbstractPojo();
+	                	//if (isBody)
+	                	//	thisAbs = new AbstractPojo();
 	                } else if (temp.equalsIgnoreCase("body")) {
 	                	isAbstract = false;
 	                	isBody = true;
-	                	thisAbs = new AbstractPojo();
+	                	//thisAbs = new AbstractPojo();
 	                }
 
 	                
@@ -217,12 +219,12 @@ public class PMCPullParser {
 	                } else if (temp.equalsIgnoreCase("sec")) {
 	                	if (isAbstract)
 	                		thisAbs.addSection(absTitle, absText, "en");
-	                	else if (isBody){
+	                	//else if (isBody){
 	                	//	thisAbs = new AbstractPojo();
 	                	//	thisAbs.addSection(absTitle, absText, "en");
-	                		theDocument.addSection(thisAbs);
-	                		thisAbs = null;
-	                	}
+	                	//	theDocument.addSection(thisAbs);
+	                	//	thisAbs = null;
+	                	//}
 	                	isSection = false;
 	                	mySection = null;
 	                	absText = null;
@@ -315,7 +317,28 @@ public class PMCPullParser {
 		if (where == 0)
 			buf.append(s);
 		else {
+			List<List<Integer>> episodes = new ArrayList<List<Integer>>();
+			List<Integer> pair;
+			// first, isolate <contrib></conrib> sections to eposides
+			where = 0;
+			where = foo.indexOf("<contrib ");
 			while (where > 0) {
+				if (where > 0) {
+					pair = new ArrayList<Integer>();
+					pair.add(Integer.valueOf(where));
+					where2 = foo.indexOf("</contrib");
+					pair.add(Integer.valueOf(where2));
+					episodes.add(pair);
+					where = foo.indexOf("<contrib ", where2);
+				}
+			}
+			// now track xref
+			where = foo.indexOf("<xref");
+			while (where > 0) {
+				if (isInside(where, episodes)) {
+					where2 = foo.indexOf("</xref>", where);
+					buf.append(foo.substring) //TODO
+				}
 				System.out.println("CLX-a ");
 				buf.append(s.substring(strt, where));
 				//temp = temp+temp.substring(where);
@@ -330,6 +353,19 @@ public class PMCPullParser {
 			h.writeFile("data/tst.xml", buf.toString());
 		}
 		return buf.toString().trim();
+	}
+	
+	boolean isInside(int where, List<List<Integer>> episodes) {
+		Integer x = Integer.valueOf(where);
+		Iterator<List<Integer>> itr = episodes.iterator();
+		List<Integer> pairs;
+		while (itr.hasNext()) {
+			pairs = itr.next();
+			if (x >= pairs.get(0)) // start of <contrib section
+				if (x <= pairs.get(1)) //s end of </contrib section
+					return true;
+		}
+		return false;
 	}
 	
 	//////////////////

@@ -20,7 +20,11 @@
  
   <dependencies>
 
-
+		<dependency>
+		    <groupId>net.sf.saxon</groupId>
+		    <artifactId>Saxon-HE</artifactId>
+		    <version>12.7</version>
+		</dependency>
         <dependency>
         	<groupId>org.topicquests</groupId>
         	<artifactId>nlp-common</artifactId>
